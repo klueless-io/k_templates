@@ -1,10 +1,8 @@
 # frozen_string_literal: true
 
-# Usage: include {{#each dom.namespaces}}{{.}}::{{/each}}Configuration.new
-
 {{#each dom.namespaces}}module {{.}}
 {{/each}}
-  # Configuration object for all k_builder* GEM
+  # Configuration object for {{titleize dom.name}}
   class Configuration
     include KLog::Logging
 

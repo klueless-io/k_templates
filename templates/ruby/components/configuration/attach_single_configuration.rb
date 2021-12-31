@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-# Usage: include {{#each dom.namespaces}}{{.}}::{{/each}}Configuration.new
+# Usage: include {{#each dom.namespaces}}{{.}}::{{/each}}
 
 {{#each dom.namespaces}}module {{.}}
 {{/each}}
-  # Configuration for {{titleize dom.name}}
+  # Access configuration for {{titleize dom.name}}
   attr_writer :configuration
 
   def configuration
