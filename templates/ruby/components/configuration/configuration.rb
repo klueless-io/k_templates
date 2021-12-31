@@ -31,6 +31,5 @@
       }
     end
   end
-end
 {{#each dom.namespaces}}end
 {{/each}}
