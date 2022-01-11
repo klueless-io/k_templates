@@ -21,7 +21,7 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  layout: 'page',
+  layout: 'default',
 })
 </script>
 

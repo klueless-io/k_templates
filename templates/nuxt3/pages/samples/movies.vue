@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout name="page">
+  <NuxtLayout name="default">
     <template #header>List of Movies</template>
     <div>
       <form class="form" @submit.prevent="movieSearch">
