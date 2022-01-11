@@ -21,12 +21,12 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  layout: 'default',
+  layout: 'basic',
 })
 </script>
 
 <script lang="ts" setup>
-const { data } = await useFetch('/api/hello')
+// const { data } = await useFetch('/api/hello')
 </script>
 
 <style>
