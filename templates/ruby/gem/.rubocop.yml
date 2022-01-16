@@ -1,0 +1,83 @@
+require: rubocop-rake
+AllCops:
+  TargetRubyVersion: 2.7
+  DisplayCopNames: true
+  ExtraDetails: true
+  NewCops: enable
+  Exclude:
+    - "_/**/*"
+    - "spec/samples/**/*"
+
+Metrics/BlockLength:
+  Exclude:
+    - "**/spec/**/*"
+    - "*.gemspec"
+  IgnoredMethods:
+    - configure
+    - context
+    - define
+    - describe
+    - draw
+    - factory
+    - feature
+    - guard
+    - included
+    - it
+    - let
+    - let!
+    - scenario
+    - setup
+    - shared_context
+    - shared_examples
+    - shared_examples_for
+    - transaction
+
+Metrics/MethodLength:
+  Max: 25
+
+Layout/LineLength:
+  Max: 200
+  # Ignores annotate output
+  IgnoredPatterns: ['\A# \*\*']
+  IgnoreCopDirectives: true
+
+Lint/UnusedMethodArgument:
+  AllowUnusedKeywordArguments: true
+
+Style/BlockComments:
+  Enabled: false
+  Include:
+    - "**/spec/*"
+
+# My Preferences - Start
+Metrics/ClassLength:
+  Enabled: false
+Metrics/ModuleLength:
+  Exclude:
+    - "**/spec/**/*"
+Naming/MemoizedInstanceVariableName:
+  Enabled: false
+Naming/VariableNumber:
+  Exclude:
+    - "**/spec/**/*"
+Style/EmptyMethod:    
+  Exclude:
+    - "**/spec/**/*"
+Metrics/ParameterLists:
+  Exclude:
+    - "**/spec/**/*"
+Layout/EmptyLineBetweenDefs:
+  Exclude:
+    - "**/spec/**/*"
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - "**/spec/**/*"
+
+Style/AccessorGrouping:
+  Enabled: false
+
+Layout/SpaceBeforeComma:
+  Enabled: false
+# My Preferences - End
+

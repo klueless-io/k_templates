@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout name="default">
+  <NuxtLayout name="fancy">
     <template #header>{{titleize dom.page_name}}</template>
 
     <input type="text" />

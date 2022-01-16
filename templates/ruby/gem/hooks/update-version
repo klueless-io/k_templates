@@ -1,0 +1,33 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# NOTE: you may need change file permissions
+#       chmod +x hooks/update-version
+
+exit 1 if ARGV.empty?
+
+version = ARGV[0]
+version = version[1..-1] # revoke 'v' character, e.g. v0.1.1 becomes 0.1.1
+
+namespaces = %w[{{#each microapp.settings.application_lib_namespaces}}{{.}}{{#if @last}}{{else}} {{/if}}{{/each}}]
+
+indent = 0
+output = ['# frozen_string_literal: true', '']
+
+namespaces.each do |namespace|
+  output.push "#{'  ' * indent}module #{namespace}"
+  indent += 1
+end
+
+output.push "#{'  ' * indent}VERSION = \'#{version}'"
+indent -= 1
+
+namespaces.each do
+  output.push "#{'  ' * indent}end"
+  indent -= 1
+end
+
+output.push('')
+
+printf "%-25<label>s : %<version>s\n", label: 'GEM VERSION', version: version
+File.open('lib/{{microapp.settings.application_lib_path}}/version.rb', 'w+') { |f| f.write(output.join("\n")) }
