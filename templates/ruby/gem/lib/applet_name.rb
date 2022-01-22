@@ -6,8 +6,8 @@ require '{{dom.application_lib_path}}/version'
 module {{.}}
 {{/each}}
   # raise {{dom.application_lib_namespace}}::Error, 'Sample message'
-  class Error < StandardError; end
-  
+  Error = Class.new(StandardError)
+
   # Your code goes here...
 {{#each dom.namespaces}}
 end

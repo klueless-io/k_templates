@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+# template_variant: :ruby
+
 require 'English'
 
 # NOTE: you may need change file permissions
@@ -30,7 +32,7 @@ files_changed = files_changed.reject { |f| f.downcase.end_with?('.yml') }
 # ignore files from specific folders
 
 file_groups = files_changed.select do |item|
-  item.start_with?('hooks') # ||
+  item.start_with?('.githooks') # ||
   # item.start_with?('lib/generators')
 end
 
