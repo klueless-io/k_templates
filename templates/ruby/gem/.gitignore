@@ -8,10 +8,6 @@
 # The Octocat has a Gist containing some good rules to add to this file.
 #    https://gist.github.com/octocat/9257657
 
-# Ignore Klue Setup.sh
-/bin/runonce/
-{{snake microapp.settings.application}}.yml
-
 /_/
 /.bundle/
 /.history/

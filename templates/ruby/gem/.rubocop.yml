@@ -1,11 +1,14 @@
-require: rubocop-rake
+inherit_mode:
+  merge:
+    - Exclude # see: https://stackoverflow.com/a/70818366/473923
+
 AllCops:
-  TargetRubyVersion: 2.7
+  TargetRubyVersion: {{dom.ruby_version}}
   DisplayCopNames: true
   ExtraDetails: true
   NewCops: enable
   Exclude:
-    - "_/**/*"
+    - ".builders/**/*"
     - "spec/samples/**/*"
 
 Metrics/BlockLength:

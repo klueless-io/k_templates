@@ -1,6 +1,6 @@
 # {{titleize dom.application}}
 
-> {{safe dom.description}}
+> {{safe dom.application_description}}
 
 ## Installation
 
@@ -44,13 +44,13 @@ See all [usage examples](./USAGE.md)
 {{#each usage.featured}}
 ### {{titleize this.group}}
 
-{{this.description}}
+{{this.application_description}}
 
 {{#each this.examples}}
 {{#if ./name}}
 #### {{./name}}
 {{/if}}
-{{./description}}
+{{./application_description}}
 
 {{#if ./ruby}}
 ```ruby

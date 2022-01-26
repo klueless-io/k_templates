@@ -9,13 +9,13 @@
 {{#each usage.detailed}}
 ### {{titleize this.group}}
 
-{{this.description}}
+{{this.application_description}}
 
 {{#each this.examples}}
 {{#if ./name}}
 #### {{./name}}
 {{/if}}
-{{#if ./description}}{{safe ./description}}{{/if}}
+{{#if ./application_description}}{{safe ./application_description}}{{/if}}
 
 {{#if ./ruby}}
 ```ruby

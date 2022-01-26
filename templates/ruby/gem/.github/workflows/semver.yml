@@ -8,7 +8,7 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    if: $\{{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
@@ -22,11 +22,11 @@ jobs:
           cache-name: cache-node-modules
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          key: $\{{ runner.os }}-build-$\{{ env.cache-name }}-$\{{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
+            $\{{ runner.os }}-build-$\{{ env.cache-name }}-
+            $\{{ runner.os }}-build-
+            $\{{ runner.os }}-
 
       - name: Install semantic-release dependencies
         if: steps.cache.outputs.cache-hit != 'true'
@@ -36,16 +36,16 @@ jobs:
       - name: Run SemVer
         run: semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: $\{{ secrets.GITHUB_TOKEN }}
 
-      - name: Slack notify new version created
-        if: success()
-        uses: rtCamp/action-slack-notify@v2
-        env:
-          SLACK_CHANNEL: klueless-repos
-          SLACK_COLOR: '#00ff00'
-          SLACK_ICON: https://avatars.githubusercontent.com/u/2956762?s=64&v=4
-          SLACK_TITLE: 'New version released on ${{github.repository}}'
-          SLACK_MESSAGE: 'git pull'
-          SLACK_USERNAME: klueless-io
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}        
+      # - name: Slack notify new version created
+      #   if: success()
+      #   uses: rtCamp/action-slack-notify@v2
+      #   env:
+      #     SLACK_CHANNEL: klueless-repos
+      #     SLACK_COLOR: '#00ff00'
+      #     SLACK_ICON: https://avatars.githubusercontent.com/u/2956762?s=64&v=4
+      #     SLACK_TITLE: 'New version released on $\{{github.repository}}'
+      #     SLACK_MESSAGE: 'git pull'
+      #     SLACK_USERNAME: klueless-io
+      #     SLACK_WEBHOOK: $\{{ secrets.SLACK_WEBHOOK }}        

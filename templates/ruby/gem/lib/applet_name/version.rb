@@ -3,7 +3,7 @@
 {{#each dom.namespaces}}
 module {{.}}
 {{/each}}
-  VERSION = '0.0.1'
+  VERSION = '{{dom.initial_semver}}'
 {{#each dom.namespaces}}
 end
 {{/each}}
