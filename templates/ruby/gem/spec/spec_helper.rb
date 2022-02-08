@@ -2,6 +2,10 @@
 
 require 'pry'
 require 'bundler/setup'
+require 'simplecov'
+
+SimpleCov.start
+
 require '{{dom.application_lib_path}}'
 
 RSpec.configure do |config|

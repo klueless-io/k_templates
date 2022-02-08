@@ -78,13 +78,13 @@ KManager.action :bootstrap do
         add('bin/setup')
         add('bin/console')
 
-        add("lib/#{dom.application}.rb"             , template_file: 'lib/applet_name.rb'         , dom: dom)
-        add("lib/#{dom.application}/version.rb"     , template_file: 'lib/applet_name/version.rb' , dom: dom)
+        add("lib/#{typed_dom.application}.rb"             , template_file: 'lib/applet_name.rb'         , dom: dom)
+        add("lib/#{typed_dom.application}/version.rb"     , template_file: 'lib/applet_name/version.rb' , dom: dom)
     
         add('spec/spec_helper.rb')
-        add("spec/#{dom.application}_spec.rb"       , template_file: 'spec/applet_name_spec.rb', dom: dom)
+        add("spec/#{typed_dom.application}_spec.rb"       , template_file: 'spec/applet_name_spec.rb', dom: dom)
 
-        add("#{dom.application}.gemspec"            , template_file: 'applet_name.gemspec', dom: dom)
+        add("#{typed_dom.application}.gemspec"            , template_file: 'applet_name.gemspec', dom: dom)
         add('Gemfile', dom: dom)
         add('Guardfile', dom: dom)
         add('Rakefile', dom: dom)
