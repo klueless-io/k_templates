@@ -1,0 +1,44 @@
+# check https://www.githubstatus.com/ if any issues
+name: Build Application
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build_nuxt_application:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - name: Cache node modules
+      uses: actions/cache@v2
+      with:
+        path: '**/node_modules'
+        key: $\{{ runner.os }}-modules-$\{{ hashFiles('**/yarn.lock') }}
+
+    - name: Install packages
+      run: yarn install --frozen-lockfile
+
+    - name: Build website
+      run: yarn build
+
+    - name: lighthouse mobile audit
+      run: yarn lhci:mobile
+      env:
+        LHCI_GITHUB_APP_TOKEN: $\{{ secrets.LHCI_GITHUB_APP_TOKEN }}
+
+    - name: lighthouse desktop audit
+      run: yarn lhci:desktop
+      env:
+        LHCI_GITHUB_APP_TOKEN: $\{{ secrets.LHCI_GITHUB_APP_TOKEN }}
+
+    - name: Run SemVer
+      run: npm run release
+      env:
+        GITHUB_TOKEN: $\{{ secrets.GITHUB_TOKEN }}

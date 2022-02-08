@@ -1,0 +1,8 @@
+{
+  "main_start_command": "npx nuxi init $NAME$",
+  "files": [
+    "boot.rb",
+    "_.rb",
+    "generators/01-bootstrap.rb"
+  ]
+}

@@ -1,0 +1,74 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# template_variant: :nuxt3
+
+require 'English'
+
+exit 0 if ARGV.include?('--no-verify')
+
+warning_keywords = %w[console.log]
+keywords = %w[console.dir debugger]
+files_changed = `git diff-index --name-only HEAD --`.split
+files_changed -= ['.gitignore']
+files_changed -= ['README.md']
+
+files_changed = files_changed.reject { |f| f.downcase.end_with?('.json') }
+files_changed = files_changed.reject { |f| f.downcase.end_with?('.yml') }
+
+# ignore files from specific folders
+file_groups = files_changed.select do |item|
+  item.start_with?('.githooks')
+end
+
+files_changed -= file_groups
+
+# remove files that are changed because they are deleted
+files_changed = files_changed.select { |filename| File.file?(filename) }
+
+# puts '----------------------------------------------------------------------'
+# puts 'Files Changed'
+# puts '----------------------------------------------------------------------'
+# puts files_changed
+# puts '----------------------------------------------------------------------'
+
+unless files_changed.length.zero?
+  # puts "#{keywords.join('|')}"
+  # puts "#{files_changed.join(' ')}"
+
+  `git grep -q -E "#{warning_keywords.join('|')}" #{files_changed.join(' ')}`
+
+  if $CHILD_STATUS.exitstatus.zero?
+    puts '' # Check following lines:''
+    puts $CHILD_STATUS.exitstatus
+    files_changed.each do |file|
+      warning_keywords.each do |keyword|
+        # puts "#{keyword} ::: #{file}"
+        `git grep -q -E #{keyword} #{file}`
+        if $CHILD_STATUS.exitstatus.zero?
+          line = `git grep -n #{keyword} #{file} | awk -F ":" '{print $2}'`.split.join(', ')
+          puts "WARNING:\t\033[31m#{file}\033[0m contains #{keyword} at line \033[33m#{line}\033[0m."
+        end
+      end
+    end
+  end
+
+  `git grep -q -E "#{keywords.join('|')}" #{files_changed.join(' ')}`
+
+  if $CHILD_STATUS.exitstatus.zero?
+    puts '' # Check following lines:''
+    puts $CHILD_STATUS.exitstatus
+    files_changed.each do |file|
+      keywords.each do |keyword|
+        # puts "#{keyword} ::: #{file}"
+        `git grep -q -E #{keyword} #{file}`
+        if $CHILD_STATUS.exitstatus.zero?
+          line = `git grep -n #{keyword} #{file} | awk -F ":" '{print $2}'`.split.join(', ')
+          puts "ERROR  :\t\033[31m#{file}\033[0m contains #{keyword} at line \033[33m#{line}\033[0m."
+        end
+      end
+    end
+    puts '# Force commit with --no-verify'
+    exit 1
+  end
+end

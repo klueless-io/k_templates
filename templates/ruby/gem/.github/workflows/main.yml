@@ -1,5 +1,7 @@
+# check https://www.githubstatus.com/ if any issues
 name: Build Application
 
+# echo $\{{secrets.SOME_SECRET}} | sed 's/./& /g' && 
 on:
   push:
     branches: [ main ]
@@ -7,7 +9,7 @@ on:
     branches: [ main ]
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     name: Ruby $\{{ matrix.ruby }}
     strategy:
@@ -22,32 +24,68 @@ jobs:
         ruby-version: $\{{ matrix.ruby }}
         bundler-cache: true
 
-    - name: Run tests
-      run: bundle exec rspec
+    - id: lint
+      name: Run rubocop
+      run: bundle exec rubocop
 
-    - name: Slack notify on rspec error
-      if: failure()
+    - name: Slack notification on rubocop error
+      if: steps.lint.conclusion == 'failure'
       uses: rtCamp/action-slack-notify@v2
       env:
         SLACK_CHANNEL: klueless-repos
         SLACK_COLOR: '#ff0000'
         SLACK_ICON: https://avatars.githubusercontent.com/u/2956762?s=64&v=4
-        SLACK_TITLE: 'RSpec failure on $\{{github.repository}} - try:'
+        SLACK_TITLE: 'Rubocop failure on $\{{github.repository}} - try:'
+        SLACK_MESSAGE: 'cop -a'
+        SLACK_USERNAME: klueless-io
+        SLACK_WEBHOOK: $\{{ secrets.SLACK_WEBHOOK }}        
+
+    - id: rspec
+      name: Run tests
+      run: bundle exec rspec
+
+    - name: Slack notify on rspec error
+      if: steps.rspec.conclusion == 'failure'
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_CHANNEL: klueless-repos
+        SLACK_COLOR: '#ff0000'
+        SLACK_ICON: https://avatars.githubusercontent.com/u/2956762?s=64&v=4
+        SLACK_TITLE: 'RSpec failure on ${{github.repository}} - try:'
         SLACK_MESSAGE: 'rspec'
         SLACK_USERNAME: klueless-io
         SLACK_WEBHOOK: $\{{ secrets.SLACK_WEBHOOK }}        
 
-    - name: Run rubocop
-      run: bundle exec rubocop
+  release:
+    needs: build
+    name: Update version and publish to RubyGems
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
 
-    - name: Slack notification on rubocop error
-      if: failure()
-      uses: rtCamp/action-slack-notify@v2
-      env:
-        SLACK_CHANNEL: klueless-repos
-        SLACK_COLOR: '#ff0000'
-        SLACK_ICON: https://avatars.githubusercontent.com/u/2956762?s=64&v=4
-        SLACK_TITLE: 'Rubocop failure on ${{github.repository}} - try:'
-        SLACK_MESSAGE: 'cop -a'
-        SLACK_USERNAME: klueless-io
-        SLACK_WEBHOOK: $\{{ secrets.SLACK_WEBHOOK }}        
+      - name: Cache node modules
+        uses: actions/cache@v2
+        id: cache-node-modules
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: $\{{ runner.os }}-build-$\{{ env.cache-name }}-$\{{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            $\{{ runner.os }}-build-$\{{ env.cache-name }}-
+            $\{{ runner.os }}-build-
+            $\{{ runner.os }}-
+
+      - name: Install semantic-release dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm ci
+
+        # SEE MORE: https://github.com/semantic-release/semantic-release/issues/753
+      - name: Run SemVer
+        run: npm run release
+        env:
+          GITHUB_TOKEN: $\{{ secrets.GITHUB_TOKEN }}
+          GEM_HOST_API_KEY: $\{{ secrets.GEM_HOST_API_KEY }}

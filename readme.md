@@ -28,3 +28,4 @@ Definitions are similar to templates, except they are used when generating build
 6. Use ...
 
 I see it important to stick to the naming conventions in the nomenclature we decide: eg never generate generators and never build generators but you can generate builders. # k_templates
+
