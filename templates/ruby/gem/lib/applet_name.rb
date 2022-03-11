@@ -19,5 +19,3 @@ if ENV['KLUE_DEBUG']&.to_s&.downcase == 'true'
   version   = {{camelU dom.application}}::VERSION.ljust(9)
   puts "#{namespace.ljust(35)} : #{version.ljust(9)} : #{file_path}"
 end
-
-

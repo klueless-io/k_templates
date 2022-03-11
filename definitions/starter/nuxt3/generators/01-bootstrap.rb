@@ -1,6 +1,6 @@
 KManager.action :bootstrap do
-  def on_action
-    application_name = :{{name}}
+  action do
+    application_name = :{{snake name}}
     director = KDirector::Dsls::Nuxt3Dsl
       .init(k_builder,
         on_exist:                   :skip,                      # %i[skip write compare]
@@ -18,6 +18,7 @@ KManager.action :bootstrap do
         website:                    'http://appydave.com/websites/{{dashify name}}'
       )
       .github(
+        active: true,
         repo_name: application_name.to_s,
         organization: 'klueless-sites'
       ) do

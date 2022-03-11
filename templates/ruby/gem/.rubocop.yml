@@ -1,7 +1,7 @@
 inherit_mode:
   merge:
     - Exclude # see: https://stackoverflow.com/a/70818366/473923
-
+    - AllowedNames
 AllCops:
   TargetRubyVersion: {{dom.ruby_version}}
   DisplayCopNames: true
@@ -63,6 +63,9 @@ Naming/MemoizedInstanceVariableName:
 Naming/VariableNumber:
   Exclude:
     - "**/spec/**/*"
+Naming/MethodParameterName:
+  AllowedNames:
+    - as
 Style/EmptyMethod:    
   Exclude:
     - "**/spec/**/*"

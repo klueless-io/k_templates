@@ -1,6 +1,6 @@
 KManager.action :bootstrap do
-  def on_action
-    application_name = :{{name}}
+  action do
+    application_name = :{{snake name}}
     director = KDirector::Dsls::RubyGemDsl
       .init(k_builder,
         on_exist:                   :skip,                      # %i[skip write compare]
@@ -8,7 +8,6 @@ KManager.action :bootstrap do
       )
       .data(
         ruby_version:               '2.7',
-        repo_name:                  application_name,
         application:                application_name,
         application_description:    '{{description}}',
         application_lib_path:       application_name.to_s,
@@ -22,12 +21,14 @@ KManager.action :bootstrap do
         website:                    'http://appydave.com/gems/{{dashify name}}'
       )
       .github(
-        repo_name: application_name.to_s,
+        active: true,
+        repo_name: application_name{{#if repo_organization}},
+        organization: '{{repo_organization}}'{{/if}}
       ) do
-        # create_repository
+        create_repository
         # delete_repository
         # list_repositories
-        # open_repository
+        open_repository
         # run_command('git init')
       end
       .blueprint(

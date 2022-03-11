@@ -2,7 +2,7 @@
 
 include KLog::Logging
 
-CONFIG_KEY = :{{name}}
+CONFIG_KEY = :{{snake name}}
 
 log.kv 'working folder', Dir.pwd
 
@@ -62,4 +62,4 @@ resource_manager
   .glob('generators/**/*.rb')
 resource_manager.add_resources
 
-KManager.fire_actions(:load_content, :register_document, :load_document)
+KManager.boot

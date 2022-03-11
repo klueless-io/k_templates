@@ -1,0 +1,5 @@
+{
+  "name": "{{dom.application}}",
+  "version": "{{dom.initial_semver}}",
+  "description": "{{dom.application_description}}"
+}
