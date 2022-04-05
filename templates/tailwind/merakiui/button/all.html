@@ -9,18 +9,6 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-
-
-<script>
-// sample data for this tailwind component
-data = {
-
-}
-</script>
-
-<!-- ------------------------------------------------------ -->
-
-
 <div class="p-1.5 w-full sm:w-auto overflow-hidden bg-white border rounded-lg dark:bg-gray-800 dark:border-gray-700">
   <div class="space-y-2 sm:space-y-0 sm:flex sm:-mx-1">
       <button class="w-full px-4 py-1 text-white transition-colors duration-200 transform bg-blue-600 rounded-md focus:outline-none sm:w-auto sm:mx-1 hover:bg-blue-500 focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-40">
@@ -41,7 +29,17 @@ data = {
 <script>
 // sample data for this tailwind component
 data = {
-
+  "buttons": [
+    {
+      "text": "Upload",
+    },
+    {
+      "text": "Drift",
+    },
+    {
+      "text": "View",
+    }
+  ]
 }
 </script>
 
@@ -55,7 +53,7 @@ data = {
 <script>
 // sample data for this tailwind component
 data = {
-
+  "text": "Primary"
 }
 </script>
 
@@ -87,7 +85,20 @@ data = {
 <script>
 // sample data for this tailwind component
 data = {
-
+  "text": "Download",
+  "dropdown": {
+    "items": [
+      {
+        "text": "small (640x426)",
+      },
+      {
+        "text": "medium (1920x1280)",
+      },
+      {
+        "text": "large (2400x1600)",
+      }
+    ]
+  }
 }
 </script>
 
@@ -103,7 +114,7 @@ data = {
 <script>
 // sample data for this tailwind component
 data = {
-
+  "text": "Refresh"
 }
 </script>
 
@@ -140,6 +151,31 @@ data = {
       </button>
   </div>
 </div>
+
+
+
+<script>
+// sample data for this tailwind component
+data = {
+  "buttons": [
+    {
+      "icon": "upload",
+      "text": "Upload",
+    },
+    {
+      "icon": "drift",
+      "text": "Drift",
+    },
+    {
+      "icon": "view",
+      "text": "View",
+    }
+  ]
+}
+</script>
+
+<!-- ------------------------------------------------------ -->
+
 
 </body>
 </html>

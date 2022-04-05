@@ -9,18 +9,6 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-
-
-<script>
-// sample data for this tailwind component
-data = {
-
-}
-</script>
-
-<!-- ------------------------------------------------------ -->
-
-
 <section class="w-full max-w-2xl px-6 py-4 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
   <h2 class="text-3xl font-semibold text-center text-gray-800 dark:text-white">Get in touch</h2>
   <p class="mt-3 text-center text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -83,7 +71,50 @@ data = {
 <script>
 // sample data for this tailwind component
 data = {
-
+  "title": "Get in touch",
+  "subtitle": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+  "items": [
+    {
+      "icon": "mail",
+      "title": "121 Street, NY",
+    },
+    {
+      "icon": "phone",
+      "title": "+2499999666600",
+    },
+    {
+      "icon": "mail",
+      "title": "example@example.com"
+    }
+  ],
+  "rows": [
+    {
+      "fields": [
+        {
+          "title": "Name",
+          "type": "text"
+        },
+        {
+          "title": "E-mail",
+          "type": "email"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "title": "Message",
+          "type": "textarea"
+        }
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "title": "Send Message",
+      "type": "submit"
+    }
+  ]
 }
 </script>
 
@@ -112,47 +143,19 @@ data = {
 <script>
 // sample data for this tailwind component
 data = {
-
+  "title": "Sign Up For Project Updates",
+  "subtitle": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+  "email": {
+    "placeholder": "Enter your email",
+    "button": {
+      "text": "Subscribe",
+      "url": "#"
+    }
+  }
 }
 </script>
 
 <!-- ------------------------------------------------------ -->
-
-
-<script>
-{
-  name: 'Search',
-  keyword: '',
-  jobs: [
-      { 
-          title: 'Software engineer',
-          date: '02/04/2020'
-      },
-      { 
-          title: 'Front End Developer',
-          date: '01/03/2020'
-      },
-      { 
-          title: 'HR Lead',
-          date: '30/2/2020'
-      },
-      { 
-          title: 'Systems engineer',
-          date: '15/1/2020'
-      },
-      { 
-          title: 'Web Developer',
-          date: '02/04/2020'
-      },
-      { 
-          title: 'UI/UX',
-          date: '01/03/2020'
-      },
-      { 
-          title: 'Projects manager',
-          date: '30/2/2020'
-      },
-}
 
 <section class="relative w-full max-w-md px-5 py-4 mx-auto rounded-md">
   <div class="relative">
@@ -173,11 +176,20 @@ data = {
   </div>
 </section>
 
-
 <script>
 // sample data for this tailwind component
 data = {
-
+  "search": {
+    "placeholder": "Search",
+    "icon": "magnify_glass"
+  },
+  "results": [
+    {
+      "title": "Software engineer",
+      "date": "02/04/2020",
+      "url": "#"
+    }
+  ]
 }
 </script>
 
@@ -219,7 +231,37 @@ data = {
 <script>
 // sample data for this tailwind component
 data = {
-
+  "title": "Account settings",
+  "rows": [
+    {
+      "fields": [
+        {
+          "label": "Username",
+          "type": "text"
+        },
+        {
+          "label": "Email Address",
+          "type": "email"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "label": "Password",
+          "type": "password"
+        },
+        {
+          "label": "Password Confirmation",
+          "type": "password"
+        }
+      ]
+    },
+  ],
+  "button": {
+    "text": "Save",
+    "url": "#"
+  }
 }
 </script>
 
@@ -239,6 +281,24 @@ data = {
       </div>
   </div>
 </section>
+
+<script>
+// sample data for this tailwind component
+data = {
+  "title": "Want to see Back in action?",
+  "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, minus tempora nemo quos",
+  "email": {
+    "placeholder": "Email Address",
+    "button": {
+      "text": "Get Started",
+      "url": "#"
+    }
+  },
+}
+</script>
+
+<!-- ------------------------------------------------------ -->
+
 
 </body>
 </html>
