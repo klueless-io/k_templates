@@ -1,0 +1,456 @@
+<style>
+body {
+		font-family: 'Lato', sans-serif;
+		background: #88E0B0;
+		overflow-x: hidden;
+	}
+.displaymess {
+  width: 1400px;
+  position: fixed;
+  color: #035B03;
+  font-weight: bold;
+  text-align: center;
+}
+.container {
+  display: table;
+  width: 21300px;
+  clear: both;
+  margin: 0px auto;
+}
+.item {
+  background: #F8F8F8;
+  position: relative;
+  width: 500px;
+  margin: 80px auto;
+  float: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  transform: scale(0.7);
+  opacity: 0.5;
+  width: 400px;
+  margin-top:120px;
+}
+
+.item .imgcont img {
+  width: 170px;
+}
+
+.item.active {
+  opacity: 1;
+  transform: scale(1);
+  width: 500px;
+  margin-top:80px;
+}
+.item.active .imgcont img {
+  width: 220px;
+  margin-top: 20px;
+}
+.item.active .titlesec {
+  width: 430px;
+}
+
+.item:first-child {
+  margin-left: 440px;
+}
+.item:first-child .prodnav .prev { 
+  opacity: 0;
+}
+.item:last-child .prodnav .next { 
+  opacity: 0;
+}
+
+.prodcont {
+    position: relative;
+    display: block;
+    padding: 5px 5px 45px;
+    box-shadow: -1px 7px 60px -10px #555;
+}
+.prodshade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 100px solid #AFEBAF;
+    border-left: 130px solid #AFEBAF;
+    border-bottom: 100px solid transparent;
+    border-right: 130px solid transparent;
+}
+div.starratting i {
+    font-size: 10px;	
+} 
+.prodtitle {
+  z-index: 99;
+  display: block;
+  position: relative;
+  padding:2px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.starratting i {
+  color: #3E86C0;
+}
+.titlesec {
+  background-color: #fff;
+  padding: 10px 0 10px 45px;
+    margin: 5px 0;
+    clear: both;
+  display: table;
+  width: 100%;
+  color: #555;
+  position: relative;
+  width: 340px;
+  box-shadow: -1px 7px 35px -10px #333;
+}
+.titlesec h1 {
+  margin: 12px 0;
+  font-weight: normal;
+  margin: 0;
+}
+.titlesec .prodleftdetails {
+  float: left;
+}
+.titlesec .prodleftdetails .prodsize {
+  font-size: 12px;
+  float: right;
+  margin-right: 8px;
+}
+.titlesec .prodrightdetails {
+  float: left;
+}
+.titlesec .prodrightdetails .prodqty {
+  font-size: 35px;
+  margin-left: 12px;
+}
+.prod-addtocard {
+  position: absolute;
+  top: 22px;
+  right: 18px;
+  background-color: #3E86C0;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+  width: 50px;
+  display: inline-block;
+  border-radius: 100%;
+  height: 50px;
+  line-height: 53px;
+  box-shadow: 0 0 10px 2px #ccc;
+  cursor: pointer;
+}
+.proddel {
+  font-size: 12px;
+}
+.imgcont,
+.prodpric {
+  text-align: center;
+}
+
+.prodnav {
+  position: absolute;
+    top: 180px;
+    right: 20px;
+    width: 80px;
+  opacity: 0;
+}
+.item.active .prodnav {
+  opacity: 1;
+}
+.prodnav span {
+  padding: 5px 10px;
+    border: 1px solid #555;
+    margin: 0;
+    cursor: pointer;
+}
+.prodnav span.prev {
+    border-radius: 5px 0 0 5px;
+}
+.prodnav span.next {
+    border-radius: 0 5px 5px 0;
+}
+</style>
+
+<div style='display: table; width: 6000px; clear: both; margin: 0px auto;'>
+    <div class="item">
+      <div class="prodcont">
+
+        <div class="prodtitle">
+          <span class="proddel">Same day deliver</span>
+          <div class="titlesec">
+            <div class="starratting"> 
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+            </div>
+            <div>
+              <div class="prodleftdetails"><h1>Nike lunaracer</h1><span class="prodsize">Size 9.2</span></div>
+              <div class="prodrightdetails"><span class="prodqty">+5</span></div>
+            </div>
+            <span class="prod-addtocard"><i class="ion-ios-plus-empty"></i></span>
+          </div>
+        </div>
+        
+        <div class="imgcont"><img src="http://pluspng.com/img-png/shoe-hd-png-jordan-shoes-png-500.png" alt=""></div>
+        <div class="prodnav">
+          <span class="prev"><i class="ion-ios-arrow-left"></i></span>
+          <span class="next"><i class="ion-ios-arrow-right"></i></span>
+        </div>
+        <div class="prodpric">141 $</div>
+        <div class="prodshade"></div>
+
+      </div>
+    </div>
+
+    <div class="item active">
+      <div class="prodcont">
+
+        <div class="prodtitle">
+          <span class="proddel">Same day deliver</span>
+          <div class="titlesec">
+            <div class="starratting"> 
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+            </div>
+            <div>
+              <div class="prodleftdetails"><h1>Nike Nova</h1><span class="prodsize">Size 10.5</span></div>
+              <div class="prodrightdetails"><span class="prodqty">+2</span></div>
+            </div>
+            <span class="prod-addtocard"><i class="ion-ios-plus-empty"></i></span>
+          </div>
+        </div>
+        
+        <div class="imgcont"><img src="http://pluspng.com/img-png/shoe-hd-png-jordan-shoes-png-500.png" alt=""></div>
+        <div class="prodnav">
+          <span class="prev"><i class="ion-ios-arrow-left"></i></span>
+          <span class="next"><i class="ion-ios-arrow-right"></i></span>
+        </div>
+        <div class="prodpric">155 $</div>
+        <div class="prodshade"></div>
+
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="prodcont">
+
+        <div class="prodtitle">
+          <span class="proddel">Same day deliver</span>
+          <div class="titlesec">
+            <div class="starratting"> 
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+            </div>
+            <div>
+              <div class="prodleftdetails"><h1>Nike Pam am</h1><span class="prodsize">Size 7.2</span></div>
+              <div class="prodrightdetails"><span class="prodqty">+1</span></div>
+            </div>
+            <span class="prod-addtocard"><i class="ion-ios-plus-empty"></i></span>
+          </div>
+        </div>
+        
+        <div class="imgcont"><img src="https://s21.postimg.org/syjkvocoj/shoes3.png" alt=""></div>
+        <div class="prodnav">
+          <span class="prev"><i class="ion-ios-arrow-left"></i></span>
+          <span class="next"><i class="ion-ios-arrow-right"></i></span>
+        </div>
+        <div class="prodpric">132 $</div>
+        <div class="prodshade"></div>
+
+      </div>
+    </div>
+
+
+    <div class="item">
+      <div class="prodcont">
+
+        <div class="prodtitle">
+          <span class="proddel">Same day deliver</span>
+          <div class="titlesec">
+            <div class="starratting"> 
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+            </div>
+            <div>
+              <div class="prodleftdetails"><h1>Nike Tailwind</h1><span class="prodsize">Size 8.9</span></div>
+              <div class="prodrightdetails"><span class="prodqty">+4</span></div>
+            </div>
+            <span class="prod-addtocard"><i class="ion-ios-plus-empty"></i></span>
+          </div>
+        </div>
+        
+        <div class="imgcont"><img src="https://s21.postimg.org/5lljd5wkz/shoes4.png" alt=""></div>
+        <div class="prodnav">
+          <span class="prev"><i class="ion-ios-arrow-left"></i></span>
+          <span class="next"><i class="ion-ios-arrow-right"></i></span>
+        </div>
+        <div class="prodpric">142 $</div>
+        <div class="prodshade"></div>
+
+      </div>
+    </div>
+
+
+    <div class="item">
+      <div class="prodcont">
+
+        <div class="prodtitle">
+          <span class="proddel">Same day deliver</span>
+          <div class="titlesec">
+            <div class="starratting"> 
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+            </div>
+            <div>
+              <div class="prodleftdetails"><h1>Nike Lauderdale</h1><span class="prodsize">Size 9.5</span></div>
+              <div class="prodrightdetails"><span class="prodqty">+5</span></div>
+            </div>
+            <span class="prod-addtocard"><i class="ion-ios-plus-empty"></i></span>
+          </div>
+        </div>
+        
+        <div class="imgcont"><img src="https://s21.postimg.org/ta118ft4j/shoes2.png" alt=""></div>
+        <div class="prodnav">
+          <span class="prev"><i class="ion-ios-arrow-left"></i></span>
+          <span class="next"><i class="ion-ios-arrow-right"></i></span>
+        </div>
+        <div class="prodpric">177 $</div>
+        <div class="prodshade"></div>
+
+      </div>
+    </div>
+
+
+    <div class="item">
+      <div class="prodcont">
+
+        <div class="prodtitle">
+          <span class="proddel">Same day deliver</span>
+          <div class="titlesec">
+            <div class="starratting"> 
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+            </div>
+            <div>
+              <div class="prodleftdetails"><h1>Nike Mesh Greco</h1><span class="prodsize">Size 7.3</span></div>
+              <div class="prodrightdetails"><span class="prodqty">+2</span></div>
+            </div>
+            <span class="prod-addtocard"><i class="ion-ios-plus-empty"></i></span>
+          </div>
+        </div>
+        
+        <div class="imgcont"><img src="https://s21.postimg.org/5mvh6kyer/shoes6.jpg" alt=""></div>
+        <div class="prodnav">
+          <span class="prev"><i class="ion-ios-arrow-left"></i></span>
+          <span class="next"><i class="ion-ios-arrow-right"></i></span>
+        </div>
+        <div class="prodpric">126 $</div>
+        <div class="prodshade"></div>
+
+      </div>
+    </div>
+
+
+    <div class="item">
+      <div class="prodcont">
+
+        <div class="prodtitle">
+          <span class="proddel">Same day deliver</span>
+          <div class="titlesec">
+            <div class="starratting"> 
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+              <i class="ion-android-star"></i>
+            </div>
+            <div>
+              <div class="prodleftdetails"><h1>Nike Wayne</h1><span class="prodsize">Size 8.5</span></div>
+              <div class="prodrightdetails"><span class="prodqty">+4</span></div>
+            </div>
+            <span class="prod-addtocard"><i class="ion-ios-plus-empty"></i></span>
+          </div>
+        </div>
+        
+        <div class="imgcont"><img src="https://s21.postimg.org/wd6t8xeer/shoes7.png" alt=""></div>
+        <div class="prodnav">
+          <span class="prev"><i class="ion-ios-arrow-left"></i></span>
+          <span class="next"><i class="ion-ios-arrow-right"></i></span>
+        </div>
+        <div class="prodpric">155 $</div>
+        <div class="prodshade"></div>
+
+      </div>
+    </div>
+
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+<script>
+  jQuery(window).on('load',function() {
+			var len = jQuery('.container .item').length;
+			var wid = jQuery('.item.active').width();
+			
+			/* calculating and adding dynamic width */
+			jQuery('.container').css('width',len*wid+800);
+			
+			var $pos = 0;
+			/* adding position to each item inside the container */
+			jQuery('.container .item').each(function() { 
+				var $pos=jQuery(this).position().left;
+				jQuery(this).attr('data-pos',$pos);
+				if($pos <= 100) {
+					jQuery(this).attr('data-pos',550);
+				}
+			});
+
+			jQuery(window).scrollLeft(500);
+
+			/* code for next button */
+			jQuery('.prodnav .next').click(function() {
+				$currentpos = jQuery('.item.active').next().attr('data-pos');
+				$nextpos = jQuery('.item.active').next().next().attr('data-pos');
+				$prevpos = jQuery('.item.active').attr('data-pos');
+
+				jQuery('body').animate({scrollLeft:$currentpos-=570},200);
+
+				jQuery(this).parents('.item').removeClass('active');
+				jQuery(this).parents('.item').next().addClass('active');
+
+
+			});
+
+			/* code on prev button */
+			jQuery('.prodnav .prev').click(function() {
+				$currentpos = jQuery('.item.active').prev().attr('data-pos');
+				$nextpos = jQuery('.item.active').prev().prev().attr('data-pos');
+				if($nextpos === undefined || $nextpos === null) {
+					$nextpos = '-200';	
+				}
+				$prevpos = jQuery('.item.active').attr('data-pos');
+
+				console.log($nextpos);
+
+				jQuery('body').animate({'scrollLeft':$nextpos},200);
+				
+				jQuery(this).parents('.item').removeClass('active');
+				jQuery(this).parents('.item').prev().addClass('active');
+
+			});
+		});
+</script>

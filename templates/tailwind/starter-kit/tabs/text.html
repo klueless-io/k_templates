@@ -1,0 +1,85 @@
+<div class="flex flex-wrap" id="wrapper-for-text-amber">
+  <div class="w-full">
+    <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row">
+      <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+        <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-white bg-amber-600" data-tab-toggle="text-tab-profile-amber" onclick="changeAtiveTab(event,'wrapper-for-text-amber','amber','text-tab-profile-amber')">
+          Profile
+        </a>
+      </li>
+      <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+        <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-amber-600 bg-white" data-tab-toggle="text-tab-settings-amber" onclick="changeAtiveTab(event,'wrapper-for-text-amber','amber','text-tab-settings-amber')">
+          Settings
+        </a>
+      </li>
+      <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+        <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-amber-600 bg-white" data-tab-toggle="text-tab-options-amber" onclick="changeAtiveTab(event,'wrapper-for-text-amber','amber','text-tab-options-amber')">
+          Options
+        </a>
+      </li>
+    </ul>
+    <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
+      <div class="px-4 py-5 flex-auto">
+        <div class="tab-content tab-space">
+          <div class="block" data-tab-content="true" id="text-tab-profile-amber">
+            <p>
+              Collaboratively administrate empowered markets via
+              plug-and-play networks. Dynamically procrastinate B2C users
+              after installed base benefits.
+              <br />
+              <br />
+              Dramatically visualize customer directed convergence
+              without revolutionary ROI.
+            </p>
+          </div>
+          <div class="hidden" data-tab-content="true" id="text-tab-settings-amber">
+            <p>
+              Completely synergize resource taxing relationships via
+              premier niche markets. Professionally cultivate one-to-one
+              customer service with robust ideas.
+              <br />
+              <br />
+              Dynamically innovate resource-leveling customer service for
+              state of the art customer service.
+            </p>
+          </div>
+          <div class="hidden" data-tab-content="true" id="text-tab-options-amber">
+            <p>
+              Efficiently unleash cross-media information without
+              cross-media value. Quickly maximize timely deliverables for
+              real-time schemas.
+              <br />
+              <br />
+              Dramatically maintain clicks-and-mortar solutions
+              without functional solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  function changeAtiveTab(event,wrapperID,color,tabID){
+    let tabsWrapper = document.getElementById(wrapperID);
+    let tabsAnchors = tabsWrapper.querySelectorAll("[data-tab-toggle]");
+    let tabsContent = tabsWrapper.querySelectorAll("[data-tab-content]");
+
+    for(let i = 0; i < tabsAnchors.length; i++) {
+      if(tabsAnchors[i].getAttribute("data-tab-toggle") === tabID){
+        tabsAnchors[i].classList.remove("text-" + color + "-600");
+        tabsAnchors[i].classList.remove("bg-white");
+        tabsAnchors[i].classList.add("text-white");
+        tabsAnchors[i].classList.add("bg-" + color + "-600");
+        tabsContent[i].classList.remove("hidden");
+        tabsContent[i].classList.add("block");
+      } else {
+        tabsAnchors[i].classList.add("text-" + color + "-600");
+        tabsAnchors[i].classList.add("bg-white");
+        tabsAnchors[i].classList.remove("text-white");
+        tabsAnchors[i].classList.remove("bg-" + color + "-600");
+        tabsContent[i].classList.add("hidden");
+        tabsContent[i].classList.remove("block");
+      }
+    }
+  }
+</script>

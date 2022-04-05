@@ -1,0 +1,37 @@
+<div class="flex flex-wrap">
+  <div class="w-full sm:w-6/12 md:w-4/12 px-4">
+    <div class="relative inline-flex align-middle w-full">
+      <button class="text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 bg-amber-500 active:bg-amber-600 ease-linear transition-all duration-150" type="button" onclick="openDropdown(event,'dropdown-id-amber')">
+        amber Dropdown
+      </button>
+      <div class="hidden bg-amber-500  text-base z-50 float-left py-2 list-none text-left rounded shadow-lg mt-1 min-w-48" id="dropdown-id-amber">
+        <a href="#pablo" class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-white">
+          Action
+        </a>
+        <a href="#pablo" class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-white">
+          Another action
+        </a>
+        <a href="#pablo" class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-white">
+          Something else here
+        </a>
+        <div class="h-0 my-2 border border-solid border-t-0 border-blueGray-800 opacity-25"></div>
+        <a href="#pablo" class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-white">
+          Seprated link
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function openDropdown(event,dropdownID){
+    let element = event.target;
+    while(element.nodeName !== "BUTTON"){
+      element = element.parentNode;
+    }
+    var popper = Popper.createPopper(element, document.getElementById(dropdownID), {
+      placement: 'bottom-start'
+    });
+    document.getElementById(dropdownID).classList.toggle("hidden");
+    document.getElementById(dropdownID).classList.toggle("block");
+  }
+</script>

@@ -1,0 +1,37 @@
+<div class="hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center" id="connect-shop-modal">
+  <div class="relative w-auto my-6 mx-auto max-w-3xl">
+    <!--content-->
+    <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+      <!--header-->
+      <div class="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+        <h1 class="text-3xl font-bold text-gray-800 uppercase dark:text-white">{{shop.name}}</h1>
+        <button class="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none" onclick="toggleModal('connect-shop-modal')">
+          <span class="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
+            ×
+          </span>
+        </button>
+      </div>
+      <!--body-->
+
+      <div class="mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+        <div class="px-4 py-2">
+            <p class="mt-1 h-20 text-sm text-gray-600 dark:text-gray-400">{{shop.description}}</p>
+        </div>
+
+        <img class="object-cover w-full h-96 mt-4" src="{{shop.image}}" alt="{{shop.name}}">
+    </div>
+
+      <!--footer-->
+      <div class="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+        <button class="text-grey-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onclick="toggleModal('connect-shop-modal')">
+          Close
+        </button>
+        <button class="px-6 py-2 text-xs font-semibold text-white uppercase shadow transition-colors duration-200 transform bg-green-500 rounded hover:bg-green-200 hover:shadow-lg focus:bg-green-400 focus:outline-none"
+                onclick="toggleModal('connect-shop-modal')">
+          Request Connection
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="hidden opacity-25 fixed inset-0 z-40 bg-black" id="connect-shop-modal-backdrop"></div>

@@ -1,0 +1,395 @@
+<nav class="bg-white shadow dark:bg-gray-800">
+  <div class="container px-6 py-3 mx-auto">
+      <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+          <div class="flex items-center justify-between">
+              <div class="flex items-center">
+                  <a class="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="home.html">
+                    <img class="object-fit" src="images/logo-1.png">
+                  </a>
+                </div>
+          </div>
+      </div>
+  </div>
+</nav>
+<main>
+  <div
+    class="relative pt-16 pb-32 flex content-center items-center justify-center"
+    style="min-height: 50vh;"
+  >
+    <div
+      class="absolute top-0 w-full h-full bg-center bg-cover"
+      style='background-image: url("images/cafe-banner-{{logo_no}}.png");'
+    >
+      <span
+        id="blackOverlay"
+        class="w-full h-full absolute opacity-25 bg-black"
+      ></span>
+    </div>
+    <div class="container relative mx-auto">
+      <div class="items-center flex flex-wrap">
+        <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+          <div class="pr-12">
+            <h1 class="text-white font-semibold text-5xl">
+              Coffee In a Hurry
+            </h1>
+            <p class="mt-4 text-lg text-gray-100">
+              It's 8:45 and the train is just arriving at North Sydney station<br/>
+              You have a meeting with the boss starts at 9:00am!<br/>
+              Can you risk the Coffee Queue?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+      style="height: 70px;"
+    >
+      <svg
+        class="absolute bottom-0 overflow-hidden"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        version="1.1"
+        viewBox="0 0 2560 100"
+        x="0"
+        y="0"
+      >
+        <polygon
+          class="text-gray-300 fill-current"
+          points="2560 0 2560 100 0 100"
+        ></polygon>
+      </svg>
+    </div>
+  </div>
+  <section class="pb-20 bg-gray-300 -mt-24">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap">
+        <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+          <div
+            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+          >
+            <div class="px-4 py-5 flex-auto">
+              <div
+                class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
+              >
+                <i class="fas fa-crown"></i>
+              </div>
+              <h6 class="text-xl font-semibold">Favourite Order, Ahead of Time</h6>
+              <p class="mt-2 mb-4 text-gray-600">
+                Open NoQuue and click your Favourite Order<br/>Walk to your Cafe where your Coffee is waiting 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-4/12 px-4 text-center">
+          <div
+            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+          >
+            <div class="px-4 py-5 flex-auto">
+              <div
+                class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
+              >
+                <i class="fas fa-medal"></i>
+              </div>
+              <h6 class="text-xl font-semibold">Be Rewarded</h6>
+              <p class="mt-2 mb-4 text-gray-600">
+                You keep loosing your loyalty card.
+                No worries, Noquue keeps track of orders and can link into loyalty rewards
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+          <div
+            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+          >
+            <div class="px-4 py-5 flex-auto">
+              <div
+                class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
+              >
+                <i class="fas fa-fingerprint"></i>
+              </div>
+              <h6 class="text-xl font-semibold">Contactless Pickup</h6>
+              <p class="mt-2 mb-4 text-gray-600">
+                In response to COVID-19, NoQuue helps<br/>with contactless pickup and social distancing
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 mt-12 mb-12">
+    <article>
+      <h2 class="text-3xl font-semibold text-gray-900">{{title}}</h2>
+      <section class="mt-6 grid md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-8">
+      {{#each cards}}
+        <div class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+            <div class="px-4 py-2">
+                <h1 class="h-20 text-3xl font-bold text-gray-800 uppercase dark:text-white">{{name}}</h1>
+                <p class="mt-1 h-20 text-sm text-gray-600 dark:text-gray-400">{{description}}</p>
+            </div>
+  
+            <img class="object-cover w-full h-48 mt-4" src="{{image}}" alt="{{name}}">
+  
+            <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
+              <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-green-500 rounded hover:bg-green-200 focus:bg-green-400 focus:outline-none"
+                      {{#if ../primary_button_action}}{{{../primary_button_action}}}{{/if}}>{{../primary_button}}</button>
+              <button class="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-200 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none">{{name}}</button>
+            </div>
+        </div>
+      {{/each}}
+      </section>
+    </article>
+  </section>
+  <section class="pt-4 pb-20 bg-gray-300 -mt-24">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap items-center mt-32">
+        <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+          <div
+            class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
+          >
+            <i class="fas fa-user-friends text-xl"></i>
+          </div>
+          <h3 class="text-3xl mb-2 font-semibold leading-normal">
+            Accept online orders from anywhere
+          </h3>
+          <p
+            class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
+          >
+            Receive commission-free orders easily and directly through your website, phone or social media.
+          </p>
+          <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
+            Noquue connectors comes with integrations to get your coffee shop receiving orders via computer, social media or SMS.
+          </p>
+          <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
+            Use our headless server API to create your own ordering platform
+          </p>
+          <a
+            href="home.html"
+            class="font-bold text-gray-800 mt-8"
+            >NoQuue Integrations</a
+          >
+        </div>
+        <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+          <div
+            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-green-500"
+          >
+            <img
+              alt="..."
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80"
+              class="w-full align-middle rounded-t-lg"
+            />
+            <blockquote class="relative p-8 mb-4">
+              <svg
+                preserveAspectRatio="none"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 583 95"
+                class="absolute left-0 w-full block"
+                style="height: 95px; top: -94px;"
+              >
+                <polygon
+                  points="-30,95 583,95 583,65"
+                  class="text-green-500 fill-current"
+                ></polygon>
+              </svg>
+              <h4 class="text-xl font-bold text-white">
+                Seamless Integration
+              </h4>
+              <p class="text-md font-light mt-2 text-white">
+                NoQuue has easy non-techy and API integrations
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="relative py-20">
+    <div
+      class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+      style="height: 80px;"
+    >
+      <svg
+        class="absolute bottom-0 overflow-hidden"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        version="1.1"
+        viewBox="0 0 2560 100"
+        x="0"
+        y="0"
+      >
+        <polygon
+          class="text-white fill-current"
+          points="2560 0 2560 100 0 100"
+        ></polygon>
+      </svg>
+    </div>
+    <div class="container mx-auto px-4">
+      <div class="items-center flex flex-wrap">
+        <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+          <img
+            alt="..."
+            class="max-w-full rounded-lg shadow-lg"
+            src="images/bkit-1a.png"
+          />
+        </div>
+        <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+          <div class="md:pr-12">
+            <div
+              class="text-green-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-green-300"
+            >
+              <i class="fas fa-rocket text-xl"></i>
+            </div>
+            <h3 class="text-3xl font-semibold">NoFuss</h3>
+            <p class="mt-4 text-lg leading-relaxed text-gray-600">
+              NoQuue provides an easy no fuss solution for your regular customers be rewarded :).
+            </p>
+            <ul class="list-none mt-6">
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span
+                      class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-green-200 mr-3"
+                      ><i class="fas fa-fingerprint"></i
+                    ></span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">
+                      Favourite order management and placement
+                    </h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span
+                      class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-green-200 mr-3"
+                      ><i class="fab fa-html5"></i
+                    ></span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Timely (contactless) pickup</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span
+                      class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-green-200 mr-3"
+                      ><i class="far fa-paper-plane"></i
+                    ></span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Built in loyalty program and rewards</h4>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pb-20 relative block bg-gray-900">
+    <div
+      class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+      style="height: 80px;"
+    >
+      <svg
+        class="absolute bottom-0 overflow-hidden"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        version="1.1"
+        viewBox="0 0 2560 100"
+        x="0"
+        y="0"
+      >
+        <polygon
+          class="text-gray-900 fill-current"
+          points="2560 0 2560 100 0 100"
+        ></polygon>
+      </svg>
+    </div>
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap text-center justify-center">
+        <div class="w-full lg:w-6/12 px-4">
+          <h2 class="text-4xl font-semibold text-white">NoCode as a Service</h2>
+          <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+            The Code as a Service integrations mean that you can build your own ordering systems using our headless backend Ordering API
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-wrap mt-12 justify-center">
+        <div class="w-full lg:w-3/12 px-4 text-center">
+          <div
+            class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+          >
+            <i class="fas fa-poll text-xl"></i>
+          </div>
+          <h5 class="text-xl mt-5 font-semibold text-white">
+            NoQuue - Platform
+          </h5>
+          <p class="mt-2 mb-4 text-gray-500">
+            The easy one-click, contactless pickup coffee ordering platform
+          </p>
+          <div class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+            <img class="object-cover w-full h-48 mt-4" src="images/bkit-1e.png">
+          </div>
+        </div>
+
+        <div class="w-full lg:w-3/12 px-4 text-center">
+          <div
+            class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+          >
+            <i class="fas fa-lightbulb text-xl"></i>
+          </div>
+          <h5 class="text-xl mt-5 font-semibold text-white">
+            NoQuue - Supporter
+          </h5>
+          <p class="mt-2 mb-4 text-gray-500">
+            Become a supporter, you can easily support us by purchasing some merchandise.
+          </p>
+          <div class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+            <img class="object-cover w-full h-48 mt-4" src="images/bkit-1f.png">
+          </div>
+        </div>
+
+        <div class="w-full lg:w-3/12 px-4 text-center">
+          <div
+            class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+          >
+            <i class="fas fa-medal text-xl"></i>
+          </div>
+          <h6 class="text-xl mt-5 font-semibold text-white">
+            NoQuue - NoCAAS
+          </h6>
+          <p class="mt-2 mb-4 text-gray-500">
+            The API only headless server allows for DIY ordering platforms
+          </p>
+          <div class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+            <img class="object-cover w-full h-48 mt-4" src="images/bkit-1d.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 mt-12 mb-12">
+    <article class="mb-4">
+      <h2 class="text-3xl font-semibold text-gray-900">NoQuue Concept Video</h2>
+      <div class="max-w-xs mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+      </div>
+      <div class="relative mt-4" style="padding-top: 56.25%">
+        <iframe
+        class="absolute inset-0 w-full h-full"
+        src="https://www.youtube.com/embed/0Xz2M_Eej0g"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </article>
+  </section>
+</main>

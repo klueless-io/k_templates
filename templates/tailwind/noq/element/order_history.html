@@ -1,0 +1,79 @@
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 mt-12 mb-12">
+  <div class="grid grid-cols-6 gap-4">
+    <div class="col-start-1 col-span-12">
+
+      {{#if orders_history}}
+      <!-- Projects table -->
+      <table class="items-center w-full bg-transparent border-collapse table-fixed">
+        <thead class="thead-light">
+          <tr>
+            <th class="w-1/4 px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+              
+            </th>
+            <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+              Name
+            </th>
+            <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+              Date
+            </th>
+            <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+              Item
+            </th>
+            <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+              Options
+            </th>
+            <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-right">
+              $ 12.00
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+        {{#orders_history}}
+          {{#items}}
+          <tr>
+            {{#if (eq idx 0)}}
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-2 text-left" rowspan="{{../span}}">
+              <article class="bg-white group relative rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform duration-200">
+                <div class="max-w-lg mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                  <img class="object-cover w-full h-16 mt-1" src="{{../shop.image}}" alt="{{../shop.name}}">
+        
+                  <div class="flex items-center justify-between px-4 py-2 bg-gray-900">
+                    <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-green-500 rounded hover:bg-green-200 focus:bg-green-400 focus:outline-none">{{../title}}{{../shop.primary_button}}</button>
+                    <button class="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-200 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none">{{titleize ../shop.name}}</button>
+                  </div>
+                </div>
+              </article>
+            </td>
+            {{/if}}
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-1 text-left">
+              {{#if @first}}
+              <input type="checkbox" class="form-checkbox mr-1" {{#if ../checked}}checked{{/if}} />
+              <input type="text" placeholder="Placeholder" value="{{../title}}" class="m-2 px-2 py-1 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"/>
+              {{/if}}
+            </td>
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-1 text-left">
+              {{#if @first}}{{../date}}{{/if}}
+            </td>
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-1 text-left">
+              {{title}}
+            </td>
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-1">
+              {{#each options}}
+                <span class="text-xs font-semibold inline-block px-2 uppercase rounded-full text-green-600 bg-green-100 uppercase last:mr-0 mr-1">
+                  {{titleize .}}
+                </span>
+              {{/each}}
+            </td>
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-1 text-right">
+              $ {{price}}
+            </td>
+          </tr>
+          {{/items}}
+        {{/orders_history}}
+        </tbody>
+      </table>
+      {{/if}}
+
+    </div>
+  </div>
+</section>

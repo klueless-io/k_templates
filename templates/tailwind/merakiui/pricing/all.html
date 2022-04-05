@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NoQ</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<!-- ------------------------------------------------------ -->
+
+
+<div class="bg-white dark:bg-gray-900">
+  <div class="container px-6 py-8 mx-auto">
+      <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">Simple pricing plan</h1>
+      
+      <p class="max-w-2xl mx-auto mt-4 text-center text-gray-500 xl:mt-6 dark:text-gray-300">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quas magni libero consequuntur voluptatum velit amet id repudiandae ea, deleniti laborum in neque eveniet.
+      </p>
+      
+      <div class="grid grid-cols-1 gap-8 mt-6 lg:grid-cols-3 xl:mt-12">
+          <div class="flex items-center justify-between px-8 py-4 border cursor-pointer rounded-xl dark:border-gray-700">
+              <div class="flex flex-col items-center space-y-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-400 sm:h-7 sm:w-7" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                  </svg>
+
+                  <h2 class="text-lg font-medium text-gray-700 sm:text-xl dark:text-gray-200">Basic</h2>
+              </div>
+              
+              <h2 class="text-2xl font-semibold text-gray-500 sm:text-3xl dark:text-gray-300">Free</h2>
+          </div>
+
+          <div class="flex items-center justify-between px-8 py-4 border border-blue-500 cursor-pointer rounded-xl">
+              <div class="flex flex-col items-center space-y-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-600 dark:text-blue-500 sm:h-7 sm:w-7" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                  </svg>
+
+                  <h2 class="text-lg font-medium text-gray-700 sm:text-xl dark:text-gray-200">Standard</h2>
+              </div>
+              
+              
+              <div class="flex flex-col items-center space-y-1">
+                  <div class="px-2 text-xs text-blue-500 bg-gray-100 rounded-full dark:text-blue-400 sm:px-4 sm:py-1 dark:bg-gray-700 ">
+                      Save 30%
+                  </div>
+
+                  <h2 class="text-2xl font-semibold text-blue-600 dark:text-blue-500 sm:text-3xl">$99 <span class="text-base font-medium">/Yearly</span></h2>
+              </div>
+          </div>
+
+          <div class="flex items-center justify-between px-8 py-4 border cursor-pointer rounded-xl dark:border-gray-700">
+              <div class="flex flex-col items-center space-y-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-400 sm:h-7 sm:w-7" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                  </svg>
+
+                  <h2 class="text-lg font-medium text-gray-700 sm:text-xl dark:text-gray-200">Pro</h2>
+              </div>
+
+              <div class="flex flex-col items-center space-y-1">
+                      <div class="px-2 text-xs text-blue-500 bg-gray-100 rounded-full dark:text-blue-400 sm:px-4 sm:py-1 dark:bg-gray-700 ">
+                          Save 20%
+                      </div>
+
+                      <h2 class="text-2xl font-semibold text-gray-500 sm:text-3xl dark:text-gray-300">$149 <span class="text-base font-medium">/Month</span></h2>
+                  </div>
+          </div>
+      </div>
+
+      <div class="p-8 mt-8 space-y-8 bg-gray-100 dark:bg-gray-800 rounded-xl">
+          <div class="flex items-center justify-between text-gray-800 dark:text-gray-200">
+              <p class="textlg sm:text-xl">Unlimited Links</p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500 sm:h-7 sm:w-7" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+          </div>
+
+          <div class="flex items-center justify-between text-gray-800 dark:text-gray-200">
+              <p class="textlg sm:text-xl">Own analytics platfrom</p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500 sm:h-7 sm:w-7" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+          </div>
+
+          <div class="flex items-center justify-between text-gray-800 dark:text-gray-200">
+              <p class="textlg sm:text-xl">Full Support with discussion</p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500 sm:h-7 sm:w-7" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+          </div>
+
+          <div class="flex items-center justify-between text-gray-800 dark:text-gray-200">
+              <p class="textlg sm:text-xl">Optimize hashtags</p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-red-400 sm:h-7 sm:w-7" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z" clip-rule="evenodd" />
+              </svg>
+          </div>
+
+          <div class="flex items-center justify-between text-gray-800 dark:text-gray-200">
+              <p class="textlg sm:text-xl">Mobile app</p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500 sm:h-7 sm:w-7" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+          </div>
+
+          <div class="flex items-center justify-between text-gray-800 dark:text-gray-200">
+              <p class="textlg sm:text-xl">Unlimited users</p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-red-400 sm:h-7 sm:w-7" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z" clip-rule="evenodd" />
+              </svg>
+          </div>
+      </div>
+      
+      <div class="flex justify-center mt-8">
+          <button class="px-8 py-2 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+              Choose Plan
+          </button>
+      </div>
+  </div>
+</div>
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<!-- ------------------------------------------------------ -->
+
+<div class="bg-white dark:bg-gray-800">
+  <div class="container px-6 py-8 mx-auto">
+      <div class="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
+          <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
+              <div class="flex-shrink-0">
+                  <h2 class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
+                      Casual
+                  </h2>
+              </div>
+              <div class="flex-shrink-0">
+                  <span
+                      class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
+                  >
+                      Free
+                  </span>
+              </div>
+              <ul class="flex-1 space-y-4">
+                  <li class="text-gray-500 dark:text-gray-400">
+                      Up to 5 projects
+                  </li>
+                  <li class="text-gray-500 dark:text-gray-400">
+                      Up to 10 collaborators
+                  </li>
+                  <li class="text-gray-500 dark:text-gray-400">
+                      2Gb of storage
+                  </li>
+              </ul>
+
+              <button
+                  class="inline-flex items-center justify-center px-4 py-2 font-medium text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+              >
+                  Start free
+              </button>
+          </div>
+
+          <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
+              <div class="flex-shrink-0">
+                  <h2
+                      class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
+                  >
+                      Professional
+                  </h2>
+              </div>
+              <div class="flex-shrink-0">
+                  <span
+                      class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
+                  >
+                      $24.90
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                      /month
+                  </span>
+              </div>
+              <ul class="flex-1 space-y-4">
+                  <li class="text-gray-500 dark:text-gray-400">
+                      Up to 10 projects
+                  </li>
+                  <li class="text-gray-500 dark:text-gray-400">
+                      Up to 20 collaborators
+                  </li>
+                  <li class="text-gray-500 dark:text-gray-400">
+                      10Gb of storage
+                  </li>
+                  <li class="text-gray-500 dark:text-gray-400">
+                      Real-time collaborations
+                  </li>
+              </ul>
+
+              <button
+                  class="inline-flex items-center justify-center px-4 py-2 font-medium text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+              >
+                  Start free trial
+              </button>
+          </div>
+
+          <div class="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
+              <div class="flex-shrink-0">
+                  <h2
+                      class="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
+                  >
+                      Expert
+                  </h2>
+              </div>
+              <div class="flex-shrink-0">
+                  <span
+                      class="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
+                  >
+                      $49.90
+                  </span>
+                  <span class="text-gray-500 dark:text-gray-400">
+                      /month
+                  </span>
+              </div>
+              <ul class="flex-1 space-y-4">
+                  <li class="text-gray-500 dark:text-gray-400">
+                      Unlimited projects
+                  </li>
+                  <li class="text-gray-500 dark:text-gray-400">
+                      Unlimited collaborators
+                  </li>
+                  <li class="text-gray-500 dark:text-gray-400">
+                      Unlimited storage
+                  </li>
+                  <li class="text-gray-500 dark:text-gray-400">
+                      Real-time collaborations
+                  </li>
+                  <li class="text-gray-500 dark:text-gray-400">
+                      24x7 Support
+                  </li>
+              </ul>
+
+              <button
+                  class="inline-flex items-center justify-center px-4 py-2 font-medium text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
+              >
+                  Start free trial
+              </button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<!-- ------------------------------------------------------ -->
+
+<div class="bg-white dark:bg-gray-900">
+  <div class="container px-6 py-8 mx-auto">
+      <div class="xl:items-center xl:-mx-8 xl:flex">
+          <div class="flex flex-col items-center xl:items-start xl:mx-8">
+              <h1 class="text-3xl font-medium text-gray-800 capitalize lg:text-4xl dark:text-white">Our Pricing Plan</h1>
+
+              <div class="mt-4">
+                  <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+                  <span class="inline-block w-3 h-1 mx-1 bg-blue-500 rounded-full"></span>
+                  <span class="inline-block w-1 h-1 bg-blue-500 rounded-full"></span>
+              </div>
+
+              <p class="mt-4 font-medium text-gray-500 dark:text-gray-300">
+                  You can get All Access by selecting your plan!
+              </p>
+
+              <a href="#" class="flex items-center mt-4 -mx-1 text-sm text-gray-700 capitalize dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+                  <span class="mx-1">read more</span>
+                  <svg class="w-4 h-4 mx-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              </a>
+          </div>
+
+          <div class="flex-1 xl:mx-8">
+              <div class="mt-8 space-y-8 md:-mx-4 md:flex md:items-center md:justify-center md:space-y-0 xl:mt-0">
+                  <div class="max-w-sm mx-auto border rounded-lg md:mx-4 dark:border-gray-700">
+                      <div class="p-6">
+                          <h1 class="text-xl font-medium text-gray-700 capitalize lg:text-3xl dark:text-white">Essential</h1>
+
+                          <p class="mt-4 text-gray-500 dark:text-gray-300">
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
+                          </p>
+
+                          <h2 class="mt-4 text-2xl font-medium text-gray-700 sm:text-4xl dark:text-gray-300">$3.00 <span class="text-base font-medium">/Month</span></h2>
+
+                          <p class="mt-1 text-gray-500 dark:text-gray-300">
+                              Yearly payment
+                          </p>
+
+                          <button class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                              Start Now
+                          </button>
+                      </div>
+
+                      <hr class="border-gray-200 dark:border-gray-700">
+
+                      <div class="p-6">
+                          <h1 class="text-lg font-medium text-gray-700 capitalize lg:text-xl dark:text-white">What’s included:</h1>
+
+                          <div class="mt-8 space-y-4">
+                              <div class="flex items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                  </svg>
+
+                                  <span class="mx-4 text-gray-700 dark:text-gray-300">All limited links</span>
+                              </div>
+
+                              <div class="flex items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                  </svg>
+
+                                  <span class="mx-4 text-gray-700 dark:text-gray-300">Own analytics platform</span>
+                              </div>
+
+                              <div class="flex items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                  </svg>
+
+                                  <span class="mx-4 text-gray-700 dark:text-gray-300">Chat support</span>
+                              </div>
+
+                              <div class="flex items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                  </svg>
+
+                                  <span class="mx-4 text-gray-700 dark:text-gray-300">Optimize hashtags</span>
+                              </div>
+
+                              <div class="flex items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fill-rule="evenodd" d="M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z" clip-rule="evenodd" />
+                                  </svg>
+
+                                  <span class="mx-4 text-gray-700 dark:text-gray-300">Mobile app</span>
+                              </div>
+
+                              <div class="flex items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fill-rule="evenodd" d="M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z" clip-rule="evenodd" />
+                                  </svg>
+
+                                  <span class="mx-4 text-gray-700 dark:text-gray-300">Unlimited users</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="max-w-sm mx-auto border rounded-lg md:mx-4 dark:border-gray-700">
+                      <div class="p-6">
+                          <h1 class="text-xl font-medium text-gray-700 capitalize lg:text-3xl dark:text-white">Premium</h1>
+
+                          <p class="mt-4 text-gray-500 dark:text-gray-300">
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
+                          </p>
+
+                          <h2 class="mt-4 text-2xl font-medium text-gray-700 sm:text-4xl dark:text-gray-300">$50.00 <span class="text-base font-medium">/life time</span></h2>
+
+                          <p class="mt-1 text-gray-500 dark:text-gray-300">
+                              One time payment
+                          </p>
+
+                          <button class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                              Start Now
+                          </button>
+                      </div>
+
+                      <hr class="border-gray-200 dark:border-gray-700">
+
+                      <div class="p-6">
+                          <h1 class="text-lg font-medium text-gray-700 capitalize lg:text-xl dark:text-white">What’s included:</h1>
+
+                          <div class="mt-8 space-y-4">
+                              <div class="flex items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                  </svg>
+
+                                  <span class="mx-4 text-gray-700 dark:text-gray-300">All limited links</span>
+                              </div>
+
+                              <div class="flex items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                  </svg>
+
+                                  <span class="mx-4 text-gray-700 dark:text-gray-300">Own analytics platform</span>
+                              </div>
+
+                              <div class="flex items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                  </svg>
+
+                                  <span class="mx-4 text-gray-700 dark:text-gray-300">Chat support</span>
+                              </div>
+
+                              <div class="flex items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                  </svg>
+
+                                  <span class="mx-4 text-gray-700 dark:text-gray-300">Optimize hashtags</span>
+                              </div>
+
+                              <div class="flex items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                  </svg>
+
+                                  <span class="mx-4 text-gray-700 dark:text-gray-300">Mobile app</span>
+                              </div>
+
+                              <div class="flex items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                  </svg>
+
+                                  <span class="mx-4 text-gray-700 dark:text-gray-300">Unlimited users</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<!-- ------------------------------------------------------ -->
+
+<section class="bg-white dark:bg-gray-800">
+  <div class="container px-6 py-8 mx-auto">
+      <div class="max-w-2xl p-1.5 mx-auto overflow-hidden bg-gray-100 rounded-lg dark:bg-gray-700">
+          <div class="grid gap-3 md:grid-cols-3">
+              <button class="px-3 py-2 font-medium text-gray-800 uppercase transition-colors duration-200 transform bg-transparent rounded-lg focus:outline-none dark:text-gray-200 dark:hover:bg-gray-600 hover:bg-gray-200">Monthly</button>
+              
+              <button class="flex items-center justify-center px-3 py-2 font-medium text-gray-800 uppercase transition-colors duration-200 transform bg-gray-200 rounded-lg dark:bg-gray-600 focus:outline-none dark:text-gray-200">
+                  <span class="mx-1">Biannually</span>
+                  <span class="text-xs mx-1 font-normal text-white bg-blue-500 rounded-full py-0.5 px-1.5">save 10%</span>
+              </button>
+
+              <button class="flex items-center justify-center px-3 py-2 font-medium text-gray-800 uppercase transition-colors duration-200 transform bg-transparent rounded-lg focus:outline-none dark:text-gray-200 dark:hover:bg-gray-600 hover:bg-gray-200">
+                  <span class="mx-1">Annually</span>
+                  <span class="text-xs mx-1 font-normal text-white bg-blue-500 rounded-full py-0.5 px-1.5">save 20%</span>
+              </button>
+          </div>
+      </div>
+
+      <div class="flex flex-col items-center justify-center mt-16 space-y-6 md:items-end md:-mx-5 md:space-y-0 md:flex-row">
+          <div class="w-full px-6 py-4 transition-colors duration-200 transform rounded-lg md:mx-5 md:w-96 bg-gray-50 dark:bg-gray-700">
+              <div class="text-center">
+                  <p class="text-4xl font-semibold text-gray-800 dark:text-gray-100">Basic</p>
+                  <p class="mt-4 text-gray-500 dark:text-gray-300">Essentail Features</p>
+                  <h4 class="mt-2 text-gray-600 line-through dark:text-gray-400">$59.99</h4>
+                  <h4 class="mt-2 text-5xl font-semibold text-gray-800 dark:text-gray-100">$53.99</h4>
+                  <p class="mt-4 text-gray-500 dark:text-gray-300">/pre month</p>
+                  <p class="mt-4 text-gray-500 dark:text-gray-300">Bill all 6 months</p>
+
+              </div>
+
+              <div class="mt-8 space-y-8">
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">Access all features</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">5 wathclists included</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">Chat support</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">Optimize hashtags</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">5 exclusive widgets</span>
+                  </div>
+              </div>
+
+              <button class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                  Choose Basic
+              </button>
+          </div>
+
+          <div class="w-full overflow-hidden transition-colors duration-200 transform rounded-lg md:mx-5 md:w-96 bg-gray-50 dark:bg-gray-700">
+              <p class="py-2 text-sm text-center text-white uppercase bg-blue-500">Recommended by experts</p>
+              <div class="px-6 py-4">
+                  <div class="text-center">
+                      <p class="text-4xl font-semibold text-gray-800 dark:text-gray-100">Pro</p>
+                      <p class="mt-4 text-gray-500 dark:text-gray-300">Advance Features</p>
+                      <h4 class="mt-2 text-gray-600 line-through dark:text-gray-400">$89.99</h4>
+                      <h4 class="mt-2 text-5xl font-semibold text-gray-800 dark:text-gray-100">$80.99</h4>
+                      <p class="mt-4 text-gray-500 dark:text-gray-300">/pre month</p>
+                      <p class="mt-4 text-gray-500 dark:text-gray-300">Bill all 6 months</p>
+
+                  </div>
+
+                  <div class="mt-8 space-y-8">
+                      <div class="flex items-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                          </svg>
+
+                          <span class="mx-4 text-gray-700 dark:text-gray-300">Access all features</span>
+                      </div>
+
+                      <div class="flex items-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                          </svg>
+
+                          <span class="mx-4 text-gray-700 dark:text-gray-300">Unlimited wathclists</span>
+                      </div>
+
+                      <div class="flex items-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                          </svg>
+
+                          <span class="mx-4 text-gray-700 dark:text-gray-300">Chat support</span>
+                      </div>
+
+                      <div class="flex items-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                          </svg>
+
+                          <span class="mx-4 text-gray-700 dark:text-gray-300">Optimize hashtags</span>
+                      </div>
+
+                      <div class="flex items-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                          </svg>
+
+                          <span class="mx-4 text-gray-700 dark:text-gray-300">10+ exclusive pro widgets</span>
+                      </div>
+                  </div>
+
+                  <button class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                      Choose Pro
+                  </button>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<!-- ------------------------------------------------------ -->
+
+<div class="bg-white dark:bg-gray-900">
+  <div class="container px-6 py-8 mx-auto">
+      <p class="text-xl text-center text-gray-500 dark:text-gray-300">
+          Choose your plan
+      </p>
+
+      <h1 class="mt-4 text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">Pricing Plan</h1>
+  
+      
+      <div class="mt-6 space-y-8 xl:mt-12">
+          <div class="flex items-center justify-between max-w-2xl px-8 py-4 mx-auto border cursor-pointer rounded-xl dark:border-gray-700">
+              <div class="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-400 sm:h-9 sm:w-9" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                  </svg>
+
+                  <div class="flex flex-col items-center mx-5 space-y-1">
+                      <h2 class="text-lg font-medium text-gray-700 sm:text-2xl dark:text-gray-200">Basic</h2>
+                      <div class="px-2 text-xs text-blue-500 bg-gray-100 rounded-full sm:px-4 sm:py-1 dark:bg-gray-700 ">
+                          Save 20%
+                      </div>
+                  </div>
+              </div>
+              
+              <h2 class="text-2xl font-semibold text-gray-500 sm:text-4xl dark:text-gray-300">$49 <span class="text-base font-medium">/Month</span></h2>
+          </div>
+
+          <div class="flex items-center justify-between max-w-2xl px-8 py-4 mx-auto border border-blue-500 cursor-pointer rounded-xl">
+              <div class="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-600 sm:h-9 sm:w-9" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                  </svg>
+
+                  <div class="flex flex-col items-center mx-5 space-y-1">
+                      <h2 class="text-lg font-medium text-gray-700 sm:text-2xl dark:text-gray-200">Popular</h2>
+                      <div class="px-2 text-xs text-blue-500 bg-gray-100 rounded-full sm:px-4 sm:py-1 dark:bg-gray-700 ">
+                          Save 20%
+                      </div>
+                  </div>
+              </div>
+              
+              <h2 class="text-2xl font-semibold text-blue-600 sm:text-4xl">$99 <span class="text-base font-medium">/Month</span></h2>
+          </div>
+
+          <div class="flex items-center justify-between max-w-2xl px-8 py-4 mx-auto border cursor-pointer rounded-xl dark:border-gray-700">
+              <div class="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-400 sm:h-9 sm:w-9" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                  </svg>
+
+                  <div class="flex flex-col items-center mx-5 space-y-1">
+                      <h2 class="text-lg font-medium text-gray-700 sm:text-2xl dark:text-gray-200">Enterprise</h2>
+                      <div class="px-2 text-xs text-blue-500 bg-gray-100 rounded-full sm:px-4 sm:py-1 dark:bg-gray-700 ">
+                          Save 20%
+                      </div>
+                  </div>
+              </div>
+              
+              <h2 class="text-2xl font-semibold text-gray-500 sm:text-4xl dark:text-gray-300">$149 <span class="text-base font-medium">/Month</span></h2>
+          </div>
+
+          <div class="flex justify-center">
+              <button class="px-8 py-2 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                  Choose Plan
+              </button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<!-- ------------------------------------------------------ -->
+
+<div class="bg-white dark:bg-gray-900">
+  <div class="container px-6 py-8 mx-auto">
+      <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">Pricing Plan</h1>
+  
+      <p class="max-w-2xl mx-auto mt-4 text-center text-gray-500 xl:mt-6 dark:text-gray-300">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quas magni libero consequuntur voluptatum velit amet id repudiandae ea, deleniti laborum in neque eveniet.
+      </p>
+      
+      <div class="grid grid-cols-1 gap-8 mt-6 xl:mt-12 xl:gap-12 md:grid-cols-2 lg:grid-cols-3">
+          <div class="w-full p-8 space-y-8 text-center border border-gray-200 rounded-lg dark:border-gray-700">
+              <p class="font-medium text-gray-500 uppercase dark:text-gray-300">Free</p>
+
+              <h2 class="text-5xl font-bold text-gray-800 uppercase dark:text-gray-100">
+                  $0
+              </h2>
+
+              <p class="font-medium text-gray-500 dark:text-gray-300">Life time</p>
+
+              <button class="w-full px-4 py-2 mt-10 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                  Start Now
+              </button>
+          </div>
+
+              <div class="w-full p-8 space-y-8 text-center bg-blue-600 rounded-lg">
+              <p class="font-medium text-gray-200 uppercase">Premium</p>
+
+              <h2 class="text-5xl font-bold text-white uppercase dark:text-gray-100">
+                  $40
+              </h2>
+
+              <p class="font-medium text-gray-200">Per month</p>
+
+              <button class="w-full px-4 py-2 mt-10 tracking-wide text-blue-500 capitalize transition-colors duration-200 transform bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
+                  Start Now
+              </button>
+          </div>
+
+              <div class="w-full p-8 space-y-8 text-center border border-gray-200 rounded-lg dark:border-gray-700">
+              <p class="font-medium text-gray-500 uppercase dark:text-gray-300">Enterprise</p>
+
+              <h2 class="text-5xl font-bold text-gray-800 uppercase dark:text-gray-100">
+                  $100
+              </h2>
+
+              <p class="font-medium text-gray-500 dark:text-gray-300">Life time</p>
+
+              <button class="w-full px-4 py-2 mt-10 tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                  Start Now
+              </button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<!-- ------------------------------------------------------ -->
+
+<section class="bg-white dark:bg-gray-800">
+  <div class="container px-6 py-8 mx-auto">
+      <div class="sm:flex sm:items-center sm:justify-between">
+          <div>
+              <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">Simple, transparent pricing</h2>
+              <p class="mt-4 text-gray-500 dark:text-gray-400">No Contracts. No surorise fees.</p>
+          </div>
+
+          <div class="overflow-hidden p-0.5 mt-6 border rounded-lg dark:border-gray-700">
+              <div class="sm:-mx-0.5 flex">
+                  <button class=" focus:outline-none px-3 w-1/2 sm:w-auto py-1 sm:mx-0.5 text-white bg-blue-500 rounded-lg">Monthly</button>
+                  <button class=" focus:outline-none px-3 w-1/2 sm:w-auto py-1 sm:mx-0.5 text-gray-800 dark:text-gray-200 dark:hover:bg-gray-700 bg-transparent rounded-lg hover:bg-gray-200">Yearly</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="grid gap-6 mt-16 -mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div class="px-6 py-4 transition-colors duration-200 transform rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700">
+              <p class="text-lg font-medium text-gray-800 dark:text-gray-100">Intro</p>
+              <h4 class="mt-2 text-4xl font-semibold text-gray-800 dark:text-gray-100">$19 <span class="text-base font-normal text-gray-600 dark:text-gray-400">/ Month</span></h4>
+              <p class="mt-4 text-gray-500 dark:text-gray-300">For most businesses that want to optimaize web queries.</p>
+
+              <div class="mt-8 space-y-8">
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">All limited links</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">Own analytics platform</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">Chat support</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">Optimize hashtags</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">Unlimited users</span>
+                  </div>
+              </div>
+
+              <button class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                  Choose plan
+              </button>
+          </div>
+
+          <div class="px-6 py-4 transition-colors duration-200 transform rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700">
+              <p class="text-lg font-medium text-gray-800 dark:text-gray-100">Base</p>
+              <h4 class="mt-2 text-4xl font-semibold text-gray-800 dark:text-gray-100">$39 <span class="text-base font-normal text-gray-600 dark:text-gray-400">/ Month</span></h4>
+              <p class="mt-4 text-gray-500 dark:text-gray-300">For most businesses that want to optimaize web queries.</p>
+
+              <div class="mt-8 space-y-8">
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">All limited links</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">Own analytics platform</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">Chat support</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">Optimize hashtags</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">Unlimited users</span>
+                  </div>
+              </div>
+
+              <button class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                  Choose plan
+              </button>
+          </div>
+
+          <div class="px-6 py-4 transition-colors duration-200 transform bg-gray-700 rounded-lg dark:bg-gray-600">
+              <p class="text-lg font-medium text-gray-100">Popular</p>
+              <h4 class="mt-2 text-4xl font-semibold text-gray-100">$99 <span class="text-base font-normal text-gray-400">/ Month</span></h4>
+              <p class="mt-4 text-gray-300">For most businesses that want to optimaize web queries.</p>
+
+              <div class="mt-8 space-y-8">
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-300">All limited links</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-300">Own analytics platform</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-300">Chat support</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-300">Optimize hashtags</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-300">Unlimited users</span>
+                  </div>
+              </div>
+
+              <button class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                  Choose plan
+              </button>
+          </div>
+
+          <div class="px-6 py-4 transition-colors duration-200 transform rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700">
+              <p class="text-lg font-medium text-gray-800 dark:text-gray-100">Exterprise</p>
+              <h4 class="mt-2 text-4xl font-semibold text-gray-800 dark:text-gray-100">$199 <span class="text-base font-normal text-gray-600 dark:text-gray-400">/ Month</span></h4>
+              <p class="mt-4 text-gray-500 dark:text-gray-300">For most businesses that want to optimaize web queries.</p>
+
+              <div class="mt-8 space-y-8">
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">All limited links</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">Own analytics platform</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">Chat support</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">Optimize hashtags</span>
+                  </div>
+
+                  <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <span class="mx-4 text-gray-700 dark:text-gray-300">Unlimited users</span>
+                  </div>
+              </div>
+
+              <button class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                  Choose plan
+              </button>
+          </div>
+      </div>
+  </div>
+</section>
+
+</body>
+</html>
+

@@ -1,0 +1,345 @@
+<style>
+.bg-checker {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E"), linear-gradient(90deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0));
+  background-position: top left;
+  background-size: 1rem 1rem;
+}
+
+.font-sans {
+  font-family: "Kulim Park";
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: "nav nav nav" "aside main main";
+  grid-template-columns: 16rem auto auto;
+  grid-template-rows: auto;
+}
+.grid > .aside {
+  grid-area: aside;
+}
+.grid > .main {
+  grid-area: main;
+}
+.grid > .nav {
+  grid-area: nav;
+}
+
+.group:hover .group-hover\:block {
+  display: block;
+}
+.group:hover .group-hover\:text-green-500 {
+  color: #48bb78;
+}
+
+.push-right-6:last-child:after {
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  right: -1.5rem;
+  width: 1.5rem;
+}
+</style>
+<div class="antialiased bg-gray-100 grid font-sans h-screen">
+  <div class="border-b border-gray-300 border-solid nav px-6 py-4">Navigation</div>
+  <div class="aside bg-gray-200 border-gray-300 border-r border-solid overflow-y-auto px-3 py-6">
+    <h6 class="font-bold font-heading mb-3 text-gray-500 text-sm uppercase">Favorites</h6>
+    <ul class="flex-grow mb-3">
+      <li class="mb-1"><a class="bg-white flex rounded p-3 shadow hover:bg-white hover:shadow" href="#"><span>Favorite</span><span class="ml-auto">&raquo;</span></a></li>
+      <li class="mb-1"><a class="block rounded p-3 hover:bg-white hover:shadow" href="#">Favorite</a></li>
+      <li class="mb-1"><a class="block rounded p-3 hover:bg-white hover:shadow" href="#">Favorite</a></li>
+    </ul>
+    <h6 class="font-bold font-heading mb-3 text-gray-500 text-sm uppercase">Projects</h6>
+    <ul class="flex-grow">
+      <li class="mb-1"><a class="block rounded p-3 hover:bg-white hover:shadow" href="#">Project</a></li>
+      <li class="mb-1"><a class="block rounded p-3 hover:bg-white hover:shadow" href="#">Project</a></li>
+      <li class="mb-1"><a class="block rounded p-3 hover:bg-white hover:shadow" href="#">Project</a></li>
+      <li class="mb-1"><a class="block rounded p-3 hover:bg-white hover:shadow" href="#">Project</a></li>
+      <li class="mb-1"><a class="block rounded p-3 hover:bg-white hover:shadow" href="#">Project</a></li>
+    </ul>
+  </div>
+  <div class="main flex overflow-x-auto p-6 rounded-lg">
+    <div class="flex flex-col flex-shrink-0 mr-3 push-right-6 relative w-64">
+      <div class="bg-red-500 bg-checker flex items-center -mb-6 mx-3 pb-2 pt-4 px-3 relative rounded z-20">
+        <h4 class="font-bold font-heading text-2xl text-white">16 Tasks</h4><a class="bg-white ml-auto rounded px-2 py-1 shadow text-red-500 hover:bg-white hover:shadow" href="#">&plus;</a>
+      </div>
+      <ul class="bg-white flex-grow px-3 pt-6 mt-3 overflow-y-auto rounded shadow-md">
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#0">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#1">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#2">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#3">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#4">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#5">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#6">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#7">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#8">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#9">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#10">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#11">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#12">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#13">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#14">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#15">
+            <div class="flex items-stretch p-2">
+              <div class="bg-red-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+      </ul>
+    </div>
+    <div class="flex flex-col flex-shrink-0 mr-3 push-right-6 relative w-64">
+      <div class="bg-orange-500 bg-checker flex items-center -mb-6 mx-3 pb-2 pt-4 px-3 relative rounded z-20">
+        <h4 class="font-bold font-heading text-2xl text-white">12 Tasks</h4><a class="bg-white ml-auto rounded px-2 py-1 shadow text-orange-500 hover:bg-white hover:shadow" href="#">&plus;</a>
+      </div>
+      <ul class="bg-white flex-grow px-3 pt-6 mt-3 overflow-y-auto rounded shadow-md">
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#0">
+            <div class="flex items-stretch p-2">
+              <div class="bg-orange-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#1">
+            <div class="flex items-stretch p-2">
+              <div class="bg-orange-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#2">
+            <div class="flex items-stretch p-2">
+              <div class="bg-orange-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#3">
+            <div class="flex items-stretch p-2">
+              <div class="bg-orange-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#4">
+            <div class="flex items-stretch p-2">
+              <div class="bg-orange-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#5">
+            <div class="flex items-stretch p-2">
+              <div class="bg-orange-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#6">
+            <div class="flex items-stretch p-2">
+              <div class="bg-orange-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#7">
+            <div class="flex items-stretch p-2">
+              <div class="bg-orange-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#8">
+            <div class="flex items-stretch p-2">
+              <div class="bg-orange-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#9">
+            <div class="flex items-stretch p-2">
+              <div class="bg-orange-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#10">
+            <div class="flex items-stretch p-2">
+              <div class="bg-orange-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#11">
+            <div class="flex items-stretch p-2">
+              <div class="bg-orange-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+      </ul>
+    </div>
+    <div class="flex flex-col flex-shrink-0 mr-3 push-right-6 relative w-64">
+      <div class="bg-blue-500 bg-checker flex items-center -mb-6 mx-3 pb-2 pt-4 px-3 relative rounded z-20">
+        <h4 class="font-bold font-heading text-2xl text-white">4 Tasks</h4><a class="bg-white ml-auto rounded px-2 py-1 shadow text-blue-500 hover:bg-white hover:shadow" href="#">&plus;</a>
+      </div>
+      <ul class="bg-white flex-grow px-3 pt-6 mt-3 overflow-y-auto rounded shadow-md">
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#0">
+            <div class="flex items-stretch p-2">
+              <div class="bg-blue-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#1">
+            <div class="flex items-stretch p-2">
+              <div class="bg-blue-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#2">
+            <div class="flex items-stretch p-2">
+              <div class="bg-blue-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#3">
+            <div class="flex items-stretch p-2">
+              <div class="bg-blue-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+      </ul>
+    </div>
+    <div class="flex flex-col flex-shrink-0 mr-3 push-right-6 relative w-64">
+      <div class="bg-indigo-500 bg-checker flex items-center -mb-6 mx-3 pb-2 pt-4 px-3 relative rounded z-20">
+        <h4 class="font-bold font-heading text-2xl text-white">8 Tasks</h4><a class="bg-white ml-auto rounded px-2 py-1 shadow text-indigo-500 hover:bg-white hover:shadow" href="#">&plus;</a>
+      </div>
+      <ul class="bg-white flex-grow px-3 pt-6 mt-3 overflow-y-auto rounded shadow-md">
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#0">
+            <div class="flex items-stretch p-2">
+              <div class="bg-indigo-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#1">
+            <div class="flex items-stretch p-2">
+              <div class="bg-indigo-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#2">
+            <div class="flex items-stretch p-2">
+              <div class="bg-indigo-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#3">
+            <div class="flex items-stretch p-2">
+              <div class="bg-indigo-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#4">
+            <div class="flex items-stretch p-2">
+              <div class="bg-indigo-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#5">
+            <div class="flex items-stretch p-2">
+              <div class="bg-indigo-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#6">
+            <div class="flex items-stretch p-2">
+              <div class="bg-indigo-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#7">
+            <div class="flex items-stretch p-2">
+              <div class="bg-indigo-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+      </ul>
+    </div>
+    <div class="flex flex-col flex-shrink-0 mr-3 push-right-6 relative w-64">
+      <div class="bg-gray-500 bg-checker flex items-center -mb-6 mx-3 pb-2 pt-4 px-3 relative rounded z-20">
+        <h4 class="font-bold font-heading text-2xl text-white">1 Tasks</h4><a class="bg-white ml-auto rounded px-2 py-1 shadow text-gray-500 hover:bg-white hover:shadow" href="#">&plus;</a>
+      </div>
+      <ul class="bg-white flex-grow px-3 pt-6 mt-3 overflow-y-auto rounded shadow-md">
+        <li class="mb-3"><a class="bg-gray-100 block group relative rounded hover:shadow" href="#0">
+            <div class="flex items-stretch p-2">
+              <div class="bg-gray-500 mr-3 opacity-75 rounded w-2"></div>
+              <p class="mr-3 py-2 text-gray-900">Convert the document to a web page</p>
+            </div>
+            <div class="absolute bg-gray-200 bottom-0 group-hover:block hidden py-1 px-2 right-0 rounded-br rounded-tl text-gray-700 text-xs">&#9776;</div></a></li>
+      </ul>
+    </div>
+  </div>
+</div>

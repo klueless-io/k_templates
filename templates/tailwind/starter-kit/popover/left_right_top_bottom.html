@@ -1,0 +1,72 @@
+<div class="flex flex-wrap">
+  <div class="w-full text-center">
+    <button class="bg-amber-500 text-white active:bg-amber-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onclick="openPopover(event,'left','popover-id-left-amber')">
+      left amber
+    </button>
+    <div class="hidden bg-amber-600 border-0 mr-3 block z-50 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg" id="popover-id-left-amber">
+      <div>
+        <div class="bg-amber-600 text-white opacity-75 font-semibold p-3 mb-0 border-b border-solid border-blueGray-100 uppercase rounded-t-lg">
+          amber popover title
+        </div>
+        <div class="text-white p-3">
+          And here's some amazing content. It's very engaging. Right?
+        </div>
+      </div>
+    </div>
+
+    <button class="bg-amber-500 text-white active:bg-amber-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onclick="openPopover(event,'right','popover-id-right-amber')">
+      right amber
+    </button>
+    <div class="hidden bg-amber-600 border-0 mr-3 block z-50 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg" id="popover-id-right-amber">
+      <div>
+        <div class="bg-amber-600 text-white opacity-75 font-semibold p-3 mb-0 border-b border-solid border-blueGray-100 uppercase rounded-t-lg">
+          amber popover title
+        </div>
+        <div class="text-white p-3">
+          And here's some amazing content. It's very engaging. Right?
+        </div>
+      </div>
+    </div>
+
+    <button class="bg-amber-500 text-white active:bg-amber-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onclick="openPopover(event,'bottom','popover-id-bottom-amber')">
+      bottom amber
+    </button>
+    <div class="hidden bg-amber-600 border-0 mr-3 block z-50 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg" id="popover-id-bottom-amber">
+      <div>
+        <div class="bg-amber-600 text-white opacity-75 font-semibold p-3 mb-0 border-b border-solid border-blueGray-100 uppercase rounded-t-lg">
+          amber popover title
+        </div>
+        <div class="text-white p-3">
+          And here's some amazing content. It's very engaging. Right?
+        </div>
+      </div>
+    </div>
+
+    <button class="bg-amber-500 text-white active:bg-amber-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onclick="openPopover(event,'top','popover-id-top-amber')">
+      top amber
+    </button>
+    <div class="hidden bg-amber-600 border-0 mr-3 block z-50 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg" id="popover-id-top-amber">
+      <div>
+        <div class="bg-amber-600 text-white opacity-75 font-semibold p-3 mb-0 border-b border-solid border-blueGray-100 uppercase rounded-t-lg">
+          amber popover title
+        </div>
+        <div class="text-white p-3">
+          And here's some amazing content. It's very engaging. Right?
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function openPopover(event,placement,popoverID){
+    let element = event.target;
+    while(element.nodeName !== "BUTTON"){
+      element = element.parentNode;
+    }
+    Popper.createPopper(element, document.getElementById(popoverID), {
+      placement: placement
+    });
+    document.getElementById(popoverID).classList.toggle("hidden");
+  }
+</script>

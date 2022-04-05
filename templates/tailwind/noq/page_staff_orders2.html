@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NoQ</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="importmap">
+    { 
+      "imports": {
+        "vue": "https://unpkg.com/vue@3.0.11/dist/vue.esm-browser.js",
+        "vue-router": "https://unpkg.com/vue-router@4.0.5/dist/vue-router.esm-browser.js",
+        "sortable": "//cdn.jsdelivr.net/npm/sortablejs@1.10.2/Sortable.min.js",
+        "vuedraggable": "https://cdn.jsdelivr.net/npm/vuedraggable@4.1.0/dist/vuedraggable.umd.min.js"
+      } 
+    }
+    </script> 
+    <!--
+      <script src="//cdn.jsdelivr.net/npm/sortablejs@1.10.2/Sortable.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/Vue.Draggable/4.0.0/vuedraggable.umd.min.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sortablejs@1.10.2/Sortable.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/Vue.Draggable/4.0.0/vuedraggable.umd.min.js"></script>
+    -->
+<!-- 
+    <script src="//cdn.jsdelivr.net/npm/sortablejs@1.8.4/Sortable.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/Vue.Draggable/2.20.0/vuedraggable.umd.min.js"></script> -->
+
+
+    <script src="./main.js" type="module"></script>
+</head>
+<body>
+
+{{#if page.stretch}}<div class="flex flex-col h-screen justify-between">{{/if}}
+{{#each components}}
+{{{content}}}
+{{/each}}
+{{#if page.stretch}}</div>{{/if}}
+
+<script type="text/javascript">
+  function toggleModal(modalID){
+    document.getElementById(modalID).classList.toggle("hidden");
+    document.getElementById(modalID + "-backdrop").classList.toggle("hidden");
+    document.getElementById(modalID).classList.toggle("flex");
+    document.getElementById(modalID + "-backdrop").classList.toggle("flex");
+  }
+
+  function toggleNavbar(dropdownID){
+    document.getElementById(dropdownID).classList.toggle("hidden");
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 mt-12 mb-12">
+  <div class="grid grid-cols-6 gap-4">
+    <div class="col-start-1 col-span-2">
+
+      <article class="bg-white group relative rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform duration-200">
+        <div class="relative w-full h-80 md:h-64 lg:h-44">
+            <img src="{{order.shop.image}}"
+                alt="{{order.shop.name}}"
+                class="w-full h-full object-center object-cover">
+        </div>
+        <div class="px-3 py-4">
+            <h3 class="text-sm text-gray-500 pb-2">
+                <a class="bg-indigo-600 py-1 px-2 text-white rounded-lg" href="#">
+                    <span class="absolute inset-0"></span>
+                    {{order.shop.name}}
+                </a>
+            </h3>
+            <span>
+              <a href="#" class="bg-indigo-200 hover:bg-gray-200 text-white text-center py-1 px-4 mr-1 rounded-lg">
+                Connect
+              </a>
+            
+              <a href="#" class="bg-indigo-200 hover:bg-gray-200 text-white text-center py-1 px-4 mr-1 rounded-lg">
+                Menu
+              </a>
+    
+              <a href="#" class="bg-indigo-200 hover:bg-gray-200 text-white text-center py-1 px-4 mr-1 rounded-lg">
+                More
+              </a>
+            </span>
+        </div>
+      </article>
+
+    </div>
+    <div class="col-span-4">
+
+      <div class="w-full">
+        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
+          <div class="rounded-t mb-0 px-4 py-3 border-0">
+            <div class="flex flex-wrap items-center">
+              <div class="relative w-full px-4 max-w-full flex-grow flex-1">
+                <h3 class="font-semibold text-base text-blueGray-700">
+                  Order
+                </h3>
+              </div>
+              <div class="relative w-full px-4 max-w-full flex-grow flex-1 text-right">
+                <button class="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1" type="button" style="transition:all .15s ease">
+                  Place Order
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="block w-full overflow-x-auto">
+            <!-- Projects table -->
+            <table class="items-center w-full bg-transparent border-collapse">
+              <thead class="thead-light">
+                <tr>
+                  <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-1 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                    Item
+                  </th>
+                  <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-1 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                    Options
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {{#each order.order_items}}
+                <tr>
+                  <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+                    {{titleize item}}
+                  </th>
+                  <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                    {{#each options}}
+                      <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-blue-200 uppercase last:mr-0 mr-1">
+                        {{.}}
+                      </span>
+                    {{/each}}
+                  </td>
+                  <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+                    $ {{price}}
+                  </th>
+                  <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
+                    [EDIT] | [X]
+                  </th>
+                </tr>
+                {{/each}}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
