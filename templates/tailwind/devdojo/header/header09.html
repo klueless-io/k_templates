@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tails Downloaded File</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+    
+</head>
+<body>
+
+<!-- Section 1 -->
+<section class="relative bg-white">
+    <nav class="w-full select-none">
+        <div class="flex items-center justify-between h-20 px-8 py-2 mx-auto max-w-7xl md:h-24 sm:box-content">
+            <div class="flex items-center w-64">
+                <a href="#_" class="flex items-center order-first font-medium text-gray-900 lg:order-none lg:w-auto title-font lg:items-center lg:justify-center">
+                    <span class="text-xl font-black leading-none text-gray-900 select-none logo">tails<span class="text-indigo-600">.</span></span>
+                </a>
+            </div>
+            <div x-data="{ showMenu: false }">
+                <div @click="showMenu = true" class="text-gray-500 cursor-pointer sm:block md:hidden lg:hidden hover:text-gray-700 focus:text-gray-700 focus:outline-none">
+                    <svg aria-haspopup="true" aria-label="Main Menu" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"></path><line x1="4" y1="8" x2="20" y2="8"></line><line x1="4" y1="16" x2="20" y2="16"></line></svg>
+                </div>
+                <div class="md:block lg:block">
+                    <div @click="showMenu = false" x-show="showMenu" class="fixed top-0 z-30 block text-gray-500 cursor-pointer pt-7 sm:pt-8 md:hidden lg:hidden hover:text-gray-700 focus:text-gray-700 focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"></path><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </div>
+                    <ul class="fixed top-0 bottom-0 left-0 right-0 z-20 flex flex-col items-center justify-center py-8 space-y-8 text-3xl bg-white md:space-y-0 md:bg-none md:text-base md:flex md:flex-row md:relative" :class="{ 'hidden': !showMenu }">
+                        <li class="text-gray-600 cursor-pointer hover:text-gray-800 md:ml-10"><a href="#_">Features</a></li>
+                        <li class="text-gray-600 cursor-pointer hover:text-gray-800 md:ml-10"><a href="#_">Pricing</a></li>
+                        <li class="text-gray-600 cursor-pointer hover:text-gray-800 md:ml-10"><a href="#_">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="w-full sm:px-6">
+        <div class="relative flex flex-col items-center px-8 pt-12 pb-24 mx-auto sm:rounded-lg bg-gradient-to-br from-indigo-600 to-purple-600 max-w-7xl sm:pt-20 sm:pb-32 md:pb-48 lg:pb-56 xl:pb-64 sm:px-0">
+
+            <div class="w-full mb-5 sm:w-11/12 lg:w-2/3 lg:mb-10">
+                <h1 class="pt-5 text-2xl font-bold text-left text-white md:pt-8 sm:text-center lg:pt-20 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+                    You can now design your site <br class="hidden sm:block"> quicker than ever before
+                </h1>
+            </div>
+            <div class="flex flex-col items-center justify-center w-full mb-10 sm:flex-row sm:mb-20">
+                <a href="#_" class="w-full px-8 py-3 text-lg text-center text-indigo-600 transition duration-150 ease-in-out bg-white rounded-md sm:w-auto focus:outline-none">Get Started</a>
+                <a href="#_" class="w-full px-8 py-3 mt-5 ml-3 text-lg text-center text-white transition duration-150 ease-in-out bg-transparent border border-white rounded-md sm:ml-6 sm:w-auto sm:mt-0 focus:outline-none hover:bg-white hover:text-indigo-600">Learn More</a>
+            </div>
+
+        </div>
+        <div class="container flex justify-center mx-auto -mt-20 md:-mt-56 sm:-mt-40">
+            <div class="relative w-11/12 sm:w-2/3">
+                <div class="overflow-hidden border border-gray-300 rounded-b-none rounded-xl">
+                    <div class="h-12 flex items-center pl-3.5 justify-start border-b bg-white border-gray-300 w-full">
+                        <div class="flex space-x-1.5">
+                            <div class="w-3 h-3 bg-red-400 rounded-full"></div>
+                            <div class="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                            <div class="w-3 h-3 bg-green-400 rounded-full"></div>
+                        </div>
+                    </div>
+                    <div class="box-content w-full h-auto bg-gray-100">
+                        <img src="https://cdn.devdojo.com/images/december2020/dash-img.png?w=1600&amp;h=770&amp;fit=crop&amp;crop=top">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- AlpineJS Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js"></script>
+
+</body>
+</html>

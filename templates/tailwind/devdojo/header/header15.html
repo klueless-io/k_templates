@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tails Downloaded File</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+    
+</head>
+<body>
+
+<!-- Section 1 -->
+<section class="w-full px-6 pt-3 overflow-hidden bg-white xl:px-8">
+    <div class="absolute top-0 left-0 w-full h-3 bg-gradient-to-r from-indigo-600 via-blue-500 to-green-400"></div>
+    <nav x-data="{ mobile: false }" class="relative pt-6 mx-auto md:pb-6 max-w-7xl md:flex md:justify-between md:items-center">
+        <div class="relative z-20 flex items-center justify-between">
+            <div>
+                <a class="text-xl font-bold text-gray-800 md:text-2xl hover:text-gray-700" href="#_">
+                    <svg class="w-auto h-6 text-gray-900 fill-current md:-mt-2" viewBox="0 0 130 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill-rule="evenodd">
+                            <path d="M14.66 28.28V50H3.8V28.28H.2v-9.06h3.6V9.98h10.86v9.24h6.18v9.06h-6.18zm20.94 6.24a7.186 7.186 0 002.01 5.04c.62.64 1.36 1.14 2.22 1.5.86.36 1.79.54 2.79.54.96 0 1.87-.18 2.73-.54.86-.36 1.6-.86 2.22-1.5.62-.64 1.12-1.38 1.5-2.22.38-.84.57-1.74.57-2.7 0-.96-.19-1.87-.57-2.73-.38-.86-.88-1.61-1.5-2.25a6.599 6.599 0 00-2.22-1.5c-.86-.36-1.77-.54-2.73-.54-1 0-1.93.18-2.79.54-.86.36-1.6.86-2.22 1.5-.62.64-1.11 1.37-1.47 2.19-.36.82-.54 1.71-.54 2.67zm13.68-15.3H60.2V50H49.28v-3.42c-2.32 2.92-5.46 4.38-9.42 4.38-2.24 0-4.3-.41-6.18-1.23-1.88-.82-3.52-1.97-4.92-3.45-1.4-1.48-2.49-3.22-3.27-5.22-.78-2-1.17-4.18-1.17-6.54 0-2.2.38-4.29 1.14-6.27.76-1.98 1.82-3.71 3.18-5.19 1.36-1.48 2.98-2.65 4.86-3.51 1.88-.86 3.96-1.29 6.24-1.29 3.84 0 7.02 1.34 9.54 4.02v-3.06zm29.16 0V50H67.58V19.22h10.86zM66.86 7.4c0-.84.16-1.63.48-2.37a6.224 6.224 0 013.27-3.27c.74-.32 1.53-.48 2.37-.48.84 0 1.63.16 2.37.48a6.224 6.224 0 013.27 3.27c.32.74.48 1.53.48 2.37 0 .84-.16 1.63-.48 2.37a6.224 6.224 0 01-3.27 3.27c-.74.32-1.53.48-2.37.48-.84 0-1.63-.16-2.37-.48a6.224 6.224 0 01-3.27-3.27c-.32-.74-.48-1.53-.48-2.37zM96.74.2V50H85.88V.2h10.86zm27.84 26.94c-2-1.04-3.96-1.56-5.88-1.56-1 0-1.81.2-2.43.6-.62.4-.93.94-.93 1.62 0 .36.05.65.15.87.1.22.32.43.66.63s.84.38 1.5.54c.66.16 1.53.36 2.61.6 3 .6 5.24 1.67 6.72 3.21 1.48 1.54 2.22 3.51 2.22 5.91 0 1.8-.36 3.42-1.08 4.86-.72 1.44-1.72 2.65-3 3.63s-2.82 1.74-4.62 2.28c-1.8.54-3.78.81-5.94.81-4.16 0-8.26-1.18-12.3-3.54l3.96-7.68c3.04 2.08 5.92 3.12 8.64 3.12 1 0 1.82-.22 2.46-.66.64-.44.96-1 .96-1.68 0-.4-.05-.73-.15-.99-.1-.26-.31-.5-.63-.72-.32-.22-.79-.42-1.41-.6-.62-.18-1.43-.37-2.43-.57-3.36-.68-5.71-1.69-7.05-3.03-1.34-1.34-2.01-3.19-2.01-5.55 0-1.72.32-3.27.96-4.65a9.628 9.628 0 012.76-3.51c1.2-.96 2.65-1.7 4.35-2.22 1.7-.52 3.59-.78 5.67-.78 3.4 0 6.7.66 9.9 1.98l-3.66 7.08z" fill-rule="nonzero"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Mobile menu button -->
+            <div @click="mobile = !mobile" class="flex md:hidden">
+                <button type="button" class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600" aria-label="toggle menu">
+                    <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
+                        <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+        <div :class="{ 'hidden' : !mobile, 'flex': mobile }" class="left-0 z-10 items-center justify-center w-full font-semibold select-none md:flex lg:absolute">
+            <div class="flex flex-col justify-center w-full mt-4 space-y-2 md:mt-0 md:flex-row md:space-x-6 lg:space-x-10 xl:space-x-16 md:space-y-0">
+                <div x-data="{ isOpen: false }" @mouseenter="isOpen = true" @mouseleave="isOpen = false" class="relative py-3">
+                    <div class="relative z-10 flex items-center space-x-1 text-gray-800 cursor-pointer lg:space-x-3 hover:text-gray-700 focus:outline-none">
+                        <span>Product</span>
+                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+
+                    <div x-show="isOpen" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 z-20 z-30 w-full p-3 mt-3 -ml-0 space-y-2 overflow-hidden transform bg-white shadow-lg lg:left-1/2 lg:-ml-48 md:w-96 rounded-xl ring-1 ring-black ring-opacity-5" x-cloak="">
+
+                        <a href="#_" class="block px-4 py-3 pr-0 text-base text-gray-700 cursor-pointer hover:bg-gray-50 rounded-xl hover:text-gray-800">
+                            <span class="flex items-start space-x-1 md:space-x-3">
+                                <svg class="flex-shrink-0 mt-1 text-blue-500 w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path>
+                                </svg>
+                                <span class="flex flex-col">
+                                    <span>Drag'n Drop</span>
+                                    <span class="text-sm font-normal text-gray-400">Simple drag'n drop tailwind page creator.</span>
+                                </span>
+                            </span>
+                        </a>
+                        <a href="#_" class="block px-4 py-3 pr-0 text-base text-gray-700 cursor-pointer hover:bg-gray-50 rounded-xl hover:text-gray-800">
+                            <span class="flex items-start space-x-4">
+                                <svg class="flex-shrink-0 mt-1 text-blue-500 w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                                </svg>
+                                <span class="flex flex-col">
+                                    <span>Premium Tools</span>
+                                    <span class="text-sm font-normal text-gray-400">Gain access to the ultimate set of tools.</span>
+                                </span>
+                            </span>
+                        </a>
+                        <a href="#_" class="block px-4 py-3 pr-0 text-base text-gray-700 cursor-pointer hover:bg-gray-50 rounded-xl hover:text-gray-800">
+                            <span class="flex items-start space-x-4">
+                                <svg class="flex-shrink-0 mt-1 text-blue-500 w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                </svg>
+                                <span class="flex flex-col">
+                                    <span>Community</span>
+                                    <span class="text-sm font-normal text-gray-400">A community of creators like yourself.</span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <a class="py-3 text-gray-800 hover:text-gray-700 hover:underline" href="#_">Pricing</a>
+                <div x-data="{ isOpen: false }" @mouseenter="isOpen = true" @mouseleave="isOpen = false" class="relative py-3">
+                    <div class="relative z-10 flex items-center space-x-1 text-gray-800 cursor-pointer lg:space-x-3 hover:text-gray-700 focus:outline-none">
+                        <span>Features</span>
+                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+
+                    <div x-show="isOpen" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 z-20 z-30 w-full p-3 mt-3 -ml-0 space-y-2 overflow-hidden transform bg-white shadow-lg lg:left-1/2 lg:-ml-24 md:w-48 rounded-xl ring-1 ring-black ring-opacity-5" x-cloak="">
+
+                        <a href="#_" class="block px-4 py-3 text-sm text-gray-700 capitalize cursor-pointer hover:bg-gray-50 rounded-xl hover:text-gray-800">
+                            Design Faster
+                        </a>
+                        <a href="#_" class="block px-4 py-3 text-sm text-gray-700 capitalize hover:bg-gray-50 rounded-xl hover:text-gray-800">
+                            Easily Export
+                        </a>
+                        <a href="#_" class="block px-4 py-3 text-sm text-gray-700 capitalize hover:bg-gray-50 rounded-xl hover:text-gray-800">
+                            Unlimited Combos
+                        </a>
+                        <a href="#_" class="block px-4 py-3 text-sm text-gray-700 capitalize hover:bg-gray-50 rounded-xl hover:text-gray-800">
+                            And More
+                        </a>
+                    </div>
+                </div>
+                <div x-data="{ isOpen: false }" @mouseenter="isOpen = true" @mouseleave="isOpen = false" class="relative py-3">
+                    <div class="relative z-10 flex items-center space-x-1 text-gray-800 cursor-pointer lg:space-x-3 hover:text-gray-700 focus:outline-none">
+                        <span>Resources</span>
+                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+
+                    <div x-show="isOpen" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute left-0 z-20 z-30 w-full p-3 mt-3 -ml-0 space-y-2 overflow-hidden transform bg-white shadow-lg lg:-ml-24 lg:left-1/2 md:w-48 rounded-xl ring-1 ring-black ring-opacity-5" x-cloak="">
+
+                        <a href="#_" class="block px-4 py-3 text-sm text-gray-700 capitalize cursor-pointer hover:bg-gray-50 rounded-xl hover:text-gray-800">
+                            About Us
+                        </a>
+                        <a href="#_" class="block px-4 py-3 text-sm text-gray-700 capitalize hover:bg-gray-50 rounded-xl hover:text-gray-800">
+                            Press Release
+                        </a>
+                        <a href="#_" class="block px-4 py-3 text-sm text-gray-700 capitalize hover:bg-gray-50 rounded-xl hover:text-gray-800">
+                            Contact Us
+                        </a>
+                        <a href="#_" class="block px-4 py-3 text-sm text-gray-700 capitalize hover:bg-gray-50 rounded-xl hover:text-gray-800">
+                            Our Blog
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div :class="{ 'flex' : mobile, 'hidden md:flex' : !mobile }" class="relative z-20 flex-col justify-center pr-5 mt-4 space-y-8 md:pr-3 lg:pr-0 md:flex-row md:space-y-0 md:items-center md:space-x-6 md:mt-0">
+            <a class="flex-shrink-0 font-semibold text-gray-900 hover:underline" href="#_">Sign in</a>
+
+            <a href="#_" class="flex-shrink-0 w-auto text-base font-semibold leading-5 text-left text-gray-800 capitalize bg-transparent md:text-sm md:py-3 md:px-8 md:font-medium md:text-center md:text-white md:bg-gray-900 md:mx-0">
+                Sign up
+            </a>
+        </div>
+    </nav>
+
+    <div class="container pt-16 mx-auto text-left md:text-center">
+        <div class="relative max-w-4xl mx-auto">
+            <h1 class="pb-2 text-4xl font-extrabold text-left text-transparent sm:text-5xl sm:text-6xl md:text-7xl md:text-center bg-clip-text bg-gradient-to-r from-indigo-600 via-blue-500 to-green-400">Building TailwindCSS Landing Pages</h1>
+
+            <p class="mt-8 text-sm text-left text-gray-500 sm:text-base md:text-lg md:max-w-xl md:text-center md:mx-auto">Crafting the most beautiful TailwindCSS pages. Helping you convert visitors into customers with a simple drag, drop, and build.</p>
+            <button class="relative w-full px-12 py-5 mt-8 text-xl font-semibold leading-5 text-center text-white capitalize bg-gray-900 md:w-auto hover:bg-gray-800 focus:outline-none focus:bg-gray-800 md:mx-0">
+                Take a free trial
+            </button>
+        </div>
+
+        <div class="box-content relative w-full h-64 max-w-6xl pb-0 mx-auto mt-16 overflow-hidden rounded-b-none shadow-2xl lg:pb-32 md:h-88 lg:h-96 rounded-2xl">
+            <img src="https://cdn.devdojo.com/images/february2021/dash-mock.jpg" class="absolute object-cover object-top w-full h-auto">
+        </div>
+    </div>
+</section>
+
+<!-- AlpineJS Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js"></script>
+
+</body>
+</html>
