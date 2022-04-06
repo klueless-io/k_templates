@@ -9,7 +9,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-<section class="bg-gray-100 dark:bg-gray-900 lg:py-12 lg:flex lg:justify-center">
+<section class="gb-gray-100 dark:bg-gray-900 lg:py-12 lg:flex lg:justify-center">
   <div class="bg-white dark:bg-gray-800 lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
       <div class="lg:w-1/2">
           <div class="h-64 bg-cover lg:rounded-lg lg:h-full" style="background-image:url('https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80')"></div>
@@ -29,7 +29,15 @@
 <script>
 // sample data for this tailwind component
 data = {
-
+  "title": "Build Your New Idea",
+  "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.",
+  "button": {
+    "text": "Start Now",
+    "link": "#"
+  },
+  "image": {
+    "src": "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80"
+  }
 }
 </script>
 
@@ -87,11 +95,33 @@ data = {
 <script>
 // sample data for this tailwind component
 data = {
-
+  "title": "Who I am",
+  "description": "Hi I am jane , software engineer @BakaTeam, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum in sed non alias, fugiat, commodi nemo ut fugit corrupti dolorem sequi ex veniam consequuntur id, maiores beatae ipsa omnis aliquam?",
+  "social_links": [
+    {
+      "icon": "twitter",
+      "url": "https://twitter.com/xmen",
+    },
+    {
+      "icon": "facebook",
+      "url": "https://www.facebook.com/xmen",
+    },
+    {
+      "icon": "linkedin",
+      "url": "https://www.linked.com/",
+    },
+    {
+      "icon": "github",
+      "url": "https://www.github.com/",
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
 }
 </script>
 
 <!-- ------------------------------------------------------ -->
+
+<hr/>
 
 <section class="bg-white dark:bg-gray-900">
   <div class="container px-6 py-8 mx-auto">
@@ -181,8 +211,85 @@ data = {
 
 <script>
 // sample data for this tailwind component
-data = {
 
+// Jackets & Coats
+// Hoodies
+// T-shirts & Vests
+// Shirts
+// Blazers & Suits
+// Jeans
+// Trousers
+// Shorts
+// Underwear
+
+data = {
+  "categories": [
+    {
+      "name": "Jackets & Coats",
+      "products": [
+        {
+          "name": "Printed T-shirt",
+          "price": "12.55",
+          "image": "https://images.unsplash.com/photo-1603320409990-02d834987237?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+        },
+        {
+          "name": "Coat",
+          "price": "16.55",
+          "image": "https://images.unsplash.com/photo-1603320410149-db26b12d5c2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+        },
+        {
+          "name": "Jacket",
+          "price": "16.55",
+          "image": "https://images.unsplash.com/photo-1603320409990-02d834987237?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+        },
+        {
+          "name": "Art T-shirt",
+          "price": "16.55",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "name": "Hoodies",
+      "products": [
+      ]
+    },
+    {
+      "name": "T-shirts & Vests",
+      "products": [
+      ]
+    },
+    {
+      "name": "Shirts",
+      "products": [
+      ]
+    },
+    {
+      "name": "Blazers & Suits",
+      "products": [
+      ]
+    },
+    {
+      "name": "Jeans",
+      "products": [
+      ]
+    },
+    {
+      "name": "Trousers",
+      "products": [
+      ]
+    },
+    {
+      "name": "Shorts",
+      "products": [
+      ]
+    },
+    {
+      "name": "Underwear",
+      "products": [
+      ]
+    }
+  ]
 }
 </script>
 
@@ -228,7 +335,23 @@ data = {
 <script>
 // sample data for this tailwind component
 data = {
-
+  "cards": [
+    {
+      "icon": "arrows",
+      "title": "Default Taiwindcss Config",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ex cupiditate corrupti aliquam eum vel consequuntur hic culpa unde natus officia enim est impedit consequatur aut, voluptatem minima repellat non!",
+    },
+    {
+      "icon": "computer",
+      "title": "Fully Responsive Components",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ex cupiditate corrupti aliquam eum vel consequuntur hic culpa unde natus officia enim est impedit consequatur aut, voluptatem minima repellat non!",
+    },
+    {
+      "icon": "rtl",
+      "title": "RTL Languages Support",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ex cupiditate corrupti aliquam eum vel consequuntur hic culpa unde natus officia enim est impedit consequatur aut, voluptatem minima repellat non!",
+    }
+  ]
 }
 </script>
 
