@@ -1,0 +1,151 @@
+
+<!-- Section 1 -->
+<section class="relative w-full h-auto bg-black">
+    <div class="relative z-40 h-full px-10 mx-auto max-w-7xl">
+
+        <nav x-data="{ mobile: false }" class="relative z-40 flex items-center justify-between h-24 mx-auto md:px-0 lg:px-10 max-w-7xl">
+            <div class="relative z-20 flex items-center justify-between w-full md:w-auto">
+                <div>
+                    <a href="#_" class="text-lg font-semibold text-white md:text-xl">
+                        </a><a href="#_" class="flex items-center font-bold text-white lg:w-auto title-font lg:items-center lg:justify-center md:mb-0">
+                            <span class="text-xl leading-none select-none">tails<span class="text-yellow-300">.</span></span>
+                        </a>
+                    
+                </div>
+
+                <!-- Mobile menu button -->
+                <div @click="mobile = !mobile" class="flex md:hidden">
+                    <button type="button" class="text-gray-200 hover:text-gray-100 focus:outline-none focus:text-gray-100" aria-label="toggle menu">
+                        <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
+                        <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z">
+                        </path>
+                    </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+            <div :class="{ 'hidden' : !mobile, 'flex': mobile }" class="fixed top-0 left-0 z-10 items-center justify-center hidden w-full h-full mt-24 font-semibold bg-black select-none md:bg-transparent md:mt-0 md:absolute min-h-auto md:min-w-none min-w-screen md:flex">
+                <div class="flex flex-col items-center justify-start w-full h-full mt-4 ml-0 space-y-2 transform md:justify-center md:-ml-20 lg:ml-0 md:mt-0 md:flex-row md:space-x-6 lg:space-x-8 md:space-y-0">
+                    <div x-data="{ isOpen: false }" @mouseenter="isOpen = true" @mouseleave="isOpen = false" class="relative flex items-center flex-shrink-0 w-full h-12 pl-10 border-t border-gray-800 md:border-0 md:pl-0 md:h-full md:w-auto">
+                        <div class="relative z-10 flex items-center space-x-1 text-gray-300 cursor-pointer hover:text-gray-100 focus:outline-none">
+                            <span>Product</span>
+                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                        </svg>
+                        </div>
+
+                        <div x-show="isOpen" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute top-0 left-0 z-20 w-full mt-12 -ml-0 overflow-hidden transform bg-black border-2 border-gray-900 rounded-lg shadow-lg md:mt-24 lg:left-1/2 lg:-ml-48 md:w-96">
+
+                            <a href="#_" class="block p-6 pr-0 text-base text-gray-300 cursor-pointer hover:bg-gray-900 hover:text-gray-100">
+                                <span class="flex items-start space-x-1 md:space-x-3">
+                                    <svg class="flex-shrink-0 w-8 h-8 mt-1 text-yellow-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path>
+                                </svg>
+                                    <span class="flex flex-col">
+                                        <span>Drag'n Drop</span>
+                                        <span class="text-xs -mt-0.5 font-normal text-gray-400">Simple drag'n drop tailwind page creator.</span>
+                                    </span>
+                                </span>
+                            </a>
+                            <a href="#_" class="block p-6 pr-0 text-base text-gray-300 cursor-pointer hover:bg-gray-900 hover:text-gray-100">
+                                <span class="flex items-start space-x-4">
+                                    <svg class="flex-shrink-0 w-8 h-8 mt-1 text-yellow-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                                </svg>
+                                    <span class="flex flex-col">
+                                        <span>Premium Tools</span>
+                                        <span class="text-xs -mt-0.5 font-normal text-gray-400">Gain access to the ultimate set of tools.</span>
+                                    </span>
+                                </span>
+                            </a>
+                            <a href="#_" class="block p-6 pr-0 text-base text-gray-300 cursor-pointer hover:bg-gray-900 hover:text-gray-100">
+                                <span class="flex items-start space-x-4">
+                                    <svg class="flex-shrink-0 w-8 h-8 mt-1 text-yellow-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                </svg>
+                                    <span class="flex flex-col">
+                                        <span>Community</span>
+                                        <span class="text-xs -mt-0.5 font-normal text-gray-400">A community of creators like yourself.</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#_" class="flex items-center w-full h-12 py-3 pl-10 text-gray-300 border-t border-gray-800 md:w-auto md:pl-0 md:border-0 hover:text-gray-100 md:h-full hover:underline">Pricing</a>
+                    <div x-data="{ isOpen: false }" @mouseenter="isOpen = true" @mouseleave="isOpen = false" class="relative flex items-center w-full h-12 border-t border-gray-800 md:border-0 md:w-auto md:h-full">
+                        <div class="relative z-10 flex items-center w-full pl-10 space-x-1 text-gray-300 cursor-pointer md:w-auto md:pl-0 hover:text-gray-200 focus:outline-none">
+                            <span>Features</span>
+                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                        </svg>
+                        </div>
+
+                        <div x-show="isOpen" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute top-0 left-0 z-20 w-full mt-12 -ml-0 overflow-hidden transform bg-black border-2 border-gray-800 rounded-lg shadow-lg md:mt-24 lg:left-1/2 lg:-ml-24 md:w-48">
+
+                            <a href="#_" class="block p-4 px-5 text-sm text-gray-300 capitalize cursor-pointer hover:bg-gray-900 hover:text-gray-200">
+                                Design Faster
+                            </a>
+                            <a href="#_" class="block p-4 px-5 text-sm text-gray-300 capitalize hover:bg-gray-900 hover:text-gray-200">
+                                Easily Export
+                            </a>
+                            <a href="#_" class="block p-4 px-5 text-sm text-gray-300 capitalize hover:bg-gray-900 hover:text-gray-200">
+                                Unlimited Combos
+                            </a>
+                            <a href="#_" class="block p-4 px-5 text-sm text-gray-300 capitalize hover:bg-gray-900 hover:text-gray-200">
+                                And More
+                            </a>
+                        </div>
+                    </div>
+                    <div x-data="{ isOpen: false }" @mouseenter="isOpen = true" @mouseleave="isOpen = false" class="relative flex items-center w-full h-12 border-t border-gray-800 md:border-0 md:w-auto md:h-full">
+                        <div class="relative z-10 flex items-center w-full pl-10 space-x-1 text-gray-300 cursor-pointer md:w-auto md:pl-0 hover:text-gray-100 focus:outline-none">
+                            <span>Resources</span>
+                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                        </svg>
+                        </div>
+
+                        <div x-show="isOpen" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" class="absolute top-0 left-0 z-20 w-full mt-12 -ml-0 overflow-hidden transform bg-black border-2 border-gray-800 rounded-lg shadow-lg md:mt-24 lg:-ml-24 lg:left-1/2 md:w-48">
+
+                            <a href="#_" class="block p-4 px-5 text-sm text-gray-300 capitalize cursor-pointer hover:bg-gray-900 hover:text-gray-100">
+                                About Us
+                            </a>
+                            <a href="#_" class="block p-4 px-5 text-sm text-gray-300 capitalize hover:bg-gray-900 hover:text-gray-100">
+                                Press Release
+                            </a>
+                            <a href="#_" class="block p-4 px-5 text-sm text-gray-300 capitalize hover:bg-gray-900 hover:text-gray-100">
+                                Contact Us
+                            </a>
+                            <a href="#_" class="block p-4 px-5 text-sm text-gray-300 capitalize hover:bg-gray-900 hover:text-gray-100">
+                                Our Blog
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="absolute z-20 flex-col justify-center hidden pr-5 mt-4 space-y-8 md:flex md:relative md:pr-3 lg:pr-0 md:flex-row md:space-y-0 md:items-center md:space-x-6 md:mt-0">
+                <a class="flex-shrink-0 font-semibold text-gray-200 hover:underline" href="#_">Login</a>
+
+                <a href="#_" class="flex-shrink-0 w-auto text-base font-semibold leading-5 text-left text-gray-200 capitalize bg-transparent rounded-lg md:text-sm md:py-3 md:px-6 md:font-medium md:text-center md:text-white md:bg-gray-900 md:mx-0">
+                    Sign up
+                </a>
+            </div>
+        </nav>
+
+        <div class="flex flex-col items-center justify-center w-full h-full py-32 -mt-20 sm:py-48 md:py-64">
+            <h1 class="mb-20 text-5xl font-extrabold leading-tight text-left text-white sm:text-center lg:text-7xl lg:leading-tight">Design a <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-red-400 to-pink-400">Landing</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-red-400 to-yellow-300">Page</span> that<br class="hidden md:block"> Tells Your Story</h1>
+            <a href="#_" class="relative w-full group sm:w-auto">
+                <span class="absolute top-0 left-0 w-full h-full text-transparent border-2 border-white rounded">Try Free for 14-Days</span>
+                <span class="px-8 inline-block bg-gradient-to-br sm:w-auto w-full text-center from-yellow-200 font-semibold via-red-300 to-pink-400 relative transition-all ease-linear duration-150 transform group-hover:-translate-y-1.5 group-hover:translate-x-1.5 -translate-y-2.5 text-lg rounded translate-x-2 py-4">Try Free for 14-Days</span>
+            </a>
+            <p class="flex items-center mt-4 text-xs text-gray-400">
+                <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                <span>Free to Try. No Credit Card Required.</span>
+            </p>
+        </div>
+    </div>
+    <img class="absolute bottom-0 left-0 object-cover w-full" src="http://devdojo.com.s3.us-east-1.amazonaws.com/tails/images/mesh-bg.svg">
+    <div class="absolute bottom-0 left-0 z-30 w-full h-full bg-bottom bg-cover" style="backgrond-image:url('http://devdojo.com.s3.us-east-1.amazonaws.com/tails/images/mesh-bg.svg')"></div>
+</section>
