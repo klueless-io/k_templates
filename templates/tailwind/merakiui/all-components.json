@@ -1,0 +1,987 @@
+{
+  "groups": [
+    {
+      "name": "sidebar",
+      "group_name": "sidebar",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/sidebar",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/sidebar/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/sidebar/all.json",
+      "files": [
+        {
+          "name": "with_avatar.html",
+          "file_name": "with_avatar.html",
+          "file_name_only": "with_avatar",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/sidebar/with_avatar.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/sidebar/with_avatar.sample.json"
+        },
+        {
+          "name": "with_search.html",
+          "file_name": "with_search.html",
+          "file_name_only": "with_search",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/sidebar/with_search.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/sidebar/with_search.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "dropdown",
+      "group_name": "dropdown",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/dropdown",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/dropdown/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/dropdown/all.json",
+      "files": [
+        {
+          "name": "multi_level.html",
+          "file_name": "multi_level.html",
+          "file_name_only": "multi_level",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/dropdown/multi_level.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/dropdown/multi_level.sample.json"
+        },
+        {
+          "name": "multi_level_with_icons.html",
+          "file_name": "multi_level_with_icons.html",
+          "file_name_only": "multi_level_with_icons",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/dropdown/multi_level_with_icons.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/dropdown/multi_level_with_icons.sample.json"
+        },
+        {
+          "name": "notification.html",
+          "file_name": "notification.html",
+          "file_name_only": "notification",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/dropdown/notification.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/dropdown/notification.sample.json"
+        },
+        {
+          "name": "simple.html",
+          "file_name": "simple.html",
+          "file_name_only": "simple",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/dropdown/simple.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/dropdown/simple.sample.json"
+        },
+        {
+          "name": "user_info.html",
+          "file_name": "user_info.html",
+          "file_name_only": "user_info",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/dropdown/user_info.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/dropdown/user_info.sample.json"
+        },
+        {
+          "name": "user_info_with_icons.html",
+          "file_name": "user_info_with_icons.html",
+          "file_name_only": "user_info_with_icons",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/dropdown/user_info_with_icons.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/dropdown/user_info_with_icons.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "navbar",
+      "group_name": "navbar",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/navbar",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/navbar/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/navbar/all.json",
+      "files": [
+        {
+          "name": "ecommerce.html",
+          "file_name": "ecommerce.html",
+          "file_name_only": "ecommerce",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/navbar/ecommerce.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/navbar/ecommerce.sample.json"
+        },
+        {
+          "name": "simple.html",
+          "file_name": "simple.html",
+          "file_name_only": "simple",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/navbar/simple.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/navbar/simple.sample.json"
+        },
+        {
+          "name": "with_avatar.html",
+          "file_name": "with_avatar.html",
+          "file_name_only": "with_avatar",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/navbar/with_avatar.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/navbar/with_avatar.sample.json"
+        },
+        {
+          "name": "with_categories.html",
+          "file_name": "with_categories.html",
+          "file_name_only": "with_categories",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/navbar/with_categories.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/navbar/with_categories.sample.json"
+        },
+        {
+          "name": "with_search.html",
+          "file_name": "with_search.html",
+          "file_name_only": "with_search",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/navbar/with_search.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/navbar/with_search.sample.json"
+        },
+        {
+          "name": "with_social_media_links.html",
+          "file_name": "with_social_media_links.html",
+          "file_name_only": "with_social_media_links",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/navbar/with_social_media_links.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/navbar/with_social_media_links.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "pagination",
+      "group_name": "pagination",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pagination",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pagination/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pagination/all.json",
+      "files": [
+        {
+          "name": "simple.html",
+          "file_name": "simple.html",
+          "file_name_only": "simple",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pagination/simple.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pagination/simple.sample.json"
+        },
+        {
+          "name": "table.html",
+          "file_name": "table.html",
+          "file_name_only": "table",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pagination/table.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pagination/table.sample.json"
+        },
+        {
+          "name": "with_arrows.html",
+          "file_name": "with_arrows.html",
+          "file_name_only": "with_arrows",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pagination/with_arrows.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pagination/with_arrows.sample.json"
+        },
+        {
+          "name": "with_icons.html",
+          "file_name": "with_icons.html",
+          "file_name_only": "with_icons",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pagination/with_icons.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pagination/with_icons.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "footer",
+      "group_name": "footer",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer/all.json",
+      "files": [
+        {
+          "name": "all.rb",
+          "file_name": "all.rb",
+          "file_name_only": "all",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer/all.rb",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer/all.sample.json"
+        },
+        {
+          "name": "page.html",
+          "file_name": "page.html",
+          "file_name_only": "page",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/page.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer/page.sample.json"
+        },
+        {
+          "name": "simple.html",
+          "file_name": "simple.html",
+          "file_name_only": "simple",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer/simple.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer/simple.sample.json"
+        },
+        {
+          "name": "with_cta.html",
+          "file_name": "with_cta.html",
+          "file_name_only": "with_cta",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer/with_cta.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer/with_cta.sample.json"
+        },
+        {
+          "name": "with_details.html",
+          "file_name": "with_details.html",
+          "file_name_only": "with_details",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer/with_details.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer/with_details.sample.json"
+        },
+        {
+          "name": "with_links.html",
+          "file_name": "with_links.html",
+          "file_name_only": "with_links",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer/with_links.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer/with_links.sample.json"
+        },
+        {
+          "name": "with_subscribe_form.html",
+          "file_name": "with_subscribe_form.html",
+          "file_name_only": "with_subscribe_form",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer/with_subscribe_form.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/footer/with_subscribe_form.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "form",
+      "group_name": "form",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/form",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/form/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/form/all.json",
+      "files": [
+        {
+          "name": "all-components.txt",
+          "file_name": "all-components.txt",
+          "file_name_only": "all-components",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/all-components.txt",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/form/all-components.sample.json"
+        },
+        {
+          "name": "contact.html",
+          "file_name": "contact.html",
+          "file_name_only": "contact",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/form/contact.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/form/contact.sample.json"
+        },
+        {
+          "name": "newsletter.html",
+          "file_name": "newsletter.html",
+          "file_name_only": "newsletter",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/form/newsletter.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/form/newsletter.sample.json"
+        },
+        {
+          "name": "search.html",
+          "file_name": "search.html",
+          "file_name_only": "search",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/form/search.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/form/search.sample.json"
+        },
+        {
+          "name": "simple.html",
+          "file_name": "simple.html",
+          "file_name_only": "simple",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/form/simple.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/form/simple.sample.json"
+        },
+        {
+          "name": "simple_newsletter.html",
+          "file_name": "simple_newsletter.html",
+          "file_name_only": "simple_newsletter",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/form/simple_newsletter.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/form/simple_newsletter.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "section",
+      "group_name": "section",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/section",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/section/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/section/all.json",
+      "files": [
+        {
+          "name": "about_me.html",
+          "file_name": "about_me.html",
+          "file_name_only": "about_me",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/section/about_me.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/section/about_me.sample.json"
+        },
+        {
+          "name": "feature.html",
+          "file_name": "feature.html",
+          "file_name_only": "feature",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/section/feature.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/section/feature.sample.json"
+        },
+        {
+          "name": "paragraph_with_image.html",
+          "file_name": "paragraph_with_image.html",
+          "file_name_only": "paragraph_with_image",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/section/paragraph_with_image.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/section/paragraph_with_image.sample.json"
+        },
+        {
+          "name": "products_with_side_links.html",
+          "file_name": "products_with_side_links.html",
+          "file_name_only": "products_with_side_links",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/section/products_with_side_links.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/section/products_with_side_links.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "group_name": "card",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/all.json",
+      "files": [
+        {
+          "name": "article.html",
+          "file_name": "article.html",
+          "file_name_only": "article",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/article.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/article.sample.json"
+        },
+        {
+          "name": "article_with_image.html",
+          "file_name": "article_with_image.html",
+          "file_name_only": "article_with_image",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/article_with_image.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/article_with_image.sample.json"
+        },
+        {
+          "name": "article_with_smicons.html",
+          "file_name": "article_with_smicons.html",
+          "file_name_only": "article_with_smicons",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/article_with_smicons.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/article_with_smicons.sample.json"
+        },
+        {
+          "name": "product.html",
+          "file_name": "product.html",
+          "file_name_only": "product",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/product.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/product.sample.json"
+        },
+        {
+          "name": "product_with_evaluation.html",
+          "file_name": "product_with_evaluation.html",
+          "file_name_only": "product_with_evaluation",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/product_with_evaluation.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/product_with_evaluation.sample.json"
+        },
+        {
+          "name": "simple_product.html",
+          "file_name": "simple_product.html",
+          "file_name_only": "simple_product",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/simple_product.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/simple_product.sample.json"
+        },
+        {
+          "name": "testimonial.html",
+          "file_name": "testimonial.html",
+          "file_name_only": "testimonial",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/testimonial.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/testimonial.sample.json"
+        },
+        {
+          "name": "user.html",
+          "file_name": "user.html",
+          "file_name_only": "user",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/user.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/user.sample.json"
+        },
+        {
+          "name": "user_with_details.html",
+          "file_name": "user_with_details.html",
+          "file_name_only": "user_with_details",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/user_with_details.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/card/user_with_details.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "alert",
+      "group_name": "alert",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/all.json",
+      "files": [
+        {
+          "name": "error_full_width.html",
+          "file_name": "error_full_width.html",
+          "file_name_only": "error_full_width",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/error_full_width.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/error_full_width.sample.json"
+        },
+        {
+          "name": "error_pop.html",
+          "file_name": "error_pop.html",
+          "file_name_only": "error_pop",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/error_pop.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/error_pop.sample.json"
+        },
+        {
+          "name": "info_full_width.html",
+          "file_name": "info_full_width.html",
+          "file_name_only": "info_full_width",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/info_full_width.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/info_full_width.sample.json"
+        },
+        {
+          "name": "info_pop.html",
+          "file_name": "info_pop.html",
+          "file_name_only": "info_pop",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/info_pop.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/info_pop.sample.json"
+        },
+        {
+          "name": "notification_pop.html",
+          "file_name": "notification_pop.html",
+          "file_name_only": "notification_pop",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/notification_pop.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/notification_pop.sample.json"
+        },
+        {
+          "name": "success_full_width.html",
+          "file_name": "success_full_width.html",
+          "file_name_only": "success_full_width",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/success_full_width.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/success_full_width.sample.json"
+        },
+        {
+          "name": "success_pop.html",
+          "file_name": "success_pop.html",
+          "file_name_only": "success_pop",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/success_pop.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/success_pop.sample.json"
+        },
+        {
+          "name": "warning_full_width.html",
+          "file_name": "warning_full_width.html",
+          "file_name_only": "warning_full_width",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/warning_full_width.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/warning_full_width.sample.json"
+        },
+        {
+          "name": "warning_pop.html",
+          "file_name": "warning_pop.html",
+          "file_name_only": "warning_pop",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/warning_pop.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/alert/warning_pop.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "faq",
+      "group_name": "faq",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/faq",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/faq/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/faq/all.json",
+      "files": [
+        {
+          "name": "cards.html",
+          "file_name": "cards.html",
+          "file_name_only": "cards",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/faq/cards.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/faq/cards.sample.json"
+        },
+        {
+          "name": "centered.html",
+          "file_name": "centered.html",
+          "file_name_only": "centered",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/faq/centered.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/faq/centered.sample.json"
+        },
+        {
+          "name": "collapse.html",
+          "file_name": "collapse.html",
+          "file_name_only": "collapse",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/faq/collapse.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/faq/collapse.sample.json"
+        },
+        {
+          "name": "collapse_with_side_links.html",
+          "file_name": "collapse_with_side_links.html",
+          "file_name_only": "collapse_with_side_links",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/faq/collapse_with_side_links.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/faq/collapse_with_side_links.sample.json"
+        },
+        {
+          "name": "grid.html",
+          "file_name": "grid.html",
+          "file_name_only": "grid",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/faq/grid.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/faq/grid.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "cta",
+      "group_name": "cta",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/cta",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/cta/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/cta/all.json",
+      "files": [
+        {
+          "name": "centered.html",
+          "file_name": "centered.html",
+          "file_name_only": "centered",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/cta/centered.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/cta/centered.sample.json"
+        },
+        {
+          "name": "grid.html",
+          "file_name": "grid.html",
+          "file_name_only": "grid",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/cta/grid.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/cta/grid.sample.json"
+        },
+        {
+          "name": "simple.html",
+          "file_name": "simple.html",
+          "file_name_only": "simple",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/cta/simple.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/cta/simple.sample.json"
+        },
+        {
+          "name": "with_form.html",
+          "file_name": "with_form.html",
+          "file_name_only": "with_form",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/cta/with_form.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/cta/with_form.sample.json"
+        },
+        {
+          "name": "with_image.html",
+          "file_name": "with_image.html",
+          "file_name_only": "with_image",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/cta/with_image.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/cta/with_image.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "tab",
+      "group_name": "tab",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/tab",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/tab/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/tab/all.json",
+      "files": [
+        {
+          "name": "end_closed.html",
+          "file_name": "end_closed.html",
+          "file_name_only": "end_closed",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/tab/end_closed.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/tab/end_closed.sample.json"
+        },
+        {
+          "name": "end_closed_with_icons.html",
+          "file_name": "end_closed_with_icons.html",
+          "file_name_only": "end_closed_with_icons",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/tab/end_closed_with_icons.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/tab/end_closed_with_icons.sample.json"
+        },
+        {
+          "name": "line.html",
+          "file_name": "line.html",
+          "file_name_only": "line",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/tab/line.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/tab/line.sample.json"
+        },
+        {
+          "name": "line_with_icons.html",
+          "file_name": "line_with_icons.html",
+          "file_name_only": "line_with_icons",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/tab/line_with_icons.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/tab/line_with_icons.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "button",
+      "group_name": "button",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/button",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/button/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/button/all.json",
+      "files": [
+        {
+          "name": "group.html",
+          "file_name": "group.html",
+          "file_name_only": "group",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/button/group.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/button/group.sample.json"
+        },
+        {
+          "name": "group_with_icons.html",
+          "file_name": "group_with_icons.html",
+          "file_name_only": "group_with_icons",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/button/group_with_icons.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/button/group_with_icons.sample.json"
+        },
+        {
+          "name": "primary.html",
+          "file_name": "primary.html",
+          "file_name_only": "primary",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/button/primary.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/button/primary.sample.json"
+        },
+        {
+          "name": "with_icon.html",
+          "file_name": "with_icon.html",
+          "file_name_only": "with_icon",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/button/with_icon.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/button/with_icon.sample.json"
+        },
+        {
+          "name": "with_menu.html",
+          "file_name": "with_menu.html",
+          "file_name_only": "with_menu",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/button/with_menu.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/button/with_menu.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "team",
+      "group_name": "team",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/all.json",
+      "files": [
+        {
+          "name": "all-component-menu.html",
+          "file_name": "all-component-menu.html",
+          "file_name_only": "all-component-menu",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/all-component-menu.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/all-component-menu.sample.json"
+        },
+        {
+          "name": "all-components.csv",
+          "file_name": "all-components.csv",
+          "file_name_only": "all-components",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/all-components.csv",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/all-components.sample.json"
+        },
+        {
+          "name": "all-components.json",
+          "file_name": "all-components.json",
+          "file_name_only": "all-components",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/all-components.json",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/all-components.sample.json"
+        },
+        {
+          "name": "background.html",
+          "file_name": "background.html",
+          "file_name_only": "background",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/background.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/background.sample.json"
+        },
+        {
+          "name": "cards.html",
+          "file_name": "cards.html",
+          "file_name_only": "cards",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/cards.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/cards.sample.json"
+        },
+        {
+          "name": "cards2x2.html",
+          "file_name": "cards2x2.html",
+          "file_name_only": "cards2x2",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/cards2x2.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/cards2x2.sample.json"
+        },
+        {
+          "name": "grid_list.html",
+          "file_name": "grid_list.html",
+          "file_name_only": "grid_list",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/grid_list.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/grid_list.sample.json"
+        },
+        {
+          "name": "side_by_side.html",
+          "file_name": "side_by_side.html",
+          "file_name_only": "side_by_side",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/side_by_side.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/side_by_side.sample.json"
+        },
+        {
+          "name": "simple.html",
+          "file_name": "simple.html",
+          "file_name_only": "simple",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/simple.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/simple.sample.json"
+        },
+        {
+          "name": "with_filter.html",
+          "file_name": "with_filter.html",
+          "file_name_only": "with_filter",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/with_filter.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/team/with_filter.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "feature",
+      "group_name": "feature",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/all.json",
+      "files": [
+        {
+          "name": "cards.html",
+          "file_name": "cards.html",
+          "file_name_only": "cards",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/cards.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/cards.sample.json"
+        },
+        {
+          "name": "centered.html",
+          "file_name": "centered.html",
+          "file_name_only": "centered",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/centered.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/centered.sample.json"
+        },
+        {
+          "name": "grid_list.html",
+          "file_name": "grid_list.html",
+          "file_name_only": "grid_list",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/grid_list.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/grid_list.sample.json"
+        },
+        {
+          "name": "grid_list_with_image.html",
+          "file_name": "grid_list_with_image.html",
+          "file_name_only": "grid_list_with_image",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/grid_list_with_image.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/grid_list_with_image.sample.json"
+        },
+        {
+          "name": "media.html",
+          "file_name": "media.html",
+          "file_name_only": "media",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/media.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/media.sample.json"
+        },
+        {
+          "name": "simple.html",
+          "file_name": "simple.html",
+          "file_name_only": "simple",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/simple.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/simple.sample.json"
+        },
+        {
+          "name": "trusted_by.html",
+          "file_name": "trusted_by.html",
+          "file_name_only": "trusted_by",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/trusted_by.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/feature/trusted_by.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "breadcrumb",
+      "group_name": "breadcrumb",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/breadcrumb",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/breadcrumb/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/breadcrumb/all.json",
+      "files": [
+        {
+          "name": "full_width.html",
+          "file_name": "full_width.html",
+          "file_name_only": "full_width",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/breadcrumb/full_width.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/breadcrumb/full_width.sample.json"
+        },
+        {
+          "name": "full_width_with_icons.html",
+          "file_name": "full_width_with_icons.html",
+          "file_name_only": "full_width_with_icons",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/breadcrumb/full_width_with_icons.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/breadcrumb/full_width_with_icons.sample.json"
+        },
+        {
+          "name": "simple.html",
+          "file_name": "simple.html",
+          "file_name_only": "simple",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/breadcrumb/simple.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/breadcrumb/simple.sample.json"
+        },
+        {
+          "name": "with_arrow.html",
+          "file_name": "with_arrow.html",
+          "file_name_only": "with_arrow",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/breadcrumb/with_arrow.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/breadcrumb/with_arrow.sample.json"
+        },
+        {
+          "name": "with_icons.html",
+          "file_name": "with_icons.html",
+          "file_name_only": "with_icons",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/breadcrumb/with_icons.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/breadcrumb/with_icons.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "hero",
+      "group_name": "hero",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/all.json",
+      "files": [
+        {
+          "name": "center_content.html",
+          "file_name": "center_content.html",
+          "file_name_only": "center_content",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/center_content.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/center_content.sample.json"
+        },
+        {
+          "name": "center_content_with_newsletter.html",
+          "file_name": "center_content_with_newsletter.html",
+          "file_name_only": "center_content_with_newsletter",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/center_content_with_newsletter.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/center_content_with_newsletter.sample.json"
+        },
+        {
+          "name": "ecommerce.html",
+          "file_name": "ecommerce.html",
+          "file_name_only": "ecommerce",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/ecommerce.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/ecommerce.sample.json"
+        },
+        {
+          "name": "image_with_newsletter.html",
+          "file_name": "image_with_newsletter.html",
+          "file_name_only": "image_with_newsletter",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/image_with_newsletter.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/image_with_newsletter.sample.json"
+        },
+        {
+          "name": "with_bgimage.html",
+          "file_name": "with_bgimage.html",
+          "file_name_only": "with_bgimage",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/with_bgimage.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/with_bgimage.sample.json"
+        },
+        {
+          "name": "with_image.html",
+          "file_name": "with_image.html",
+          "file_name_only": "with_image",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/with_image.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/with_image.sample.json"
+        },
+        {
+          "name": "with_newsletter_form.html",
+          "file_name": "with_newsletter_form.html",
+          "file_name_only": "with_newsletter_form",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/with_newsletter_form.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/with_newsletter_form.sample.json"
+        },
+        {
+          "name": "with_pattern.html",
+          "file_name": "with_pattern.html",
+          "file_name_only": "with_pattern",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/with_pattern.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/with_pattern.sample.json"
+        },
+        {
+          "name": "with_side_image.html",
+          "file_name": "with_side_image.html",
+          "file_name_only": "with_side_image",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/with_side_image.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/with_side_image.sample.json"
+        },
+        {
+          "name": "with_slide.html",
+          "file_name": "with_slide.html",
+          "file_name_only": "with_slide",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/with_slide.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/hero/with_slide.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "authentication",
+      "group_name": "authentication",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/authentication",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/authentication/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/authentication/all.json",
+      "files": [
+        {
+          "name": "all.rb",
+          "file_name": "all.rb",
+          "file_name_only": "all",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/authentication/all.rb",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/authentication/all.sample.json"
+        },
+        {
+          "name": "full_page_with_image.html",
+          "file_name": "full_page_with_image.html",
+          "file_name_only": "full_page_with_image",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/authentication/full_page_with_image.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/authentication/full_page_with_image.sample.json"
+        },
+        {
+          "name": "login_with_side_image.html",
+          "file_name": "login_with_side_image.html",
+          "file_name_only": "login_with_side_image",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/authentication/login_with_side_image.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/authentication/login_with_side_image.sample.json"
+        },
+        {
+          "name": "login_with_social_media_links.html",
+          "file_name": "login_with_social_media_links.html",
+          "file_name_only": "login_with_social_media_links",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/authentication/login_with_social_media_links.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/authentication/login_with_social_media_links.sample.json"
+        },
+        {
+          "name": "simple_login.html",
+          "file_name": "simple_login.html",
+          "file_name_only": "simple_login",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/authentication/simple_login.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/authentication/simple_login.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "pricing",
+      "group_name": "pricing",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/all.json",
+      "files": [
+        {
+          "name": "centered.html",
+          "file_name": "centered.html",
+          "file_name_only": "centered",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/centered.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/centered.sample.json"
+        },
+        {
+          "name": "checkbox.html",
+          "file_name": "checkbox.html",
+          "file_name_only": "checkbox",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/checkbox.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/checkbox.sample.json"
+        },
+        {
+          "name": "checkbox_with_details.html",
+          "file_name": "checkbox_with_details.html",
+          "file_name_only": "checkbox_with_details",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/checkbox_with_details.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/checkbox_with_details.sample.json"
+        },
+        {
+          "name": "popular.html",
+          "file_name": "popular.html",
+          "file_name_only": "popular",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/popular.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/popular.sample.json"
+        },
+        {
+          "name": "side_by_side.html",
+          "file_name": "side_by_side.html",
+          "file_name_only": "side_by_side",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/side_by_side.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/side_by_side.sample.json"
+        },
+        {
+          "name": "simple.html",
+          "file_name": "simple.html",
+          "file_name_only": "simple",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/simple.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/simple.sample.json"
+        },
+        {
+          "name": "with_navigation.html",
+          "file_name": "with_navigation.html",
+          "file_name_only": "with_navigation",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/with_navigation.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/merakiui/pricing/with_navigation.sample.json"
+        }
+      ]
+    }
+  ]
+}

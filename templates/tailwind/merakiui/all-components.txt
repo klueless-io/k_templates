@@ -1,0 +1,135 @@
+sidebar
+  with_avatar
+  with_search
+dropdown
+  multi_level
+  multi_level_with_icons
+  notification
+  simple
+  user_info
+  user_info_with_icons
+navbar
+  ecommerce
+  simple
+  with_avatar
+  with_categories
+  with_search
+  with_social_media_links
+pagination
+  simple
+  table
+  with_arrows
+  with_icons
+footer
+  all
+  page
+  simple
+  with_cta
+  with_details
+  with_links
+  with_subscribe_form
+form
+  all-components
+  contact
+  newsletter
+  search
+  simple
+  simple_newsletter
+section
+  about_me
+  feature
+  paragraph_with_image
+  products_with_side_links
+card
+  article
+  article_with_image
+  article_with_smicons
+  product
+  product_with_evaluation
+  simple_product
+  testimonial
+  user
+  user_with_details
+alert
+  error_full_width
+  error_pop
+  info_full_width
+  info_pop
+  notification_pop
+  success_full_width
+  success_pop
+  warning_full_width
+  warning_pop
+faq
+  cards
+  centered
+  collapse
+  collapse_with_side_links
+  grid
+cta
+  centered
+  grid
+  simple
+  with_form
+  with_image
+tab
+  end_closed
+  end_closed_with_icons
+  line
+  line_with_icons
+button
+  group
+  group_with_icons
+  primary
+  with_icon
+  with_menu
+team
+  all-component-menu
+  all-components
+  all-components
+  background
+  cards
+  cards2x2
+  grid_list
+  side_by_side
+  simple
+  with_filter
+feature
+  cards
+  centered
+  grid_list
+  grid_list_with_image
+  media
+  simple
+  trusted_by
+breadcrumb
+  full_width
+  full_width_with_icons
+  simple
+  with_arrow
+  with_icons
+hero
+  center_content
+  center_content_with_newsletter
+  ecommerce
+  image_with_newsletter
+  with_bgimage
+  with_image
+  with_newsletter_form
+  with_pattern
+  with_side_image
+  with_slide
+authentication
+  all
+  full_page_with_image
+  login_with_side_image
+  login_with_social_media_links
+  simple_login
+pricing
+  centered
+  checkbox
+  checkbox_with_details
+  popular
+  side_by_side
+  simple
+  with_navigation

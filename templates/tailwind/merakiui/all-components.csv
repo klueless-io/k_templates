@@ -1,0 +1,117 @@
+Group Name,Group Title,Component Name,Component Title
+sidebar,Sidebar,with_avatar,With Avatar
+sidebar,Sidebar,with_search,With Search
+dropdown,Dropdown,multi_level,Multi Level
+dropdown,Dropdown,multi_level_with_icons,Multi Level With Icons
+dropdown,Dropdown,notification,Notification
+dropdown,Dropdown,simple,Simple
+dropdown,Dropdown,user_info,User Info
+dropdown,Dropdown,user_info_with_icons,User Info With Icons
+navbar,Navbar,ecommerce,Ecommerce
+navbar,Navbar,simple,Simple
+navbar,Navbar,with_avatar,With Avatar
+navbar,Navbar,with_categories,With Categories
+navbar,Navbar,with_search,With Search
+navbar,Navbar,with_social_media_links,With Social Media Links
+pagination,Pagination,simple,Simple
+pagination,Pagination,table,Table
+pagination,Pagination,with_arrows,With Arrows
+pagination,Pagination,with_icons,With Icons
+footer,Footer,all,All
+footer,Footer,page,Page
+footer,Footer,simple,Simple
+footer,Footer,with_cta,With Cta
+footer,Footer,with_details,With Details
+footer,Footer,with_links,With Links
+footer,Footer,with_subscribe_form,With Subscribe Form
+form,Form,all-components,All Components
+form,Form,contact,Contact
+form,Form,newsletter,Newsletter
+form,Form,search,Search
+form,Form,simple,Simple
+form,Form,simple_newsletter,Simple Newsletter
+section,Section,about_me,About Me
+section,Section,feature,Feature
+section,Section,paragraph_with_image,Paragraph With Image
+section,Section,products_with_side_links,Products With Side Links
+card,Card,article,Article
+card,Card,article_with_image,Article With Image
+card,Card,article_with_smicons,Article With Smicons
+card,Card,product,Product
+card,Card,product_with_evaluation,Product With Evaluation
+card,Card,simple_product,Simple Product
+card,Card,testimonial,Testimonial
+card,Card,user,User
+card,Card,user_with_details,User With Details
+alert,Alert,error_full_width,Error Full Width
+alert,Alert,error_pop,Error Pop
+alert,Alert,info_full_width,Info Full Width
+alert,Alert,info_pop,Info Pop
+alert,Alert,notification_pop,Notification Pop
+alert,Alert,success_full_width,Success Full Width
+alert,Alert,success_pop,Success Pop
+alert,Alert,warning_full_width,Warning Full Width
+alert,Alert,warning_pop,Warning Pop
+faq,Faq,cards,Cards
+faq,Faq,centered,Centered
+faq,Faq,collapse,Collapse
+faq,Faq,collapse_with_side_links,Collapse With Side Links
+faq,Faq,grid,Grid
+cta,Cta,centered,Centered
+cta,Cta,grid,Grid
+cta,Cta,simple,Simple
+cta,Cta,with_form,With Form
+cta,Cta,with_image,With Image
+tab,Tab,end_closed,End Closed
+tab,Tab,end_closed_with_icons,End Closed With Icons
+tab,Tab,line,Line
+tab,Tab,line_with_icons,Line With Icons
+button,Button,group,Group
+button,Button,group_with_icons,Group With Icons
+button,Button,primary,Primary
+button,Button,with_icon,With Icon
+button,Button,with_menu,With Menu
+team,Team,all-component-menu,All Component Menu
+team,Team,all-components,All Components
+team,Team,all-components,All Components
+team,Team,background,Background
+team,Team,cards,Cards
+team,Team,cards2x2,Cards2x2
+team,Team,grid_list,Grid List
+team,Team,side_by_side,Side By Side
+team,Team,simple,Simple
+team,Team,with_filter,With Filter
+feature,Feature,cards,Cards
+feature,Feature,centered,Centered
+feature,Feature,grid_list,Grid List
+feature,Feature,grid_list_with_image,Grid List With Image
+feature,Feature,media,Media
+feature,Feature,simple,Simple
+feature,Feature,trusted_by,Trusted By
+breadcrumb,Breadcrumb,full_width,Full Width
+breadcrumb,Breadcrumb,full_width_with_icons,Full Width With Icons
+breadcrumb,Breadcrumb,simple,Simple
+breadcrumb,Breadcrumb,with_arrow,With Arrow
+breadcrumb,Breadcrumb,with_icons,With Icons
+hero,Hero,center_content,Center Content
+hero,Hero,center_content_with_newsletter,Center Content With Newsletter
+hero,Hero,ecommerce,Ecommerce
+hero,Hero,image_with_newsletter,Image With Newsletter
+hero,Hero,with_bgimage,With Bgimage
+hero,Hero,with_image,With Image
+hero,Hero,with_newsletter_form,With Newsletter Form
+hero,Hero,with_pattern,With Pattern
+hero,Hero,with_side_image,With Side Image
+hero,Hero,with_slide,With Slide
+authentication,Authentication,all,All
+authentication,Authentication,full_page_with_image,Full Page With Image
+authentication,Authentication,login_with_side_image,Login With Side Image
+authentication,Authentication,login_with_social_media_links,Login With Social Media Links
+authentication,Authentication,simple_login,Simple Login
+pricing,Pricing,centered,Centered
+pricing,Pricing,checkbox,Checkbox
+pricing,Pricing,checkbox_with_details,Checkbox With Details
+pricing,Pricing,popular,Popular
+pricing,Pricing,side_by_side,Side By Side
+pricing,Pricing,simple,Simple
+pricing,Pricing,with_navigation,With Navigation
