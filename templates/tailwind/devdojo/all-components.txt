@@ -15,6 +15,7 @@ footer
   footer14
   footer15
 form
+  all-components
   form01
   form02
   form03
@@ -166,6 +167,7 @@ logo
   logo10
 team
   all-component-menu
+  all-components
   all-components
   team01
   team02

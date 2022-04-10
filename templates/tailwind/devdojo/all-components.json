@@ -122,6 +122,13 @@
       "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/all.json",
       "files": [
         {
+          "name": "all-components.txt",
+          "file_name": "all-components.txt",
+          "file_name_only": "all-components",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/all-components.txt",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/all-components.sample.json"
+        },
+        {
           "name": "form01.html",
           "file_name": "form01.html",
           "file_name_only": "form01",
@@ -1193,6 +1200,13 @@
           "file_name_only": "all-component-menu",
           "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/all-component-menu.html",
           "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/all-component-menu.sample.json"
+        },
+        {
+          "name": "all-components.csv",
+          "file_name": "all-components.csv",
+          "file_name_only": "all-components",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/all-components.csv",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/all-components.sample.json"
         },
         {
           "name": "all-components.json",
