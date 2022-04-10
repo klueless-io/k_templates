@@ -178,13 +178,6 @@
           "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form07.sample.json"
         },
         {
-          "name": "form08.html",
-          "file_name": "form08.html",
-          "file_name_only": "form08",
-          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form08.html",
-          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form08.sample.json"
-        },
-        {
           "name": "form09.html",
           "file_name": "form09.html",
           "file_name_only": "form09",
