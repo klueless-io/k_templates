@@ -1,0 +1,1479 @@
+{
+  "groups": [
+    {
+      "name": "footer",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/all.json",
+      "files": [
+        {
+          "name": "footer01.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer01.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer01.sample.json"
+        },
+        {
+          "name": "footer02.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer02.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer02.sample.json"
+        },
+        {
+          "name": "footer03.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer03.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer03.sample.json"
+        },
+        {
+          "name": "footer04.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer04.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer04.sample.json"
+        },
+        {
+          "name": "footer05.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer05.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer05.sample.json"
+        },
+        {
+          "name": "footer06.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer06.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer06.sample.json"
+        },
+        {
+          "name": "footer07.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer07.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer07.sample.json"
+        },
+        {
+          "name": "footer08.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer08.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer08.sample.json"
+        },
+        {
+          "name": "footer09.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer09.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer09.sample.json"
+        },
+        {
+          "name": "footer10.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer10.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer10.sample.json"
+        },
+        {
+          "name": "footer11.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer11.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer11.sample.json"
+        },
+        {
+          "name": "footer12.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer12.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer12.sample.json"
+        },
+        {
+          "name": "footer13.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer13.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer13.sample.json"
+        },
+        {
+          "name": "footer14.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer14.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer14.sample.json"
+        },
+        {
+          "name": "footer15.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer15.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/footer/footer15.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "form",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/all.json",
+      "files": [
+        {
+          "name": "form01.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form01.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form01.sample.json"
+        },
+        {
+          "name": "form02.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form02.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form02.sample.json"
+        },
+        {
+          "name": "form03.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form03.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form03.sample.json"
+        },
+        {
+          "name": "form04.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form04.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form04.sample.json"
+        },
+        {
+          "name": "form05.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form05.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form05.sample.json"
+        },
+        {
+          "name": "form06.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form06.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form06.sample.json"
+        },
+        {
+          "name": "form07.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form07.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form07.sample.json"
+        },
+        {
+          "name": "form08.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form08.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form08.sample.json"
+        },
+        {
+          "name": "form09.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form09.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form09.sample.json"
+        },
+        {
+          "name": "form10.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form10.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form10.sample.json"
+        },
+        {
+          "name": "form11.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form11.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form11.sample.json"
+        },
+        {
+          "name": "form12.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form12.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form12.sample.json"
+        },
+        {
+          "name": "form13.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form13.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form13.sample.json"
+        },
+        {
+          "name": "form14.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form14.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/form/form14.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "faq",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/all.json",
+      "files": [
+        {
+          "name": "faq01.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq01.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq01.sample.json"
+        },
+        {
+          "name": "faq02.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq02.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq02.sample.json"
+        },
+        {
+          "name": "faq03.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq03.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq03.sample.json"
+        },
+        {
+          "name": "faq04.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq04.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq04.sample.json"
+        },
+        {
+          "name": "faq05.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq05.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq05.sample.json"
+        },
+        {
+          "name": "faq06.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq06.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq06.sample.json"
+        },
+        {
+          "name": "faq07.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq07.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq07.sample.json"
+        },
+        {
+          "name": "faq08.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq08.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq08.sample.json"
+        },
+        {
+          "name": "faq09.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq09.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq09.sample.json"
+        },
+        {
+          "name": "faq10.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq10.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq10.sample.json"
+        },
+        {
+          "name": "faq11.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq11.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq11.sample.json"
+        },
+        {
+          "name": "faq12.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq12.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/faq/faq12.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "integration",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/integration",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/integration/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/integration/all.json",
+      "files": [
+        {
+          "name": "integration01.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/integration/integration01.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/integration/integration01.sample.json"
+        },
+        {
+          "name": "integration02.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/integration/integration02.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/integration/integration02.sample.json"
+        },
+        {
+          "name": "integration03.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/integration/integration03.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/integration/integration03.sample.json"
+        },
+        {
+          "name": "integration04.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/integration/integration04.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/integration/integration04.sample.json"
+        },
+        {
+          "name": "integration05.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/integration/integration05.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/integration/integration05.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "cta",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/all.json",
+      "files": [
+        {
+          "name": "cta01.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta01.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta01.sample.json"
+        },
+        {
+          "name": "cta02.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta02.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta02.sample.json"
+        },
+        {
+          "name": "cta03.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta03.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta03.sample.json"
+        },
+        {
+          "name": "cta04.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta04.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta04.sample.json"
+        },
+        {
+          "name": "cta05.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta05.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta05.sample.json"
+        },
+        {
+          "name": "cta06.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta06.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta06.sample.json"
+        },
+        {
+          "name": "cta07.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta07.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta07.sample.json"
+        },
+        {
+          "name": "cta08.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta08.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta08.sample.json"
+        },
+        {
+          "name": "cta09.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta09.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta09.sample.json"
+        },
+        {
+          "name": "cta10.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta10.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta10.sample.json"
+        },
+        {
+          "name": "cta11.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta11.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta11.sample.json"
+        },
+        {
+          "name": "cta12.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta12.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta12.sample.json"
+        },
+        {
+          "name": "cta13.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta13.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta13.sample.json"
+        },
+        {
+          "name": "cta14.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta14.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta14.sample.json"
+        },
+        {
+          "name": "cta15.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta15.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta15.sample.json"
+        },
+        {
+          "name": "cta16.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta16.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta16.sample.json"
+        },
+        {
+          "name": "cta17.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta17.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta17.sample.json"
+        },
+        {
+          "name": "cta18.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta18.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta18.sample.json"
+        },
+        {
+          "name": "cta19.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta19.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta19.sample.json"
+        },
+        {
+          "name": "cta20.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta20.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta20.sample.json"
+        },
+        {
+          "name": "cta21.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta21.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta21.sample.json"
+        },
+        {
+          "name": "cta22.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta22.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta22.sample.json"
+        },
+        {
+          "name": "cta23.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta23.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta23.sample.json"
+        },
+        {
+          "name": "cta24.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta24.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta24.sample.json"
+        },
+        {
+          "name": "cta25.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta25.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta25.sample.json"
+        },
+        {
+          "name": "cta26.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta26.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta26.sample.json"
+        },
+        {
+          "name": "cta27.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta27.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/cta27.sample.json"
+        },
+        {
+          "name": "tw_doc_type_js_alpine.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/tw_doc_type_js_alpine.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/cta/tw_doc_type_js_alpine.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "navigation",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/all.json",
+      "files": [
+        {
+          "name": "navigation01.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation01.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation01.sample.json"
+        },
+        {
+          "name": "navigation02.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation02.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation02.sample.json"
+        },
+        {
+          "name": "navigation03.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation03.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation03.sample.json"
+        },
+        {
+          "name": "navigation04.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation04.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation04.sample.json"
+        },
+        {
+          "name": "navigation05.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation05.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation05.sample.json"
+        },
+        {
+          "name": "navigation06.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation06.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation06.sample.json"
+        },
+        {
+          "name": "navigation07.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation07.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation07.sample.json"
+        },
+        {
+          "name": "navigation08.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation08.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation08.sample.json"
+        },
+        {
+          "name": "navigation09.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation09.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation09.sample.json"
+        },
+        {
+          "name": "navigation10.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation10.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation10.sample.json"
+        },
+        {
+          "name": "navigation11.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation11.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation11.sample.json"
+        },
+        {
+          "name": "navigation12.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation12.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation12.sample.json"
+        },
+        {
+          "name": "navigation13.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation13.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation13.sample.json"
+        },
+        {
+          "name": "navigation14.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation14.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation14.sample.json"
+        },
+        {
+          "name": "navigation15.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation15.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation15.sample.json"
+        },
+        {
+          "name": "navigation16.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation16.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation16.sample.json"
+        },
+        {
+          "name": "navigation17.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation17.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation17.sample.json"
+        },
+        {
+          "name": "navigation18.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation18.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation18.sample.json"
+        },
+        {
+          "name": "navigation19.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation19.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation19.sample.json"
+        },
+        {
+          "name": "navigation21.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation21.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation21.sample.json"
+        },
+        {
+          "name": "navigation22.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation22.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation22.sample.json"
+        },
+        {
+          "name": "navigation23.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation23.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation23.sample.json"
+        },
+        {
+          "name": "navigation24.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation24.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation24.sample.json"
+        },
+        {
+          "name": "navigation25.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation25.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation25.sample.json"
+        },
+        {
+          "name": "navigation26.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation26.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation26.sample.json"
+        },
+        {
+          "name": "navigation27.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation27.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation27.sample.json"
+        },
+        {
+          "name": "navigation28.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation28.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation28.sample.json"
+        },
+        {
+          "name": "navigation29.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation29.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation29.sample.json"
+        },
+        {
+          "name": "navigation30.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation30.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation30.sample.json"
+        },
+        {
+          "name": "navigation31.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation31.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation31.sample.json"
+        },
+        {
+          "name": "navigation32.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation32.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation32.sample.json"
+        },
+        {
+          "name": "navigation33.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation33.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation33.sample.json"
+        },
+        {
+          "name": "navigation34.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation34.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation34.sample.json"
+        },
+        {
+          "name": "navigation35.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation35.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation35.sample.json"
+        },
+        {
+          "name": "navigation36.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation36.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation36.sample.json"
+        },
+        {
+          "name": "navigation37.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation37.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation37.sample.json"
+        },
+        {
+          "name": "navigation38.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation38.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation38.sample.json"
+        },
+        {
+          "name": "navigation39.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation39.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/navigation/navigation39.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "content",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/all.json",
+      "files": [
+        {
+          "name": "content01.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content01.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content01.sample.json"
+        },
+        {
+          "name": "content02.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content02.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content02.sample.json"
+        },
+        {
+          "name": "content03.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content03.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content03.sample.json"
+        },
+        {
+          "name": "content04.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content04.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content04.sample.json"
+        },
+        {
+          "name": "content05.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content05.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content05.sample.json"
+        },
+        {
+          "name": "content06.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content06.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content06.sample.json"
+        },
+        {
+          "name": "content07.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content07.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content07.sample.json"
+        },
+        {
+          "name": "content08.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content08.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content08.sample.json"
+        },
+        {
+          "name": "content09.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content09.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content09.sample.json"
+        },
+        {
+          "name": "content10.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content10.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content10.sample.json"
+        },
+        {
+          "name": "content11.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content11.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content11.sample.json"
+        },
+        {
+          "name": "content12.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content12.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content12.sample.json"
+        },
+        {
+          "name": "content13.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content13.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content13.sample.json"
+        },
+        {
+          "name": "content14.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content14.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content14.sample.json"
+        },
+        {
+          "name": "content15.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content15.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content15.sample.json"
+        },
+        {
+          "name": "content16.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content16.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content16.sample.json"
+        },
+        {
+          "name": "content17.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content17.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content17.sample.json"
+        },
+        {
+          "name": "content18.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content18.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content18.sample.json"
+        },
+        {
+          "name": "content19.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content19.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content19.sample.json"
+        },
+        {
+          "name": "content20.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content20.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content20.sample.json"
+        },
+        {
+          "name": "content21.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content21.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content21.sample.json"
+        },
+        {
+          "name": "content22.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content22.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content22.sample.json"
+        },
+        {
+          "name": "content23.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content23.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content23.sample.json"
+        },
+        {
+          "name": "content24.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content24.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content24.sample.json"
+        },
+        {
+          "name": "content25.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content25.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content25.sample.json"
+        },
+        {
+          "name": "content26.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content26.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/content/content26.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "blog",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/all.json",
+      "files": [
+        {
+          "name": "blog01.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog01.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog01.sample.json"
+        },
+        {
+          "name": "blog02.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog02.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog02.sample.json"
+        },
+        {
+          "name": "blog03.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog03.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog03.sample.json"
+        },
+        {
+          "name": "blog04.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog04.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog04.sample.json"
+        },
+        {
+          "name": "blog05.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog05.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog05.sample.json"
+        },
+        {
+          "name": "blog06.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog06.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog06.sample.json"
+        },
+        {
+          "name": "blog07.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog07.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog07.sample.json"
+        },
+        {
+          "name": "blog08.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog08.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog08.sample.json"
+        },
+        {
+          "name": "blog09.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog09.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/blog/blog09.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "logo",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/all.json",
+      "files": [
+        {
+          "name": "logo01.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo01.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo01.sample.json"
+        },
+        {
+          "name": "logo02.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo02.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo02.sample.json"
+        },
+        {
+          "name": "logo03.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo03.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo03.sample.json"
+        },
+        {
+          "name": "logo04.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo04.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo04.sample.json"
+        },
+        {
+          "name": "logo05.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo05.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo05.sample.json"
+        },
+        {
+          "name": "logo06.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo06.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo06.sample.json"
+        },
+        {
+          "name": "logo07.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo07.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo07.sample.json"
+        },
+        {
+          "name": "logo08.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo08.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo08.sample.json"
+        },
+        {
+          "name": "logo09.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo09.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo09.sample.json"
+        },
+        {
+          "name": "logo10.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo10.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/logo/logo10.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "team",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/all.json",
+      "files": [
+        {
+          "name": "all-component-menu.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/all-component-menu.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/all-component-menu.sample.json"
+        },
+        {
+          "name": "all-components.json",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/all-components.json",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/all-components.sample.json"
+        },
+        {
+          "name": "team01.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/team01.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/team01.sample.json"
+        },
+        {
+          "name": "team02.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/team02.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/team02.sample.json"
+        },
+        {
+          "name": "team03.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/team03.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/team03.sample.json"
+        },
+        {
+          "name": "team04.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/team04.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/team04.sample.json"
+        },
+        {
+          "name": "team05.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/team05.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/team05.sample.json"
+        },
+        {
+          "name": "team06.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/team06.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/team/team06.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "testimonial",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/all.json",
+      "files": [
+        {
+          "name": "testimonial01.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial01.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial01.sample.json"
+        },
+        {
+          "name": "testimonial02.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial02.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial02.sample.json"
+        },
+        {
+          "name": "testimonial03.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial03.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial03.sample.json"
+        },
+        {
+          "name": "testimonial04.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial04.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial04.sample.json"
+        },
+        {
+          "name": "testimonial05.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial05.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial05.sample.json"
+        },
+        {
+          "name": "testimonial06.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial06.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial06.sample.json"
+        },
+        {
+          "name": "testimonial07.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial07.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial07.sample.json"
+        },
+        {
+          "name": "testimonial08.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial08.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial08.sample.json"
+        },
+        {
+          "name": "testimonial09.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial09.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial09.sample.json"
+        },
+        {
+          "name": "testimonial10.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial10.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial10.sample.json"
+        },
+        {
+          "name": "testimonial11.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial11.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/testimonial/testimonial11.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "feature",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/all.json",
+      "files": [
+        {
+          "name": "feature01.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature01.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature01.sample.json"
+        },
+        {
+          "name": "feature02.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature02.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature02.sample.json"
+        },
+        {
+          "name": "feature03.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature03.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature03.sample.json"
+        },
+        {
+          "name": "feature04.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature04.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature04.sample.json"
+        },
+        {
+          "name": "feature05.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature05.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature05.sample.json"
+        },
+        {
+          "name": "feature06.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature06.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature06.sample.json"
+        },
+        {
+          "name": "feature07.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature07.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature07.sample.json"
+        },
+        {
+          "name": "feature08.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature08.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature08.sample.json"
+        },
+        {
+          "name": "feature09.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature09.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature09.sample.json"
+        },
+        {
+          "name": "feature10.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature10.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature10.sample.json"
+        },
+        {
+          "name": "feature11.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature11.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature11.sample.json"
+        },
+        {
+          "name": "feature12.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature12.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature12.sample.json"
+        },
+        {
+          "name": "feature13.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature13.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature13.sample.json"
+        },
+        {
+          "name": "feature14.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature14.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature14.sample.json"
+        },
+        {
+          "name": "feature15.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature15.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature15.sample.json"
+        },
+        {
+          "name": "feature16.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature16.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature16.sample.json"
+        },
+        {
+          "name": "feature17.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature17.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/feature/feature17.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "hero",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/all.json",
+      "files": [
+        {
+          "name": "hero01.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero01.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero01.sample.json"
+        },
+        {
+          "name": "hero02.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero02.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero02.sample.json"
+        },
+        {
+          "name": "hero03.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero03.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero03.sample.json"
+        },
+        {
+          "name": "hero04.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero04.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero04.sample.json"
+        },
+        {
+          "name": "hero05.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero05.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero05.sample.json"
+        },
+        {
+          "name": "hero06.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero06.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero06.sample.json"
+        },
+        {
+          "name": "hero07.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero07.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero07.sample.json"
+        },
+        {
+          "name": "hero08.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero08.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero08.sample.json"
+        },
+        {
+          "name": "hero09.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero09.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero09.sample.json"
+        },
+        {
+          "name": "hero10.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero10.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero10.sample.json"
+        },
+        {
+          "name": "hero11.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero11.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero11.sample.json"
+        },
+        {
+          "name": "hero12.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero12.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero12.sample.json"
+        },
+        {
+          "name": "hero13.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero13.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero13.sample.json"
+        },
+        {
+          "name": "hero14.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero14.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero14.sample.json"
+        },
+        {
+          "name": "hero15.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero15.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero15.sample.json"
+        },
+        {
+          "name": "hero16bug.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero16bug.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero16bug.sample.json"
+        },
+        {
+          "name": "hero17.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero17.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero17.sample.json"
+        },
+        {
+          "name": "hero18.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero18.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero18.sample.json"
+        },
+        {
+          "name": "hero19.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero19.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero19.sample.json"
+        },
+        {
+          "name": "hero20.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero20.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero20.sample.json"
+        },
+        {
+          "name": "hero21.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero21.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero21.sample.json"
+        },
+        {
+          "name": "hero22.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero22.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero22.sample.json"
+        },
+        {
+          "name": "hero23.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero23.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero23.sample.json"
+        },
+        {
+          "name": "hero24.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero24.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/hero/hero24.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "pricing",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/all.json",
+      "files": [
+        {
+          "name": "pricing01.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing01.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing01.sample.json"
+        },
+        {
+          "name": "pricing02.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing02.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing02.sample.json"
+        },
+        {
+          "name": "pricing03.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing03.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing03.sample.json"
+        },
+        {
+          "name": "pricing04.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing04.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing04.sample.json"
+        },
+        {
+          "name": "pricing05.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing05.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing05.sample.json"
+        },
+        {
+          "name": "pricing07.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing07.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing07.sample.json"
+        },
+        {
+          "name": "pricing08.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing08.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing08.sample.json"
+        },
+        {
+          "name": "pricing09.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing09.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing09.sample.json"
+        },
+        {
+          "name": "pricing10.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing10.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing10.sample.json"
+        },
+        {
+          "name": "pricing11.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing11.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing11.sample.json"
+        },
+        {
+          "name": "pricing12.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing12.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing12.sample.json"
+        },
+        {
+          "name": "pricing13.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing13.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing13.sample.json"
+        },
+        {
+          "name": "pricing14.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing14.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing14.sample.json"
+        },
+        {
+          "name": "pricing15.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing15.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing15.sample.json"
+        },
+        {
+          "name": "pricing16.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing16.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing16.sample.json"
+        },
+        {
+          "name": "pricing17.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing17.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing17.sample.json"
+        },
+        {
+          "name": "pricing18.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing18.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing18.sample.json"
+        },
+        {
+          "name": "pricing19.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing19.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing19.sample.json"
+        },
+        {
+          "name": "pricing20.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing20.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing20.sample.json"
+        },
+        {
+          "name": "pricing21.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing21.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/pricing/pricing21.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "folder": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/all.json",
+      "files": [
+        {
+          "name": "header01.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header01.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header01.sample.json"
+        },
+        {
+          "name": "header02.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header02.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header02.sample.json"
+        },
+        {
+          "name": "header03.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header03.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header03.sample.json"
+        },
+        {
+          "name": "header04.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header04.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header04.sample.json"
+        },
+        {
+          "name": "header05.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header05.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header05.sample.json"
+        },
+        {
+          "name": "header06.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header06.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header06.sample.json"
+        },
+        {
+          "name": "header07.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header07.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header07.sample.json"
+        },
+        {
+          "name": "header08.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header08.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header08.sample.json"
+        },
+        {
+          "name": "header09.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header09.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header09.sample.json"
+        },
+        {
+          "name": "header10.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header10.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header10.sample.json"
+        },
+        {
+          "name": "header11.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header11.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header11.sample.json"
+        },
+        {
+          "name": "header12.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header12.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header12.sample.json"
+        },
+        {
+          "name": "header13.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header13.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header13.sample.json"
+        },
+        {
+          "name": "header14.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header14.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header14.sample.json"
+        },
+        {
+          "name": "header15.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header15.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header15.sample.json"
+        },
+        {
+          "name": "header16.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header16.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header16.sample.json"
+        },
+        {
+          "name": "header17.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header17.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header17.sample.json"
+        },
+        {
+          "name": "header18.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header18.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header18.sample.json"
+        },
+        {
+          "name": "header19.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header19.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header19.sample.json"
+        },
+        {
+          "name": "header20.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header20.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header20.sample.json"
+        },
+        {
+          "name": "header20bug.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header20bug.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header20bug.sample.json"
+        },
+        {
+          "name": "header21.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header21.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header21.sample.json"
+        },
+        {
+          "name": "header22.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header22.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header22.sample.json"
+        },
+        {
+          "name": "header23.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header23.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header23.sample.json"
+        },
+        {
+          "name": "header24.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header24.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header24.sample.json"
+        },
+        {
+          "name": "header25.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header25.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header25.sample.json"
+        },
+        {
+          "name": "header25bug.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header25bug.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header25bug.sample.json"
+        },
+        {
+          "name": "header26.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header26.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header26.sample.json"
+        },
+        {
+          "name": "header27.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header27.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header27.sample.json"
+        },
+        {
+          "name": "header28.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header28.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header28.sample.json"
+        },
+        {
+          "name": "header29.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header29.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header29.sample.json"
+        },
+        {
+          "name": "header29bug.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header29bug.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header29bug.sample.json"
+        },
+        {
+          "name": "header30.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header30.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header30.sample.json"
+        },
+        {
+          "name": "header31.html",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header31.html",
+          "sample_data_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/devdojo/header/header31.sample.json"
+        }
+      ]
+    }
+  ]
+}
