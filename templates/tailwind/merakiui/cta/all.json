@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component_name": "centered",
+      "data": {
+        "title": "Try something really different right now.",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto recusandae tenetur iste quaerat voluptatibus quibusdam nam repudiandae",
+        "button1": {
+          "text": "Get it on the App Store",
+          "icon": "apple",
+          "url": "#"
+        },
+        "button2": {
+          "text": "Get it on Google Play",
+          "icon": "google",
+          "url": "#"
+        }
+      }
+    },
+    {
+      "component_name": "grid",
+      "data": {
+        "cards": [
+          {
+            "title": "Web development",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ex cupiditate corrupti aliquam eum vel consequuntur hic culpa unde natus officia enim est impedit consequatur aut, voluptatem minima repellat non!",
+            "button": {
+              "text": "Start now",
+              "url": "#"
+            }
+          },
+          {
+            "title": "App development",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ex cupiditate corrupti aliquam eum vel consequuntur hic culpa unde natus officia enim est impedit consequatur aut, voluptatem minima repellat non!",
+            "button": {
+              "text": "Start now",
+              "url": "#"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "with_form",
+      "data": {
+        "title": "Join us and get the update from anywhere",
+        "email": {
+          "placeholder": "Email Address",
+          "button": {
+            "text": "Get Started",
+            "url": "#"
+          },
+          "description": "Attention! Offer expires in 30 days. Make sure not to miss this opportunity"
+        }
+      }
+    },
+    {
+      "component_name": "with_image",
+      "data": {
+        "title": "Download our free mobile app",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto recusandae tenetur iste quaerat voluptatibus quibusdam nam repudiandae",
+        "button1": {
+          "text": "Get it on the App Store",
+          "icon": "apple",
+          "url": "#"
+        },
+        "button2": {
+          "text": "Get it on Google Play",
+          "icon": "google",
+          "url": "#"
+        }
+      }
+    },
+    {
+      "component_name": "simple",
+      "data": {
+        "title": "Join us and get the update <br> from anywhere",
+        "button1": {
+          "text": "Buy Blox Now",
+          "url": "#"
+        },
+        "button2": {
+          "text": "Start a Journey",
+          "url": "#"
+        }
+      }
+    }
+  ]
+}

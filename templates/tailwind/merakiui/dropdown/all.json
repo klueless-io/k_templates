@@ -1,0 +1,264 @@
+{
+  "components": [
+    {
+      "component_name": "user_info_with_icons",
+      "data": {
+        "label": "John Doe",
+        "items": [
+          {
+            "type": "link",
+            "image": "https://images.unsplash.com/photo-1523779917675-b6ed3a42a561?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d29tYW4lMjBibHVlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=face&w=500&q=200",
+            "text": "Jane Doe"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "link",
+            "icon": "user",
+            "text": "View profile"
+          },
+          {
+            "type": "link",
+            "icon": "settings",
+            "text": "Settings"
+          },
+          {
+            "type": "link",
+            "icon": "keyboard",
+            "text": "Keyboard shortcuts"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "link",
+            "icon": "company",
+            "text": "Company profile"
+          },
+          {
+            "type": "link",
+            "icon": "team",
+            "text": "Team"
+          },
+          {
+            "type": "link",
+            "icon": "invite",
+            "text": "Invite colleagues"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "link",
+            "icon": "help",
+            "text": "Help"
+          },
+          {
+            "type": "link",
+            "icon": "sign-out",
+            "text": "Sign Out"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "multi_level_with_icons",
+      "data": {
+        "items": [
+          {
+            "type": "link",
+            "icon": "user",
+            "text": "View profile"
+          },
+          {
+            "type": "link",
+            "icon": "settings",
+            "text": "Settings"
+          },
+          {
+            "type": "link",
+            "icon": "keyboard",
+            "text": "Keyboard shortcuts"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "link",
+            "icon": "company",
+            "text": "Company profile"
+          },
+          {
+            "type": "link",
+            "icon": "team",
+            "text": "Team"
+          },
+          {
+            "type": "link",
+            "icon": "invite",
+            "text": "Invite colleagues"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "link",
+            "icon": "help",
+            "text": "Help"
+          },
+          {
+            "type": "link",
+            "icon": "sign-out",
+            "text": "Sign Out"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "notification",
+      "data": {
+        "footer_label": "See all notifications",
+        "items": [
+          {
+            "text": "Sara Salah replied on the Upload Image article.",
+            "time": "2m"
+          },
+          {
+            "text": "Slick Net start following you.",
+            "time": "45m"
+          },
+          {
+            "text": "Jane Doe like your reply on Test with TDD article.",
+            "time": "3h"
+          },
+          {
+            "text": "Abigail Bennett start following you.",
+            "time": "3h"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "multi_level",
+      "data": {
+        "items": [
+          {
+            "type": "link",
+            "text": "View profile"
+          },
+          {
+            "type": "link",
+            "text": "Settings"
+          },
+          {
+            "type": "link",
+            "text": "Keyboard shortcuts"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "link",
+            "text": "Company profile"
+          },
+          {
+            "type": "link",
+            "text": "Team"
+          },
+          {
+            "type": "link",
+            "text": "Invite colleagues"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "link",
+            "text": "Help"
+          },
+          {
+            "type": "link",
+            "text": "Sign Out"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "user_info",
+      "data": {
+        "label": "John Doe",
+        "items": [
+          {
+            "type": "link",
+            "image": "https://images.unsplash.com/photo-1523779917675-b6ed3a42a561?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d29tYW4lMjBibHVlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=face&w=500&q=200",
+            "text": "Jane Doe"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "link",
+            "text": "View profile"
+          },
+          {
+            "type": "link",
+            "text": "Settings"
+          },
+          {
+            "type": "link",
+            "text": "Keyboard shortcuts"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "link",
+            "text": "Company profile"
+          },
+          {
+            "type": "link",
+            "text": "Team"
+          },
+          {
+            "type": "link",
+            "text": "Invite colleagues"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "link",
+            "text": "Help"
+          },
+          {
+            "type": "link",
+            "text": "Sign Out"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "simple",
+      "data": {
+        "items": [
+          {
+            "text": "Your Profile"
+          },
+          {
+            "text": "Your Projects"
+          },
+          {
+            "text": "Help"
+          },
+          {
+            "text": "Settings"
+          },
+          {
+            "text": "Sign Out"
+          }
+        ]
+      }
+    }
+  ]
+}

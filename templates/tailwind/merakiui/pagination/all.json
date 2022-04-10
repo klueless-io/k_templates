@@ -1,0 +1,24 @@
+{
+  "components": [
+    {
+      "component_name": "with_icons",
+      "data": {
+      }
+    },
+    {
+      "component_name": "table",
+      "data": {
+      }
+    },
+    {
+      "component_name": "with_arrows",
+      "data": {
+      }
+    },
+    {
+      "component_name": "simple",
+      "data": {
+      }
+    }
+  ]
+}

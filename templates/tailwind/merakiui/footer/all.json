@@ -1,0 +1,342 @@
+{
+  "components": [
+    {
+      "component_name": "with_subscribe_form",
+      "data": {
+        "message": "Join 31,000+ other and never miss <br> out on new tips, tutorials, and more.",
+        "email": {
+          "placeholder": "Enter your email",
+          "label": "subscribe"
+        },
+        "logo": {
+          "text": "Brand",
+          "url": "#"
+        },
+        "links": [
+          {
+            "text": "About",
+            "url": "#"
+          },
+          {
+            "text": "Blog",
+            "url": "#"
+          },
+          {
+            "text": "News",
+            "url": "#"
+          },
+          {
+            "text": "Contact",
+            "url": "#"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "with_links",
+      "data": {
+        "copyright": "© Copyright 2021. All Rights Reserved.",
+        "social_links": [
+          {
+            "icon": "facebook",
+            "url": "https://www.facebook.com/xmen"
+          },
+          {
+            "icon": "twitter",
+            "url": "https://twitter.com/xmen"
+          },
+          {
+            "icon": "reddit",
+            "url": "https://www.reddit.com/"
+          }
+        ],
+        "columns": [
+          {
+            "title": "Name",
+            "links": [
+              {
+                "text": "Installation",
+                "url": "#"
+              },
+              {
+                "text": "Release Notes",
+                "url": "#"
+              },
+              {
+                "text": "Upgrade Guide",
+                "url": "#"
+              },
+              {
+                "text": "Using with Preprocessors",
+                "url": "#"
+              },
+              {
+                "text": "Optimizing for Production",
+                "url": "#"
+              },
+              {
+                "text": "Browser Support",
+                "url": "#"
+              },
+              {
+                "text": "IntelliSense",
+                "url": "#"
+              }
+            ]
+          },
+          {
+            "title": "Name",
+            "links": [
+              {
+                "text": "Installation",
+                "url": "#"
+              },
+              {
+                "text": "Release Notes",
+                "url": "#"
+              },
+              {
+                "text": "Upgrade Guide",
+                "url": "#"
+              },
+              {
+                "text": "Using with Preprocessors",
+                "url": "#"
+              },
+              {
+                "text": "Optimizing for Production",
+                "url": "#"
+              },
+              {
+                "text": "Browser Support",
+                "url": "#"
+              },
+              {
+                "text": "IntelliSense",
+                "url": "#"
+              }
+            ]
+          },
+          {
+            "title": "Name",
+            "links": [
+              {
+                "text": "Installation",
+                "url": "#"
+              },
+              {
+                "text": "Release Notes",
+                "url": "#"
+              },
+              {
+                "text": "Upgrade Guide",
+                "url": "#"
+              },
+              {
+                "text": "Using with Preprocessors",
+                "url": "#"
+              },
+              {
+                "text": "Optimizing for Production",
+                "url": "#"
+              },
+              {
+                "text": "Browser Support",
+                "url": "#"
+              },
+              {
+                "text": "IntelliSense",
+                "url": "#"
+              }
+            ]
+          },
+          {
+            "title": "Name",
+            "links": [
+              {
+                "text": "Installation",
+                "url": "#"
+              },
+              {
+                "text": "Release Notes",
+                "url": "#"
+              },
+              {
+                "text": "Upgrade Guide",
+                "url": "#"
+              },
+              {
+                "text": "Using with Preprocessors",
+                "url": "#"
+              },
+              {
+                "text": "Optimizing for Production",
+                "url": "#"
+              },
+              {
+                "text": "Browser Support",
+                "url": "#"
+              },
+              {
+                "text": "IntelliSense",
+                "url": "#"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "with_details",
+      "data": {
+        "logo": {
+          "text": "Brand",
+          "url": "#"
+        },
+        "message": "Join 31,000+ developers and designers who are using Tailwind CSS to build their awesome websites.",
+        "copywrite": "© Brand 2020 - All rights reserved",
+        "social_links": [
+          {
+            "icon": "linkedin",
+            "url": "https://www.linkedin.com/"
+          },
+          {
+            "icon": "facebook",
+            "url": "https://www.facebook.com/xmen"
+          },
+          {
+            "icon": "twitter",
+            "url": "https://twitter.com/xmen"
+          }
+        ],
+        "columns": [
+          {
+            "title": "About",
+            "links": [
+              {
+                "text": "Company",
+                "url": "#"
+              },
+              {
+                "text": "community",
+                "url": "#"
+              },
+              {
+                "text": "Careers",
+                "url": "#"
+              }
+            ]
+          },
+          {
+            "title": "Blog",
+            "links": [
+              {
+                "text": "Tec",
+                "url": "#"
+              },
+              {
+                "text": "Music",
+                "url": "#"
+              },
+              {
+                "text": "Videos",
+                "url": "#"
+              }
+            ]
+          },
+          {
+            "title": "Products",
+            "links": [
+              {
+                "text": "Mega cloud",
+                "url": "#"
+              },
+              {
+                "text": "Aperion UI",
+                "url": "#"
+              },
+              {
+                "text": "Meraki UI",
+                "url": "#"
+              }
+            ]
+          },
+          {
+            "title": "Contact",
+            "links": [
+              {
+                "text": "+1 526 654 8965",
+                "url": "#"
+              },
+              {
+                "text": "example@email.com",
+                "url": "#"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "with_cta",
+      "data": {
+        "logo": {
+          "text": "Brand",
+          "url": "#"
+        },
+        "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "button1": {
+          "text": "View Demo",
+          "icon": "arrow-right",
+          "url": "#"
+        },
+        "button2": {
+          "text": "Get started",
+          "url": "#"
+        },
+        "links": [
+          {
+            "text": "Teams",
+            "url": "#"
+          },
+          {
+            "text": "Privacy",
+            "url": "#"
+          },
+          {
+            "text": "Cookies",
+            "url": "#"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "simple",
+      "data": {
+        "logo": {
+          "text": "Brand",
+          "url": "#"
+        },
+        "message": "All rights reserved",
+        "social_links": [
+          {
+            "icon": "linkedin",
+            "url": "https://www.linkedin.com/"
+          },
+          {
+            "icon": "facebook",
+            "url": "https://www.facebook.com/xmen"
+          },
+          {
+            "icon": "twitter",
+            "url": "https://twitter.com/xmen"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "page",
+      "data": null
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "component_name": "with_icons",
+      "data": {
+        "items": [
+          {
+            "icon": "home",
+            "url": "#"
+          },
+          {
+            "icon": "account",
+            "title": "Account",
+            "url": "#"
+          },
+          {
+            "icon": "profile",
+            "title": "Profile",
+            "url": "#"
+          },
+          {
+            "icon": "settings",
+            "title": "Settings",
+            "url": "#"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "with_arrow",
+      "data": {
+        "items": [
+          {
+            "icon": "home",
+            "url": "#"
+          },
+          {
+            "title": "Account",
+            "url": "#"
+          },
+          {
+            "title": "Profile",
+            "url": "#"
+          },
+          {
+            "title": "Settings",
+            "url": "#"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "full_width",
+      "data": {
+      }
+    },
+    {
+      "component_name": "full_width_with_icons",
+      "data": {
+        "items": [
+          {
+            "icon": "home",
+            "url": "#"
+          },
+          {
+            "icon": "account",
+            "title": "Account",
+            "url": "#"
+          },
+          {
+            "icon": "profile",
+            "title": "Profile",
+            "url": "#"
+          },
+          {
+            "icon": "settings",
+            "title": "Settings",
+            "url": "#"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "simple",
+      "data": {
+        "items": [
+          {
+            "icon": "home",
+            "url": "#"
+          },
+          {
+            "url": "#",
+            "title": "Account"
+          },
+          {
+            "url": "#",
+            "title": "Profile"
+          },
+          {
+            "url": "#",
+            "title": "Settings"
+          }
+        ]
+      }
+    }
+  ]
+}

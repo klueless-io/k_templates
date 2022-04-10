@@ -1,0 +1,180 @@
+{
+  "components": [
+    {
+      "component_name": "collapse_with_side_links",
+      "data": {
+        "title": "Have any Questions?",
+        "toc": {
+          "title": "Table of Content",
+          "groups": [
+            {
+              "title": "General",
+              "questions": [
+                {
+                  "question": "How i can play for my appoinment ?",
+                  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa."
+                },
+                {
+                  "question": "What can i expect at my first consultation ?",
+                  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa."
+                },
+                {
+                  "question": "What are your opening house ?",
+                  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa."
+                },
+                {
+                  "question": "Do i need a referral ?",
+                  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa."
+                },
+                {
+                  "question": "Is the cost of the appoinment covered by private health insurance ?",
+                  "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus"
+                }
+              ]
+            },
+            {
+              "title": "Trust & Safety",
+              "questions": [
+
+              ]
+            },
+            {
+              "title": "Services",
+              "questions": [
+
+              ]
+            },
+            {
+              "title": "Billing",
+              "questions": [
+
+              ]
+            },
+            {
+              "title": "Office Cleaning",
+              "questions": [
+
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "component_name": "centered",
+      "data": {
+        "title": "Frequently asked questions",
+        "questions": [
+          {
+            "title": "How i can play for my appoinment ?",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus"
+          },
+          {
+            "title": "Is the cost of the appoinment covered by private health insurance ?",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus"
+          },
+          {
+            "title": "Do i need a referral?",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus"
+          },
+          {
+            "title": "What are your opening house?",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus"
+          },
+          {
+            "title": "What can i expect at my first consultation?",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "grid",
+      "data": {
+        "title": "Freqently Asked Questions",
+        "questions": [
+          {
+            "question": "What can i expect at my first consultation?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis."
+          },
+          {
+            "question": "What are your opening house?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis."
+          },
+          {
+            "question": "Do I need a referral?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis."
+          },
+          {
+            "question": "Is the cost of the appoinment covered by private health insurance?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis."
+          },
+          {
+            "question": "What is your cancellation policy?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis."
+          },
+          {
+            "question": "What are the parking and public transport options?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis."
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "collapse",
+      "data": {
+        "title": "FAQ's",
+        "questions": [
+          {
+            "question": "How i can play for my appoinment ?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa."
+          },
+          {
+            "question": "What can i expect at my first consultation ?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa."
+          },
+          {
+            "question": "What are your opening house ?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa."
+          },
+          {
+            "question": "Do i need a referral ?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa."
+          },
+          {
+            "question": "Is the cost of the appoinment covered by private health insurance ?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "cards",
+      "data": {
+        "title": "Freqently asked questions",
+        "questions": [
+          {
+            "question": "How i can play for my appoinment ?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa."
+          },
+          {
+            "question": "What can i expect at my first consultation ?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa."
+          },
+          {
+            "question": "What are your opening house ?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa."
+          },
+          {
+            "question": "Do i need a referral ?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa."
+          },
+          {
+            "question": "Is the cost of the appoinment covered by private health insurance ?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus"
+          }
+        ]
+      }
+    }
+  ]
+}

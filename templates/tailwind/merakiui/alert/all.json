@@ -1,0 +1,49 @@
+{
+  "components": [
+    {
+      "component_name": "info_pop",
+      "data": {
+      }
+    },
+    {
+      "component_name": "info_full_width",
+      "data": {
+      }
+    },
+    {
+      "component_name": "success_pop",
+      "data": {
+      }
+    },
+    {
+      "component_name": "warning_pop",
+      "data": {
+      }
+    },
+    {
+      "component_name": "notification_pop",
+      "data": {
+      }
+    },
+    {
+      "component_name": "error_pop",
+      "data": {
+      }
+    },
+    {
+      "component_name": "error_full_width",
+      "data": {
+      }
+    },
+    {
+      "component_name": "warning_full_width",
+      "data": {
+      }
+    },
+    {
+      "component_name": "success_full_width",
+      "data": {
+      }
+    }
+  ]
+}

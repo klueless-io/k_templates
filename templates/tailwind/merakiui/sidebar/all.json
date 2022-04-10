@@ -1,0 +1,14 @@
+{
+  "components": [
+    {
+      "component_name": "with_search",
+      "data": {
+      }
+    },
+    {
+      "component_name": "with_avatar",
+      "data": {
+      }
+    }
+  ]
+}

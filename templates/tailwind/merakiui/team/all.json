@@ -1,0 +1,39 @@
+{
+  "components": [
+    {
+      "component_name": "with_filter",
+      "data": {
+      }
+    },
+    {
+      "component_name": "side_by_side",
+      "data": {
+      }
+    },
+    {
+      "component_name": "grid_list",
+      "data": {
+      }
+    },
+    {
+      "component_name": "cards2x2",
+      "data": {
+      }
+    },
+    {
+      "component_name": "cards",
+      "data": {
+      }
+    },
+    {
+      "component_name": "background",
+      "data": {
+      }
+    },
+    {
+      "component_name": "simple",
+      "data": {
+      }
+    }
+  ]
+}

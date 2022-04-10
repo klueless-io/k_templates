@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component_name": "group",
+      "data": {
+        "buttons": [
+          {
+            "text": "Upload"
+          },
+          {
+            "text": "Drift"
+          },
+          {
+            "text": "View"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "primary",
+      "data": {
+        "text": "Primary"
+      }
+    },
+    {
+      "component_name": "with_menu",
+      "data": {
+        "text": "Download",
+        "dropdown": {
+          "items": [
+            {
+              "text": "small (640x426)"
+            },
+            {
+              "text": "medium (1920x1280)"
+            },
+            {
+              "text": "large (2400x1600)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "component_name": "with_icon",
+      "data": {
+        "text": "Refresh"
+      }
+    },
+    {
+      "component_name": "group_with_icons",
+      "data": {
+        "buttons": [
+          {
+            "icon": "upload",
+            "text": "Upload"
+          },
+          {
+            "icon": "drift",
+            "text": "Drift"
+          },
+          {
+            "icon": "view",
+            "text": "View"
+          }
+        ]
+      }
+    }
+  ]
+}

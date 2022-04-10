@@ -1,8 +1,11 @@
 plan of action
 
 1. Extract all those script
+  
 - Put them in their own all.json
+- The currently live in the all.html
 
-3. Check the classifications (human)
+2. Check the classifications (human)
 
-2. Convert JSON into DSL
+3. Convert JSON into DSL
+

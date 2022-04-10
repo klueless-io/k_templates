@@ -1,0 +1,133 @@
+{
+  "components": [
+    {
+      "component_name": "contact",
+      "data": {
+        "title": "Get in touch",
+        "subtitle": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "items": [
+          {
+            "icon": "mail",
+            "title": "121 Street, NY"
+          },
+          {
+            "icon": "phone",
+            "title": "+2499999666600"
+          },
+          {
+            "icon": "mail",
+            "title": "example@example.com"
+          }
+        ],
+        "rows": [
+          {
+            "fields": [
+              {
+                "title": "Name",
+                "type": "text"
+              },
+              {
+                "title": "E-mail",
+                "type": "email"
+              }
+            ]
+          },
+          {
+            "fields": [
+              {
+                "title": "Message",
+                "type": "textarea"
+              }
+            ]
+          }
+        ],
+        "buttons": [
+          {
+            "title": "Send Message",
+            "type": "submit"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "newsletter",
+      "data": {
+        "title": "Sign Up For Project Updates",
+        "subtitle": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "email": {
+          "placeholder": "Enter your email",
+          "button": {
+            "text": "Subscribe",
+            "url": "#"
+          }
+        }
+      }
+    },
+    {
+      "component_name": "search",
+      "data": {
+        "search": {
+          "placeholder": "Search",
+          "icon": "magnify_glass"
+        },
+        "results": [
+          {
+            "title": "Software engineer",
+            "date": "02/04/2020",
+            "url": "#"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "simple",
+      "data": {
+        "title": "Account settings",
+        "rows": [
+          {
+            "fields": [
+              {
+                "label": "Username",
+                "type": "text"
+              },
+              {
+                "label": "Email Address",
+                "type": "email"
+              }
+            ]
+          },
+          {
+            "fields": [
+              {
+                "label": "Password",
+                "type": "password"
+              },
+              {
+                "label": "Password Confirmation",
+                "type": "password"
+              }
+            ]
+          }
+        ],
+        "button": {
+          "text": "Save",
+          "url": "#"
+        }
+      }
+    },
+    {
+      "component_name": "simple_newsletter",
+      "data": {
+        "title": "Want to see Back in action?",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, minus tempora nemo quos",
+        "email": {
+          "placeholder": "Email Address",
+          "button": {
+            "text": "Get Started",
+            "url": "#"
+          }
+        }
+      }
+    }
+  ]
+}

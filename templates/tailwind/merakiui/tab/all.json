@@ -1,0 +1,24 @@
+{
+  "components": [
+    {
+      "component_name": "line_with_icons",
+      "data": {
+      }
+    },
+    {
+      "component_name": "end_closed_with_icons",
+      "data": {
+      }
+    },
+    {
+      "component_name": "end_closed",
+      "data": {
+      }
+    },
+    {
+      "component_name": "line",
+      "data": {
+      }
+    }
+  ]
+}

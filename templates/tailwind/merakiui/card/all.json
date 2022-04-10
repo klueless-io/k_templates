@@ -1,0 +1,131 @@
+{
+  "components": [
+    {
+      "component_name": "product",
+      "data": {
+        "title": "NIKE AIR",
+        "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quidem sequi illum facere recusandae voluptatibus",
+        "price": "129",
+        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80",
+        "button": {
+          "text": "Add to cart",
+          "url": "#"
+        }
+      }
+    },
+    {
+      "component_name": "product_with_evaluation",
+      "data": {
+        "title": "Backpack",
+        "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit In odit",
+        "price": "220",
+        "image": "https://images.unsplash.com/photo-1494726161322-5360d4d0eeae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+        "button": {
+          "text": "Add to cart",
+          "url": "#"
+        }
+      }
+    },
+    {
+      "component_name": "testimonial",
+      "data": {
+        "title": "Design Tools",
+        "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+        "author": "John Doe",
+        "image": "https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=76&q=80"
+      }
+    },
+    {
+      "component_name": "article_with_smicons",
+      "data": {
+        "title": "AP® Psychology - Course 5: Health and Behavior",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio eligendi similique exercitationem optio libero vitae accusamus cupiditate laborum eos.",
+        "url": "https://www.edx.org/course/ap-psychology-course-5-health-behavior/psychology-ap-5?ex=5",
+        "image": "https://www.edx.org/sites/default/files/course/image/promoted/psychology-ap-5.jpg",
+        "header": {
+          "label": "Courses and MOOCs",
+          "category": "psychology"
+        }
+      }
+    },
+    {
+      "component_name": "simple_product",
+      "data": {
+        "title": "Nike Revolt",
+        "price": "129",
+        "image": "https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "button": {
+          "text": "Add to cart",
+          "url": "#"
+        }
+      }
+    },
+    {
+      "component_name": "article",
+      "data": {
+        "header": {
+          "label": "Mar 10, 2019",
+          "category": "design"
+        },
+        "title": "Accessibility tools for designers and developers",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos enim reprehenderit nisi, accusamus delectus nihil quis facere in modi ratione libero!",
+        "link": {
+          "text": "Read more",
+          "url": "#"
+        },
+        "author": {
+          "name": "Khatab wedaa",
+          "avatar": "https://images.unsplash.com/photo-1502980426475-b83966705988?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=40&q=80"
+        }
+      }
+    },
+    {
+      "component_name": "user",
+      "data": {
+        "image": "https://images.unsplash.com/photo-1542156822-6924d1a71ace?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "title": "John Doe",
+        "subtitle": "Software Engineer"
+      }
+    },
+    {
+      "component_name": "user_with_details",
+      "data": {
+        "name": "Patterson johnson",
+        "title": "Full Stack maker & UI / UX Designer",
+        "description": "Full Stack maker & UI / UX Designer , love hip hop music Author of Building UI.",
+        "items": [
+          {
+            "icond": "meraki_ui",
+            "title": "Meraki UI"
+          },
+          {
+            "icon": "location",
+            "text": "California"
+          },
+          {
+            "icon": "envelope",
+            "text": "patterson@example.com"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "article_with_image",
+      "data": {
+        "image": "https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "title": "I Built A Successful Blog In One Year",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie parturient et sem ipsum volutpat vel. Natoque sem et aliquam mauris egestas quam volutpat viverra. In pretium nec senectus erat. Et malesuada lobortis.",
+        "author": {
+          "name": "Jone Doe",
+          "image": "https://images.unsplash.com/photo-1586287011575-a23134f797f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=48&q=60"
+        },
+        "date": "21 SEP 2015",
+        "header": {
+          "tags": [
+            "product"
+          ]
+        }
+      }
+    }
+  ]
+}

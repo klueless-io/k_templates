@@ -1,0 +1,285 @@
+{
+  "components": [
+    {
+      "component_name": "with_search",
+      "data": {
+        "logo": {
+          "text": "Brand",
+          "url": "#"
+        },
+        "links": [
+          {
+            "text": "Home",
+            "url": "#"
+          },
+          {
+            "text": "About",
+            "url": "#"
+          },
+          {
+            "text": "Contact",
+            "url": "#"
+          }
+        ],
+        "search": {
+          "placeholder": "Search"
+        }
+      }
+    },
+    {
+      "component_name": "with_categories",
+      "data": {
+        "logo": {
+          "text": "Brand",
+          "url": "#"
+        },
+        "links": [
+          {
+            "text": "Home",
+            "url": "#"
+          },
+          {
+            "text": "Blog",
+            "url": "#"
+          },
+          {
+            "text": "Components",
+            "url": "#"
+          },
+          {
+            "text": "Courses",
+            "url": "#"
+          }
+        ],
+        "search": {
+          "placeholder": "Search"
+        },
+        "button1": {
+          "text": "Login",
+          "url": "#"
+        },
+        "button2": {
+          "text": "Join free",
+          "url": "#"
+        },
+        "submenus": [
+          {
+            "text": "News",
+            "url": "#"
+          },
+          {
+            "text": "Articles",
+            "url": "#"
+          },
+          {
+            "text": "Videos",
+            "url": "#"
+          },
+          {
+            "text": "Tricks",
+            "url": "#"
+          },
+          {
+            "text": "PHP",
+            "url": "#"
+          },
+          {
+            "text": "Laravel",
+            "url": "#"
+          },
+          {
+            "text": "Vue",
+            "url": "#"
+          },
+          {
+            "text": "React",
+            "url": "#"
+          },
+          {
+            "text": "Tailwindcss",
+            "url": "#"
+          },
+          {
+            "text": "Meraki UI",
+            "url": "#"
+          },
+          {
+            "text": "CPP",
+            "url": "#"
+          },
+          {
+            "text": "JavaScript",
+            "url": "#"
+          },
+          {
+            "text": "Ruby",
+            "url": "#"
+          },
+          {
+            "text": "Mysql",
+            "url": "#"
+          },
+          {
+            "text": "Pest",
+            "url": "#"
+          },
+          {
+            "text": "PHPUnit",
+            "url": "#"
+          },
+          {
+            "text": "Netlify",
+            "url": "#"
+          },
+          {
+            "text": "VS Code",
+            "url": "#"
+          },
+          {
+            "text": "PHPStorm",
+            "url": "#"
+          },
+          {
+            "text": "Sublime",
+            "url": "#"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "with_social_media_links",
+      "data": {
+        "logo": {
+          "text": "Brand",
+          "url": "#"
+        },
+        "links": [
+          {
+            "text": "Features",
+            "url": "#"
+          },
+          {
+            "text": "Downloads",
+            "url": "#"
+          },
+          {
+            "text": "Docs",
+            "url": "#"
+          },
+          {
+            "text": "Support",
+            "url": "#"
+          },
+          {
+            "text": "Blog",
+            "url": "#"
+          }
+        ],
+        "search": {
+          "placeholder": "Search"
+        },
+        "social_links": [
+          {
+            "icon": "facebook",
+            "url": "https://www.facebook.com/xmen"
+          },
+          {
+            "icon": "twitter",
+            "url": "https://twitter.com/xmen"
+          },
+          {
+            "icon": "reddit",
+            "url": "https://www.reddit.com/"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "ecommerce",
+      "data": {
+        "logo": {
+          "text": "Brand",
+          "url": "#"
+        },
+        "links": [
+          {
+            "text": "Home",
+            "url": "#"
+          },
+          {
+            "text": "Shop",
+            "url": "#"
+          },
+          {
+            "text": "Contact",
+            "url": "#"
+          },
+          {
+            "text": "About",
+            "url": "#"
+          },
+          {
+            "icon": "shopping_cart",
+            "url": "#"
+          }
+        ]
+      }
+    },
+    {
+      "component_name": "with_avatar",
+      "data": {
+        "logo": {
+          "text": "Brand",
+          "url": "#"
+        },
+        "links": [
+          {
+            "text": "Join Slack",
+            "url": "#"
+          },
+          {
+            "text": "Browse Topics",
+            "url": "#"
+          },
+          {
+            "text": "Random Item",
+            "url": "#"
+          },
+          {
+            "text": "Experts",
+            "url": "#"
+          }
+        ],
+        "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+      }
+    },
+    {
+      "component_name": "simple",
+      "data": {
+        "logo": {
+          "text": "Brand",
+          "url": "#"
+        },
+        "links": [
+          {
+            "text": "Home",
+            "url": "#"
+          },
+          {
+            "text": "Features",
+            "url": "#"
+          },
+          {
+            "text": "Pricing",
+            "url": "#"
+          },
+          {
+            "text": "Blog",
+            "url": "#"
+          }
+        ],
+        "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+      }
+    }
+  ]
+}
