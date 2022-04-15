@@ -67,8 +67,7 @@ rm -rf kweb06-devise-unit-test-tailwind \
   c kweb06-devise-unit-test-tailwind/.
 
 # hotwire, devise, integration_tests, tailwind
-rm -rf sean01 \
-  && \
+rm -rf sean01 && \
   rails new sean01 \
   --template ~/dev/kgems/k_templates/templates/ruby/rails_app/r7_hotwire.rb \
   && \
