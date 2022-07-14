@@ -1,0 +1,9 @@
+select table_name, row_count from (
+  {{#each schema.tables}}
+  select '{{./model_name}}' as table_name, count(*) as row_count from {{./name}}
+  {{#if @last}}{{else}}union{{/if}}
+  {{/each}}
+) as all_tables
+
+-- order by row_count desc
+order by table_name

@@ -1,6 +1,8 @@
 KManager.action :bootstrap do
   action do
     application_name = :{{snake name}}
+
+    # Ruby Gem Bootstrap
     director = KDirector::Dsls::RubyGemDsl
       .init(k_builder,
         on_exist:                   :skip,                      # %i[skip write compare]

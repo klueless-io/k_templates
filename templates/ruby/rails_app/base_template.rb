@@ -3,6 +3,8 @@
 require 'active_model'
 require 'pry'
 
+# see: https://guides.rubyonrails.org/rails_application_templates.html
+
 class BaseTemplate
   attr_reader :host
 
@@ -126,8 +128,20 @@ class BaseTemplate
     # yield(file) if file
   end
 
-  def rails_command(command)
-    host.rails_command(command)
+  def add_environment(value, env: 'development')
+    # injects value into corresponding config/environment file.
+    host.environment(value, env: env)
+  end
+
+  def add_file(path, content)
+    host.file(path, content)
+  end
+
+  # env: 'production'
+  # sudo: true
+  # abort_on_failure: true
+  def rails_command(command, **args)
+    host.rails_command(command, **args)
   end
 
   def run(command)

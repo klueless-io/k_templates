@@ -1,0 +1,5 @@
+{{#each entities}}
+delete from {{snake this.name_plural}};
+alter sequence {{snake this.name_plural}}_id_seq restart with 1;
+
+{{/each}}

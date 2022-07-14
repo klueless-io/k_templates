@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# NOTE: you may need change file permissions
+#      chmod +x hooks/update-version
+
+exit 1 if ARGV.length.zero?
+
+version = ARGV[0]
+version = version[1..]   # keep from character 1 onwards, e.g. v0.01.001 becomes 0.01.001
+
+output = %(VERSION = "#{version}")
+
+puts format("%<label>-25s : %<version>s\n", label: "GEM VERSION", version: version)
+File.open("config/version.rb", "w+") { |f| f.write(output) }

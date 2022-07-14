@@ -1,0 +1,14 @@
+defaults: &defaults
+  # examples settings
+  some_key: Some Value
+  some_url: http://localhost:3030
+  some_folder: "/home/david/Dropbox/video-presentations/presentations"
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

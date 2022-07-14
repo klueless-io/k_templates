@@ -1,4 +1,16 @@
-# list of templates to work through
+# New Rails 7 App
+
+```bash
+# create a new rails 7 application
+k_templates/templates/rails_app
+
+# after creating the new application
+
+# 
+
+```
+
+## list of templates to work through
 
 Rails App Generator Code:
 
@@ -66,14 +78,29 @@ rm -rf kweb06-devise-unit-test-tailwind \
   && \
   c kweb06-devise-unit-test-tailwind/.
 
-# hotwire, devise, integration_tests, tailwind
-rm -rf sean01 && \
-  rails new sean01 \
+# hotwire, devise
+rm -rf printspeak-r7 && \
+  rails new printspeak-r7 \
+  --skip-test \
+  --css tailwind \
   --template ~/dev/kgems/k_templates/templates/ruby/rails_app/r7_hotwire.rb \
   && \
-  c sean01/.
+  c printspeak-r7/.
+```
 
+```bash
+asdf local ruby 2.7.1 / 
+&&  km2 new kweb01-devise -t rails_app \
+    --description "Xyz Application" \
+&&  asdf local ruby 3.1.1
 
+ASDF_RUBY_VERSION=2.7.1 && km2 new kweb01-devise -t rails_app 
+
+asdf shell ruby 2.7.1 && km2 new kweb01-devise -t rails_app 
+
+\
+    --description "Xyz Application" \
+&&  asdf local ruby 3.1.1
 
 ```
 

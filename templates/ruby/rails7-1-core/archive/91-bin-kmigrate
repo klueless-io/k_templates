@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+#NOTE: you may need change file permissions
+#      chmod +x bin/kmigrate
+
+echo "migrate development and test databases"
+rake db:migrate
+
+rake db:migrate RAILS_ENV=test

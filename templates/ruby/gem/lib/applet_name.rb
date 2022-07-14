@@ -13,7 +13,7 @@ module {{.}}
 end
 {{/each}}
 
-if ENV['KLUE_DEBUG']&.to_s&.downcase == 'true'
+if ENV.fetch('KLUE_DEBUG', 'false').downcase == 'true'
   namespace = '{{camelU dom.application}}::Version'
   file_path = $LOADED_FEATURES.find { |f| f.include?('{{dom.application_lib_path}}/version') }
   version   = {{camelU dom.application}}::VERSION.ljust(9)

@@ -23,8 +23,8 @@ Gem::Specification.new do |spec|
   # spec.metadata['allowed_push_host'] = "Set to 'http://mygemserver.com'"
 
   spec.metadata['homepage_uri']     = spec.homepage
-  spec.metadata['source_code_uri']  = '{{dom.repo_info.link}}'
-  spec.metadata['changelog_uri']    = '{{dom.repo_info.link}}/blob/main/CHANGELOG.md'
+  spec.metadata['source_code_uri']  = '{{dom.github.link}}'
+  spec.metadata['changelog_uri']    = '{{dom.github.link}}/blob/main/CHANGELOG.md'
 
   # The `git ls-files -z` loads the RubyGem files that have been added into git.
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
@@ -37,10 +37,6 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
   # spec.extensions    = ['ext/{{snake dom.application}}/extconf.rb']
-
-  spec.metadata = {
-    'rubygems_mfa_required' => 'true'
-  }
 
   spec.add_dependency 'k_log', '~> 0.0.0'
   # spec.add_dependency 'k_type', '~> 0.0.0'

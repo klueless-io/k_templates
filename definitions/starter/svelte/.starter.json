@@ -1,0 +1,8 @@
+{
+  "main_start_command": "npx degit sveltejs/template $NAME$",
+  "files": [
+    "boot.rb",
+    "_.rb",
+    "generators/01-bootstrap.rb"
+  ]
+}

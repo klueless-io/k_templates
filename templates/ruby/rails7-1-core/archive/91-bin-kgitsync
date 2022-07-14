@@ -1,0 +1,76 @@
+#!/usr/bin/env bash
+
+#NOTE: you may need change file permissions
+#      chmod +x bin/kgitsync
+
+# Set up colour support, if we have it
+# Are stdout and  stderr both connected to a terminal
+# If not then don't set colours
+if [ -t 1 -a -t 2 ]
+then
+  if tput -V >/dev/null 2>&1
+  then
+    C_RED=`tput setaf 1`
+    C_GREEN=`tput setaf 2`
+    C_BROWN=`tput setaf 3`
+    C_BLUE=`tput setaf 4`
+    C_RESET=`tput sgr0`
+  fi
+fi
+
+
+exit_error ()
+{
+  # dont display if string is zero length
+  [  -z "$1" ] || echo "${C_RED}Error: ${C_BROWN} $1 ${C_RESET}"
+  exit 1
+}
+
+
+# make sure we are in a git tree
+[ "`git rev-parse --is-inside-work-tree`" = "true" ] || exit_error "NOT a git repository"
+echo "Repository check OK"
+
+CURRENT_BRANCH=`git branch | awk '/^\*/{print $2}'`
+
+# check that we are on develop or master
+#[ "${CURRENT_BRANCH}" = "master" -o "${CURRENT_BRANCH}" = "develop" ] || exit_error "You MUST be on either the master or development branch"
+#echo "Branch check OK"
+
+# check that the current branch is clean
+[  -z "`git status --porcelain`" ] || exit_error "Working copy has uncommitted changes"
+echo "Working copy is clean OK"
+
+# fetch from origin
+git fetch origin || exit_error "Failed to fetch from origin"
+
+######################
+# Do develop
+######################
+git checkout develop || exit_error "Failed to checkout develop branch"
+echo "Switched to develop"
+git merge origin/develop || exit_error "Failed to merge develop from origin"
+echo "Develop branch upto date"
+git push || exit_error "Failed to push develop to origin"
+echo "Develop pushed to origin"
+
+######################
+# Do master
+######################
+git checkout master || exit_error "Failed to checkout master branch"
+echo "Switched to master"
+git merge  origin/master || exit_error "Failed to merge master from origin"
+echo "Master branch upto date"
+git push || exit_error "Failed to push master to origin"
+echo "Master pushed to origin"
+
+######################
+# Do tags
+######################
+git push --tags || exit_error "Failed to push tags to origin"
+echo "Tags pushed to origin"
+
+# return to the current branch
+git checkout ${CURRENT_BRANCH} || exit_error "Failed to return to your origional branch ${CURRENT_BRANCH}"
+
+echo "${C_GREEN}Done.  you are on ${CURRENT_BRANCH}${C_RESET}"

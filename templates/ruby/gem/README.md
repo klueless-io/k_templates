@@ -73,7 +73,7 @@ See all [usage examples](./USAGE.md)
 Checkout the repo
 
 ```bash
-git clone {{dom.repo_info.link}}
+git clone {{dom.github.link}}
 ```
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. 

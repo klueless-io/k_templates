@@ -41,7 +41,7 @@ Metrics/MethodLength:
 Layout/LineLength:
   Max: 200
   # Ignores annotate output
-  IgnoredPatterns: ['\A# \*\*']
+  # AllowedPatterns: ['\A# \*\*'] # this is renamed to AllowedPatterns and I need to come up with a template for this
   IgnoreCopDirectives: true
 
 Lint/UnusedMethodArgument:

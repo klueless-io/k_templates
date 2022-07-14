@@ -1,0 +1,38 @@
+AllCops:
+  DisplayCopNames: true
+  ExtraDetails: true
+  NewCops: "enable"
+  Exclude:
+    - "bin/**/*"
+    - "db/**/*"
+Lint/NonDeterministicRequireOrder:
+  Exclude:
+    - "rails_helper"
+Metrics/MethodLength:
+  Max: 25
+  Exclude:
+    - "spec/helpers/**/*"
+Metrics/AbcSize:
+  Exclude:
+    - "spec/helpers/**/*"
+Metrics/BlockLength:
+  Exclude:
+    - "app/admin/*"
+    - "config/routes.rb"
+    - "config/routes/**/*"
+    - "lib/tasks/**/*"
+    - "spec/helpers/**/*"
+    - "Gemfile"
+    - "Guardfile"
+Layout/LineLength:
+  Max: 200
+  # Ignores annotate output
+  # AllowedPatterns: ['\A# \*\*'] # this is renamed to AllowedPatterns and I need to come up with a template for this
+  IgnoreCopDirectives: true
+  Exclude:
+    - "spec/helpers/**/*"
+Style/Documentation:
+  Enabled: false
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: "double_quotes"

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valid Get Request Link</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <table class="table-auto">
+    <thead>
+      <tr>
+        <th>Link</th>
+        <th>Error</th>
+      </tr>
+    </thead>
+    <tbody>
+{{#each links}}
+      <tr>
+        <td>
+          <a href="http://localhost:3000{{path}}" target="_blank">{{path}}</a>
+        </td>
+        <td>
+          {{error}}
+        </td>
+      </tr>
+{{/each}}
+    </tbody>
+  </table>
+
+</body>
+</html>

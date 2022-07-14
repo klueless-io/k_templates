@@ -1,0 +1,45 @@
+#!/usr/bin/env ruby
+
+#NOTE: you may need change file permissions
+#      chmod +x bin/k
+
+help = %q{
+  ----------------------------------------------------------------------
+  Klue Scripts - Help
+  ----------------------------------------------------------------------
+  k                       - This Help File
+  
+  khotfix                 - Create Hot Fix
+                            Hot fixes are created in GIT and versioned correctly.
+                            The patch # will increment by 1.
+                              e.g. v0.01.001 will become v0.01.002
+                            The version.rb file will also store the current version.
+                            usage:
+                              khotfix 'name of my cool hotfix'
+  
+  kgitsync                - Syncronize the master and development git repositories
+                            Pulls latest code, pushes current changes
+                            usage:
+                              kgitsync
+  
+  krollback               - excecute rake db:rollback on development and test databases
+                            for a specific # of steps
+                            usage:
+                              k-rollback 1
+                              k-rollback 3
+  
+  kmigrate                - excecutes rake db:migrate on development and test databases
+                            usage:
+                              kmigrate
+  
+  ----------------------------------------------------------------------
+  Rake Tasks
+  ----------------------------------------------------------------------
+  
+  rails db:seed             - load seed data
+  
+  rails db:seed sample=true - load sample data, useful in developer environments
+  
+  rails db:seed reset=true  - reset database
+  }
+  puts help

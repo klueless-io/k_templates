@@ -1,0 +1,1 @@
+{{camel entity.model_name}} {{#each entity.columns}}{{snake this.name}}: '{{snake this.name}}'{{#if @last}}{{else}}, {{/if}}{{/each}}

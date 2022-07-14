@@ -1,0 +1,14 @@
+en:
+  # Translate instances of time_ago_in_words() uses
+  commands:
+{{#each models}}
+    {{dasherize ./name}}:
+      create:
+        failed: 'Échec de la création {{downcase (humanize ./name)}}'
+      update:
+        failed: 'Échec de la création {{downcase (humanize ./name)}}'
+        record_invalid: 'Échec de la création {{downcase (humanize ./name)}} - L'enregistrement n'est pas valide'
+      delete:
+        failed: 'Échec de la suppression de l'activité {{downcase (humanize ./name)}}'
+        already_deleted: '{{humanize ./name}} a déjà été supprimée'
+{{/each}}

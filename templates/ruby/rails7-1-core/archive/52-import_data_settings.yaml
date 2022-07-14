@@ -1,0 +1,8 @@
+# frozen_string_literal: true
+
+{{#each entities}}
+{{snake name}}:
+  can_import: true
+  can_reset: true
+
+{{/each}}

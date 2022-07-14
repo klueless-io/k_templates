@@ -1,0 +1,2 @@
+-- select * from trackers;
+select count(*) from tracker_hits limit 10;

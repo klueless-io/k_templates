@@ -8,7 +8,7 @@ group :development, :test do
   gem 'guard-bundler'
   gem 'guard-rspec'
   gem 'guard-rubocop'
-  gem 'rake', '~> 12.0'
+  gem 'rake'
   gem 'rake-compiler', require: false
   gem 'rspec', '~> 3.0'
   gem 'rubocop'

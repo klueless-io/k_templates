@@ -1,0 +1,14 @@
+en:
+  # Translate instances of time_ago_in_words() uses
+  commands:
+{{#each models}}
+    {{dasherize ./name}}:
+      create:
+        failed: 'Failed to create {{downcase (humanize ./name)}}'
+      update:
+        failed: 'Failed to update {{downcase (humanize ./name)}}'
+        record_invalid: 'Failed to update {{downcase (humanize ./name)}} - Record is invalid'
+      delete:
+        failed: 'Failed to delete {{downcase (humanize ./name)}}'
+        already_deleted: '{{humanize ./name}} has already been deleted'
+{{/each}}

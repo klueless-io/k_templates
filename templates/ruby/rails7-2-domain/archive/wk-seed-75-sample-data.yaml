@@ -1,0 +1,30 @@
+#01:
+{{#each entity.columns}}
+  {{#if (eq type 'string')}}
+#  {{snake this.name}}: 'A - {{this.name}}'
+  {{else if (eq type 'integer')}}
+#  {{snake this.name}}: 1111
+  {{else if (eq type 'boolean')}}
+#  {{snake this.name}}: true
+  {{else if (eq type 'date')}}
+#  {{snake this.name}}: Date.parse '01 Jan 2017'
+  {{else if (eq type 'foreign_key')}}
+#  {{snake this.name}}: 'A - {{snake this.name}}'
+{{/if}}
+{{/each}}
+
+#02:
+{{#each entity.columns}}
+  {{#if (eq type 'string')}}
+#  {{snake this.name}}: 'B - {{this.name}}'
+  {{else if (eq type 'integer')}}
+#  {{snake this.name}}: 2222
+  {{else if (eq type 'boolean')}}
+#  {{snake this.name}}: false
+  {{else if (eq type 'date')}}
+#  {{snake this.name}}: Date.parse '01 Jan 2017'
+  {{else if (eq type 'foreign_key')}}
+#  {{snake this.name}}: 'B - {{snake this.name}}'
+{{/if}}
+{{/each}}
+

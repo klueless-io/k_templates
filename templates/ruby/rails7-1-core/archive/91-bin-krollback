@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+#NOTE: you may need change file permissions
+#      chmod +x bin/krollback
+
+echo "rollback development and test databases - # of steps: $1"
+rake db:rollback STEP=$1
+
+rake db:rollback STEP=$1 RAILS_ENV=test
