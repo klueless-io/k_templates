@@ -143,6 +143,8 @@ content
   content24
   content25
   content26
+_samples
+  sample1
 blog
   blog01
   blog02

@@ -1,0 +1,1224 @@
+{
+  "groups": [
+    {
+      "name": "marketing",
+      "group_name": "marketing",
+      "folder": "marketing",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/all.json",
+      "files": [
+
+      ]
+    },
+    {
+      "name": "page",
+      "group_name": "page",
+      "folder": "marketing/page",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/all.json",
+      "files": [
+
+      ]
+    },
+    {
+      "name": "landing",
+      "group_name": "landing",
+      "folder": "marketing/page/landing",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/landing/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/landing/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/landing/01.html",
+          "sample_data_file": "marketing/page/landing/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/landing/02.html",
+          "sample_data_file": "marketing/page/landing/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/landing/03.html",
+          "sample_data_file": "marketing/page/landing/03.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "contact",
+      "group_name": "contact",
+      "folder": "marketing/page/contact",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/contact/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/contact/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/contact/01.html",
+          "sample_data_file": "marketing/page/contact/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/contact/02.html",
+          "sample_data_file": "marketing/page/contact/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/contact/03.html",
+          "sample_data_file": "marketing/page/contact/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/contact/04.html",
+          "sample_data_file": "marketing/page/contact/04.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "404",
+      "group_name": "404",
+      "folder": "marketing/page/404",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/404/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/404/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/404/01.html",
+          "sample_data_file": "marketing/page/404/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/404/02.html",
+          "sample_data_file": "marketing/page/404/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/404/03.html",
+          "sample_data_file": "marketing/page/404/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/404/04.html",
+          "sample_data_file": "marketing/page/404/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/404/05.html",
+          "sample_data_file": "marketing/page/404/05.sample.json"
+        },
+        {
+          "name": "06.html",
+          "file_name": "06.html",
+          "file_name_only": "06",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/404/06.html",
+          "sample_data_file": "marketing/page/404/06.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "pricing",
+      "group_name": "pricing",
+      "folder": "marketing/page/pricing",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/pricing/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/pricing/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/pricing/01.html",
+          "sample_data_file": "marketing/page/pricing/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/pricing/02.html",
+          "sample_data_file": "marketing/page/pricing/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/pricing/03.html",
+          "sample_data_file": "marketing/page/pricing/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/pricing/04.html",
+          "sample_data_file": "marketing/page/pricing/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/pricing/05.html",
+          "sample_data_file": "marketing/page/pricing/05.sample.json"
+        },
+        {
+          "name": "06.html",
+          "file_name": "06.html",
+          "file_name_only": "06",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/page/pricing/06.html",
+          "sample_data_file": "marketing/page/pricing/06.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "section",
+      "group_name": "section",
+      "folder": "marketing/section",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/all.json",
+      "files": [
+
+      ]
+    },
+    {
+      "name": "footer",
+      "group_name": "footer",
+      "folder": "marketing/section/footer",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/footer/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/footer/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/footer/01.html",
+          "sample_data_file": "marketing/section/footer/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/footer/02.html",
+          "sample_data_file": "marketing/section/footer/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/footer/03.html",
+          "sample_data_file": "marketing/section/footer/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/footer/04.html",
+          "sample_data_file": "marketing/section/footer/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/footer/05.html",
+          "sample_data_file": "marketing/section/footer/05.sample.json"
+        },
+        {
+          "name": "06.html",
+          "file_name": "06.html",
+          "file_name_only": "06",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/footer/06.html",
+          "sample_data_file": "marketing/section/footer/06.sample.json"
+        },
+        {
+          "name": "07.html",
+          "file_name": "07.html",
+          "file_name_only": "07",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/footer/07.html",
+          "sample_data_file": "marketing/section/footer/07.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "contact",
+      "group_name": "contact",
+      "folder": "marketing/section/contact",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/contact/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/contact/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/contact/01.html",
+          "sample_data_file": "marketing/section/contact/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/contact/02.html",
+          "sample_data_file": "marketing/section/contact/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/contact/03.html",
+          "sample_data_file": "marketing/section/contact/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/contact/04.html",
+          "sample_data_file": "marketing/section/contact/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/contact/05.html",
+          "sample_data_file": "marketing/section/contact/05.sample.json"
+        },
+        {
+          "name": "06.html",
+          "file_name": "06.html",
+          "file_name_only": "06",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/contact/06.html",
+          "sample_data_file": "marketing/section/contact/06.sample.json"
+        },
+        {
+          "name": "07.html",
+          "file_name": "07.html",
+          "file_name_only": "07",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/contact/07.html",
+          "sample_data_file": "marketing/section/contact/07.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "faq",
+      "group_name": "faq",
+      "folder": "marketing/section/faq",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/faq/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/faq/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/faq/01.html",
+          "sample_data_file": "marketing/section/faq/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/faq/02.html",
+          "sample_data_file": "marketing/section/faq/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/faq/03.html",
+          "sample_data_file": "marketing/section/faq/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/faq/04.html",
+          "sample_data_file": "marketing/section/faq/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/faq/05.html",
+          "sample_data_file": "marketing/section/faq/05.sample.json"
+        },
+        {
+          "name": "06.html",
+          "file_name": "06.html",
+          "file_name_only": "06",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/faq/06.html",
+          "sample_data_file": "marketing/section/faq/06.sample.json"
+        },
+        {
+          "name": "07.html",
+          "file_name": "07.html",
+          "file_name_only": "07",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/faq/07.html",
+          "sample_data_file": "marketing/section/faq/07.sample.json"
+        },
+        {
+          "name": "08.html",
+          "file_name": "08.html",
+          "file_name_only": "08",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/faq/08.html",
+          "sample_data_file": "marketing/section/faq/08.sample.json"
+        },
+        {
+          "name": "09.html",
+          "file_name": "09.html",
+          "file_name_only": "09",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/faq/09.html",
+          "sample_data_file": "marketing/section/faq/09.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "cta",
+      "group_name": "cta",
+      "folder": "marketing/section/cta",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/cta/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/cta/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/cta/01.html",
+          "sample_data_file": "marketing/section/cta/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/cta/02.html",
+          "sample_data_file": "marketing/section/cta/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/cta/03.html",
+          "sample_data_file": "marketing/section/cta/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/cta/04.html",
+          "sample_data_file": "marketing/section/cta/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/cta/05.html",
+          "sample_data_file": "marketing/section/cta/05.sample.json"
+        },
+        {
+          "name": "06.html",
+          "file_name": "06.html",
+          "file_name_only": "06",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/cta/06.html",
+          "sample_data_file": "marketing/section/cta/06.sample.json"
+        },
+        {
+          "name": "07.html",
+          "file_name": "07.html",
+          "file_name_only": "07",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/cta/07.html",
+          "sample_data_file": "marketing/section/cta/07.sample.json"
+        },
+        {
+          "name": "08.html",
+          "file_name": "08.html",
+          "file_name_only": "08",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/cta/08.html",
+          "sample_data_file": "marketing/section/cta/08.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "content",
+      "group_name": "content",
+      "folder": "marketing/section/content",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/content/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/content/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/content/01.html",
+          "sample_data_file": "marketing/section/content/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/content/02.html",
+          "sample_data_file": "marketing/section/content/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/content/03.html",
+          "sample_data_file": "marketing/section/content/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/content/04.html",
+          "sample_data_file": "marketing/section/content/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/content/05.html",
+          "sample_data_file": "marketing/section/content/05.sample.json"
+        },
+        {
+          "name": "06.html",
+          "file_name": "06.html",
+          "file_name_only": "06",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/content/06.html",
+          "sample_data_file": "marketing/section/content/06.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "blog",
+      "group_name": "blog",
+      "folder": "marketing/section/blog",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/blog/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/blog/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/blog/01.html",
+          "sample_data_file": "marketing/section/blog/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/blog/02.html",
+          "sample_data_file": "marketing/section/blog/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/blog/03.html",
+          "sample_data_file": "marketing/section/blog/03.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "team",
+      "group_name": "team",
+      "folder": "marketing/section/team",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/team/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/team/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/team/01.html",
+          "sample_data_file": "marketing/section/team/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/team/02.html",
+          "sample_data_file": "marketing/section/team/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/team/03.html",
+          "sample_data_file": "marketing/section/team/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/team/04.html",
+          "sample_data_file": "marketing/section/team/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/team/05.html",
+          "sample_data_file": "marketing/section/team/05.sample.json"
+        },
+        {
+          "name": "06.html",
+          "file_name": "06.html",
+          "file_name_only": "06",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/team/06.html",
+          "sample_data_file": "marketing/section/team/06.sample.json"
+        },
+        {
+          "name": "07.html",
+          "file_name": "07.html",
+          "file_name_only": "07",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/team/07.html",
+          "sample_data_file": "marketing/section/team/07.sample.json"
+        },
+        {
+          "name": "08.html",
+          "file_name": "08.html",
+          "file_name_only": "08",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/team/08.html",
+          "sample_data_file": "marketing/section/team/08.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "testimonial",
+      "group_name": "testimonial",
+      "folder": "marketing/section/testimonial",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/testimonial/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/testimonial/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/testimonial/01.html",
+          "sample_data_file": "marketing/section/testimonial/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/testimonial/02.html",
+          "sample_data_file": "marketing/section/testimonial/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/testimonial/03.html",
+          "sample_data_file": "marketing/section/testimonial/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/testimonial/04.html",
+          "sample_data_file": "marketing/section/testimonial/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/testimonial/05.html",
+          "sample_data_file": "marketing/section/testimonial/05.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "feature",
+      "group_name": "feature",
+      "folder": "marketing/section/feature",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/feature/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/feature/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/feature/01.html",
+          "sample_data_file": "marketing/section/feature/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/feature/02.html",
+          "sample_data_file": "marketing/section/feature/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/feature/03.html",
+          "sample_data_file": "marketing/section/feature/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/feature/04.html",
+          "sample_data_file": "marketing/section/feature/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/feature/05.html",
+          "sample_data_file": "marketing/section/feature/05.sample.json"
+        },
+        {
+          "name": "06.html",
+          "file_name": "06.html",
+          "file_name_only": "06",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/feature/06.html",
+          "sample_data_file": "marketing/section/feature/06.sample.json"
+        },
+        {
+          "name": "07.html",
+          "file_name": "07.html",
+          "file_name_only": "07",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/feature/07.html",
+          "sample_data_file": "marketing/section/feature/07.sample.json"
+        },
+        {
+          "name": "08.html",
+          "file_name": "08.html",
+          "file_name_only": "08",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/feature/08.html",
+          "sample_data_file": "marketing/section/feature/08.sample.json"
+        },
+        {
+          "name": "09.html",
+          "file_name": "09.html",
+          "file_name_only": "09",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/feature/09.html",
+          "sample_data_file": "marketing/section/feature/09.sample.json"
+        },
+        {
+          "name": "10.html",
+          "file_name": "10.html",
+          "file_name_only": "10",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/feature/10.html",
+          "sample_data_file": "marketing/section/feature/10.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "logo-cloud",
+      "group_name": "logo-cloud",
+      "folder": "marketing/section/logo-cloud",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/logo-cloud/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/logo-cloud/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/logo-cloud/01.html",
+          "sample_data_file": "marketing/section/logo-cloud/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/logo-cloud/02.html",
+          "sample_data_file": "marketing/section/logo-cloud/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/logo-cloud/03.html",
+          "sample_data_file": "marketing/section/logo-cloud/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/logo-cloud/04.html",
+          "sample_data_file": "marketing/section/logo-cloud/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/logo-cloud/05.html",
+          "sample_data_file": "marketing/section/logo-cloud/05.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "newsletter",
+      "group_name": "newsletter",
+      "folder": "marketing/section/newsletter",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/newsletter/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/newsletter/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/newsletter/01.html",
+          "sample_data_file": "marketing/section/newsletter/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/newsletter/02.html",
+          "sample_data_file": "marketing/section/newsletter/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/newsletter/03.html",
+          "sample_data_file": "marketing/section/newsletter/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/newsletter/04.html",
+          "sample_data_file": "marketing/section/newsletter/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/newsletter/05.html",
+          "sample_data_file": "marketing/section/newsletter/05.sample.json"
+        },
+        {
+          "name": "06.html",
+          "file_name": "06.html",
+          "file_name_only": "06",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/newsletter/06.html",
+          "sample_data_file": "marketing/section/newsletter/06.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "hero",
+      "group_name": "hero",
+      "folder": "marketing/section/hero",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/hero/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/hero/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/hero/01.html",
+          "sample_data_file": "marketing/section/hero/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/hero/02.html",
+          "sample_data_file": "marketing/section/hero/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/hero/03.html",
+          "sample_data_file": "marketing/section/hero/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/hero/04.html",
+          "sample_data_file": "marketing/section/hero/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/hero/05.html",
+          "sample_data_file": "marketing/section/hero/05.sample.json"
+        },
+        {
+          "name": "06.html",
+          "file_name": "06.html",
+          "file_name_only": "06",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/hero/06.html",
+          "sample_data_file": "marketing/section/hero/06.sample.json"
+        },
+        {
+          "name": "07.html",
+          "file_name": "07.html",
+          "file_name_only": "07",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/hero/07.html",
+          "sample_data_file": "marketing/section/hero/07.sample.json"
+        },
+        {
+          "name": "08.html",
+          "file_name": "08.html",
+          "file_name_only": "08",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/hero/08.html",
+          "sample_data_file": "marketing/section/hero/08.sample.json"
+        },
+        {
+          "name": "09.html",
+          "file_name": "09.html",
+          "file_name_only": "09",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/hero/09.html",
+          "sample_data_file": "marketing/section/hero/09.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "pricing",
+      "group_name": "pricing",
+      "folder": "marketing/section/pricing",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/pricing/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/pricing/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/pricing/01.html",
+          "sample_data_file": "marketing/section/pricing/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/pricing/02.html",
+          "sample_data_file": "marketing/section/pricing/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/pricing/03.html",
+          "sample_data_file": "marketing/section/pricing/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/pricing/04.html",
+          "sample_data_file": "marketing/section/pricing/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/pricing/05.html",
+          "sample_data_file": "marketing/section/pricing/05.sample.json"
+        },
+        {
+          "name": "06.html",
+          "file_name": "06.html",
+          "file_name_only": "06",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/pricing/06.html",
+          "sample_data_file": "marketing/section/pricing/06.sample.json"
+        },
+        {
+          "name": "07.html",
+          "file_name": "07.html",
+          "file_name_only": "07",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/pricing/07.html",
+          "sample_data_file": "marketing/section/pricing/07.sample.json"
+        },
+        {
+          "name": "08.html",
+          "file_name": "08.html",
+          "file_name_only": "08",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/pricing/08.html",
+          "sample_data_file": "marketing/section/pricing/08.sample.json"
+        },
+        {
+          "name": "09.html",
+          "file_name": "09.html",
+          "file_name_only": "09",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/pricing/09.html",
+          "sample_data_file": "marketing/section/pricing/09.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "group_name": "header",
+      "folder": "marketing/section/header",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/header/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/header/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/header/01.html",
+          "sample_data_file": "marketing/section/header/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/header/02.html",
+          "sample_data_file": "marketing/section/header/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/header/03.html",
+          "sample_data_file": "marketing/section/header/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/header/04.html",
+          "sample_data_file": "marketing/section/header/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/header/05.html",
+          "sample_data_file": "marketing/section/header/05.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "stats",
+      "group_name": "stats",
+      "folder": "marketing/section/stats",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/stats/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/stats/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/stats/01.html",
+          "sample_data_file": "marketing/section/stats/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/stats/02.html",
+          "sample_data_file": "marketing/section/stats/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/stats/03.html",
+          "sample_data_file": "marketing/section/stats/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/stats/04.html",
+          "sample_data_file": "marketing/section/stats/04.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "banner",
+      "group_name": "banner",
+      "folder": "marketing/section/banner",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/banner/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/banner/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/banner/01.html",
+          "sample_data_file": "marketing/section/banner/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/banner/02.html",
+          "sample_data_file": "marketing/section/banner/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/banner/03.html",
+          "sample_data_file": "marketing/section/banner/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/section/banner/04.html",
+          "sample_data_file": "marketing/section/banner/04.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "element",
+      "group_name": "element",
+      "folder": "marketing/element",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/all.json",
+      "files": [
+
+      ]
+    },
+    {
+      "name": "flyout-menu",
+      "group_name": "flyout-menu",
+      "folder": "marketing/element/flyout-menu",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/flyout-menu/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/flyout-menu/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/flyout-menu/01.html",
+          "sample_data_file": "marketing/element/flyout-menu/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/flyout-menu/02.html",
+          "sample_data_file": "marketing/element/flyout-menu/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/flyout-menu/03.html",
+          "sample_data_file": "marketing/element/flyout-menu/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/flyout-menu/04.html",
+          "sample_data_file": "marketing/element/flyout-menu/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/flyout-menu/05.html",
+          "sample_data_file": "marketing/element/flyout-menu/05.sample.json"
+        },
+        {
+          "name": "06.html",
+          "file_name": "06.html",
+          "file_name_only": "06",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/flyout-menu/06.html",
+          "sample_data_file": "marketing/element/flyout-menu/06.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "group_name": "header",
+      "folder": "marketing/element/header",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/header/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/header/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/header/01.html",
+          "sample_data_file": "marketing/element/header/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/header/02.html",
+          "sample_data_file": "marketing/element/header/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/header/03.html",
+          "sample_data_file": "marketing/element/header/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/header/04.html",
+          "sample_data_file": "marketing/element/header/04.sample.json"
+        },
+        {
+          "name": "05.html",
+          "file_name": "05.html",
+          "file_name_only": "05",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/header/05.html",
+          "sample_data_file": "marketing/element/header/05.sample.json"
+        }
+      ]
+    },
+    {
+      "name": "banner",
+      "group_name": "banner",
+      "folder": "marketing/element/banner",
+      "all_file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/banner/all.html",
+      "all_file_json": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/banner/all.json",
+      "files": [
+        {
+          "name": "01.html",
+          "file_name": "01.html",
+          "file_name_only": "01",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/banner/01.html",
+          "sample_data_file": "marketing/element/banner/01.sample.json"
+        },
+        {
+          "name": "02.html",
+          "file_name": "02.html",
+          "file_name_only": "02",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/banner/02.html",
+          "sample_data_file": "marketing/element/banner/02.sample.json"
+        },
+        {
+          "name": "03.html",
+          "file_name": "03.html",
+          "file_name_only": "03",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/banner/03.html",
+          "sample_data_file": "marketing/element/banner/03.sample.json"
+        },
+        {
+          "name": "04.html",
+          "file_name": "04.html",
+          "file_name_only": "04",
+          "file": "/Users/davidcruwys/dev/kgems/k_templates/templates/tailwind/tui/marketing/element/banner/04.html",
+          "sample_data_file": "marketing/element/banner/04.sample.json"
+        }
+      ]
+    }
+  ]
+}
