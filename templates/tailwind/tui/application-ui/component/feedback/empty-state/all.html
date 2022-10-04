@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>empty-state | tui</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<p>tui > empty-state | Go to <a href='../all-component-menu.html'>All Components</a></p>
+<div class="text-center">
+  <svg class="mx-auto h-12 w-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+    <path vector-effect="non-scaling-stroke" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 13h6m-3-3v6m-9 1V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+  </svg>
+  <h3 class="mt-2 text-sm font-medium text-gray-900">No projects</h3>
+  <p class="mt-1 text-sm text-gray-500">Get started by creating a new project.</p>
+  <div class="mt-6">
+    <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+      <!-- Heroicon name: mini/plus -->
+      <svg class="-ml-1 mr-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
+      </svg>
+      New Project
+    </button>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<button type="button" class="relative block w-full rounded-lg border-2 border-dashed border-gray-300 p-12 text-center hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+  <svg class="mx-auto h-12 w-12 text-gray-400" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" viewBox="0 0 48 48" aria-hidden="true">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14v20c0 4.418 7.163 8 16 8 1.381 0 2.721-.087 4-.252M8 14c0 4.418 7.163 8 16 8s16-3.582 16-8M8 14c0-4.418 7.163-8 16-8s16 3.582 16 8m0 0v14m0-4c0 4.418-7.163 8-16 8S8 28.418 8 24m32 10v6m0 0v6m0-6h6m-6 0h-6" />
+  </svg>
+  <span class="mt-2 block text-sm font-medium text-gray-900">Create a new database</span>
+</button>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<div>
+  <h2 class="text-lg font-medium text-gray-900">Projects</h2>
+  <p class="mt-1 text-sm text-gray-500">You haven’t created a project yet. Get started by selecting a template or start from an empty project.</p>
+  <ul role="list" class="mt-6 grid grid-cols-1 gap-6 border-t border-b border-gray-200 py-6 sm:grid-cols-2">
+    <li class="flow-root">
+      <div class="relative -m-2 flex items-center space-x-4 rounded-xl p-2 focus-within:ring-2 focus-within:ring-indigo-500 hover:bg-gray-50">
+        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-lg bg-pink-500">
+          <!-- Heroicon name: outline/bars-4 -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#" class="focus:outline-none">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              <span>Create a List</span>
+              <span aria-hidden="true"> &rarr;</span>
+            </a>
+          </h3>
+          <p class="mt-1 text-sm text-gray-500">Another to-do system you’ll try but eventually give up on.</p>
+        </div>
+      </div>
+    </li>
+
+    <li class="flow-root">
+      <div class="relative -m-2 flex items-center space-x-4 rounded-xl p-2 focus-within:ring-2 focus-within:ring-indigo-500 hover:bg-gray-50">
+        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-lg bg-yellow-500">
+          <!-- Heroicon name: outline/calendar -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#" class="focus:outline-none">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              <span>Create a Calendar</span>
+              <span aria-hidden="true"> &rarr;</span>
+            </a>
+          </h3>
+          <p class="mt-1 text-sm text-gray-500">Stay on top of your deadlines, or don’t — it’s up to you.</p>
+        </div>
+      </div>
+    </li>
+
+    <li class="flow-root">
+      <div class="relative -m-2 flex items-center space-x-4 rounded-xl p-2 focus-within:ring-2 focus-within:ring-indigo-500 hover:bg-gray-50">
+        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-lg bg-green-500">
+          <!-- Heroicon name: outline/photo -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#" class="focus:outline-none">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              <span>Create a Gallery</span>
+              <span aria-hidden="true"> &rarr;</span>
+            </a>
+          </h3>
+          <p class="mt-1 text-sm text-gray-500">Great for mood boards and inspiration.</p>
+        </div>
+      </div>
+    </li>
+
+    <li class="flow-root">
+      <div class="relative -m-2 flex items-center space-x-4 rounded-xl p-2 focus-within:ring-2 focus-within:ring-indigo-500 hover:bg-gray-50">
+        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-lg bg-blue-500">
+          <!-- Heroicon name: outline/view-columns -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 4.5v15m6-15v15m-10.875 0h15.75c.621 0 1.125-.504 1.125-1.125V5.625c0-.621-.504-1.125-1.125-1.125H4.125C3.504 4.5 3 5.004 3 5.625v12.75c0 .621.504 1.125 1.125 1.125z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#" class="focus:outline-none">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              <span>Create a Board</span>
+              <span aria-hidden="true"> &rarr;</span>
+            </a>
+          </h3>
+          <p class="mt-1 text-sm text-gray-500">Track tasks in different stages of your project.</p>
+        </div>
+      </div>
+    </li>
+
+    <li class="flow-root">
+      <div class="relative -m-2 flex items-center space-x-4 rounded-xl p-2 focus-within:ring-2 focus-within:ring-indigo-500 hover:bg-gray-50">
+        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-lg bg-indigo-500">
+          <!-- Heroicon name: outline/table-cells -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.375 19.5h17.25m-17.25 0a1.125 1.125 0 01-1.125-1.125M3.375 19.5h7.5c.621 0 1.125-.504 1.125-1.125m-9.75 0V5.625m0 12.75v-1.5c0-.621.504-1.125 1.125-1.125m18.375 2.625V5.625m0 12.75c0 .621-.504 1.125-1.125 1.125m1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125m0 3.75h-7.5A1.125 1.125 0 0112 18.375m9.75-12.75c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125m19.5 0v1.5c0 .621-.504 1.125-1.125 1.125M2.25 5.625v1.5c0 .621.504 1.125 1.125 1.125m0 0h17.25m-17.25 0h7.5c.621 0 1.125.504 1.125 1.125M3.375 8.25c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125m17.25-3.75h-7.5c-.621 0-1.125.504-1.125 1.125m8.625-1.125c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125M12 10.875v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 10.875c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125M13.125 12h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125M20.625 12c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5M12 14.625v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 14.625c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125m0 1.5v-1.5m0 0c0-.621.504-1.125 1.125-1.125m0 0h7.5" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#" class="focus:outline-none">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              <span>Create a Spreadsheet</span>
+              <span aria-hidden="true"> &rarr;</span>
+            </a>
+          </h3>
+          <p class="mt-1 text-sm text-gray-500">Lots of numbers and things — good for nerds.</p>
+        </div>
+      </div>
+    </li>
+
+    <li class="flow-root">
+      <div class="relative -m-2 flex items-center space-x-4 rounded-xl p-2 focus-within:ring-2 focus-within:ring-indigo-500 hover:bg-gray-50">
+        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-lg bg-purple-500">
+          <!-- Heroicon name: outline/clock -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#" class="focus:outline-none">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              <span>Create a Timeline</span>
+              <span aria-hidden="true"> &rarr;</span>
+            </a>
+          </h3>
+          <p class="mt-1 text-sm text-gray-500">Get a birds-eye-view of your procrastination.</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <div class="mt-4 flex">
+    <a href="#" class="text-sm font-medium text-indigo-600 hover:text-indigo-500">
+      Or start from an empty project
+      <span aria-hidden="true"> &rarr;</span>
+    </a>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<div class="mx-auto max-w-lg">
+  <div>
+    <div class="text-center">
+      <svg class="mx-auto h-12 w-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 48 48" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M34 40h10v-4a6 6 0 00-10.712-3.714M34 40H14m20 0v-4a9.971 9.971 0 00-.712-3.714M14 40H4v-4a6 6 0 0110.713-3.714M14 40v-4c0-1.313.253-2.566.713-3.714m0 0A10.003 10.003 0 0124 26c4.21 0 7.813 2.602 9.288 6.286M30 14a6 6 0 11-12 0 6 6 0 0112 0zm12 6a4 4 0 11-8 0 4 4 0 018 0zm-28 0a4 4 0 11-8 0 4 4 0 018 0z" />
+      </svg>
+      <h2 class="mt-2 text-lg font-medium text-gray-900">Add team members</h2>
+      <p class="mt-1 text-sm text-gray-500">You haven’t added any team members to your project yet. As the owner of this project, you can manage team member permissions.</p>
+    </div>
+    <form action="#" class="mt-6 flex">
+      <label for="email" class="sr-only">Email address</label>
+      <input type="email" name="email" id="email" class="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="Enter an email">
+      <button type="submit" class="ml-4 flex-shrink-0 rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Send invite</button>
+    </form>
+  </div>
+  <div class="mt-10">
+    <h3 class="text-sm font-medium text-gray-500">Team members previously added to projects</h3>
+    <ul role="list" class="mt-4 divide-y divide-gray-200 border-t border-b border-gray-200">
+      <li class="flex items-center justify-between space-x-3 py-4">
+        <div class="flex min-w-0 flex-1 items-center space-x-3">
+          <div class="flex-shrink-0">
+            <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+          </div>
+          <div class="min-w-0 flex-1">
+            <p class="truncate text-sm font-medium text-gray-900">Lindsay Walton</p>
+            <p class="truncate text-sm font-medium text-gray-500">Front-end Developer</p>
+          </div>
+        </div>
+        <div class="flex-shrink-0">
+          <button type="button" class="inline-flex items-center rounded-full border border-transparent bg-gray-100 py-2 px-3 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+            <!-- Heroicon name: mini/plus -->
+            <svg class="-ml-1 mr-0.5 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
+            </svg>
+            <span class="text-sm font-medium text-gray-900"> Invite <span class="sr-only">Lindsay Walton</span> </span>
+          </button>
+        </div>
+      </li>
+
+      <li class="flex items-center justify-between space-x-3 py-4">
+        <div class="flex min-w-0 flex-1 items-center space-x-3">
+          <div class="flex-shrink-0">
+            <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+          </div>
+          <div class="min-w-0 flex-1">
+            <p class="truncate text-sm font-medium text-gray-900">Courtney Henry</p>
+            <p class="truncate text-sm font-medium text-gray-500">Designer</p>
+          </div>
+        </div>
+        <div class="flex-shrink-0">
+          <button type="button" class="inline-flex items-center rounded-full border border-transparent bg-gray-100 py-2 px-3 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+            <!-- Heroicon name: mini/plus -->
+            <svg class="-ml-1 mr-0.5 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
+            </svg>
+            <span class="text-sm font-medium text-gray-900"> Invite <span class="sr-only">Courtney Henry</span> </span>
+          </button>
+        </div>
+      </li>
+
+      <li class="flex items-center justify-between space-x-3 py-4">
+        <div class="flex min-w-0 flex-1 items-center space-x-3">
+          <div class="flex-shrink-0">
+            <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+          </div>
+          <div class="min-w-0 flex-1">
+            <p class="truncate text-sm font-medium text-gray-900">Tom Cook</p>
+            <p class="truncate text-sm font-medium text-gray-500">Director, Product Development</p>
+          </div>
+        </div>
+        <div class="flex-shrink-0">
+          <button type="button" class="inline-flex items-center rounded-full border border-transparent bg-gray-100 py-2 px-3 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+            <!-- Heroicon name: mini/plus -->
+            <svg class="-ml-1 mr-0.5 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
+            </svg>
+            <span class="text-sm font-medium text-gray-900"> Invite <span class="sr-only">Tom Cook</span> </span>
+          </button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<div class="mx-auto max-w-lg">
+  <h2 class="text-lg font-medium text-gray-900">Create your first project</h2>
+  <p class="mt-1 text-sm text-gray-500">Get started by selecting a template or start from an empty project.</p>
+  <ul role="list" class="mt-6 divide-y divide-gray-200 border-t border-b border-gray-200">
+    <li>
+      <div class="group relative flex items-start space-x-3 py-4">
+        <div class="flex-shrink-0">
+          <span class="inline-flex items-center justify-center h-10 w-10 rounded-lg bg-pink-500">
+            <!-- Heroicon name: outline/megaphone -->
+            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 110-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 01-1.44-4.282m3.102.069a18.03 18.03 0 01-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 018.835 2.535M10.34 6.66a23.847 23.847 0 008.835-2.535m0 0A23.74 23.74 0 0018.795 3m.38 1.125a23.91 23.91 0 011.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 001.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 010 3.46" />
+            </svg>
+          </span>
+        </div>
+        <div class="min-w-0 flex-1">
+          <div class="text-sm font-medium text-gray-900">
+            <a href="#">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              Marketing Campaign
+            </a>
+          </div>
+          <p class="text-sm text-gray-500">I think the kids call these memes these days.</p>
+        </div>
+        <div class="flex-shrink-0 self-center">
+          <!-- Heroicon name: mini/chevron-right -->
+          <svg class="h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+          </svg>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div class="group relative flex items-start space-x-3 py-4">
+        <div class="flex-shrink-0">
+          <span class="inline-flex items-center justify-center h-10 w-10 rounded-lg bg-purple-500">
+            <!-- Heroicon name: outline/command-line -->
+            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
+            </svg>
+          </span>
+        </div>
+        <div class="min-w-0 flex-1">
+          <div class="text-sm font-medium text-gray-900">
+            <a href="#">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              Engineering Project
+            </a>
+          </div>
+          <p class="text-sm text-gray-500">Something really expensive that will ultimately get cancelled.</p>
+        </div>
+        <div class="flex-shrink-0 self-center">
+          <!-- Heroicon name: mini/chevron-right -->
+          <svg class="h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+          </svg>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div class="group relative flex items-start space-x-3 py-4">
+        <div class="flex-shrink-0">
+          <span class="inline-flex items-center justify-center h-10 w-10 rounded-lg bg-yellow-500">
+            <!-- Heroicon name: outline/calendar -->
+            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+            </svg>
+          </span>
+        </div>
+        <div class="min-w-0 flex-1">
+          <div class="text-sm font-medium text-gray-900">
+            <a href="#">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              Event
+            </a>
+          </div>
+          <p class="text-sm text-gray-500">Like a conference all about you that no one will care about.</p>
+        </div>
+        <div class="flex-shrink-0 self-center">
+          <!-- Heroicon name: mini/chevron-right -->
+          <svg class="h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+          </svg>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <div class="mt-6 flex">
+    <a href="#" class="text-sm font-medium text-indigo-600 hover:text-indigo-500">
+      Or start from an empty project
+      <span aria-hidden="true"> &rarr;</span>
+    </a>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<div class="mx-auto max-w-md sm:max-w-3xl">
+  <div>
+    <div class="text-center">
+      <svg class="mx-auto h-12 w-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 48 48" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M34 40h10v-4a6 6 0 00-10.712-3.714M34 40H14m20 0v-4a9.971 9.971 0 00-.712-3.714M14 40H4v-4a6 6 0 0110.713-3.714M14 40v-4c0-1.313.253-2.566.713-3.714m0 0A10.003 10.003 0 0124 26c4.21 0 7.813 2.602 9.288 6.286M30 14a6 6 0 11-12 0 6 6 0 0112 0zm12 6a4 4 0 11-8 0 4 4 0 018 0zm-28 0a4 4 0 11-8 0 4 4 0 018 0z" />
+      </svg>
+      <h2 class="mt-2 text-lg font-medium text-gray-900">Add team members</h2>
+      <p class="mt-1 text-sm text-gray-500">You haven’t added any team members to your project yet.</p>
+    </div>
+    <form class="mt-6 sm:flex sm:items-center" action="#">
+      <label for="emails" class="sr-only">Email addresses</label>
+      <div class="relative rounded-md shadow-sm sm:min-w-0 sm:flex-1">
+        <input type="text" name="emails" id="emails" class="block w-full rounded-md border-gray-300 pr-32 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="Enter an email">
+        <div class="absolute inset-y-0 right-0 flex items-center">
+          <span class="h-4 w-px bg-gray-200" aria-hidden="true"></span>
+          <label for="role" class="sr-only">Role</label>
+          <select id="role" name="role" class="h-full rounded-md border-transparent bg-transparent py-0 pl-4 pr-7 text-gray-500 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+            <option>Can edit</option>
+            <option>Can view</option>
+          </select>
+        </div>
+      </div>
+      <div class="mt-3 sm:mt-0 sm:ml-4 sm:flex-shrink-0">
+        <button type="submit" class="block w-full rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-center text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Send invite</button>
+      </div>
+    </form>
+  </div>
+  <div class="mt-10">
+    <h3 class="text-sm font-medium text-gray-500">Recommended team members</h3>
+    <ul role="list" class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
+      <li>
+        <button type="button" class="group flex w-full items-center justify-between space-x-3 rounded-full border border-gray-300 p-2 text-left shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+          <span class="flex min-w-0 flex-1 items-center space-x-3">
+            <span class="block flex-shrink-0">
+              <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            </span>
+            <span class="block min-w-0 flex-1">
+              <span class="block truncate text-sm font-medium text-gray-900">Lindsay Walton</span>
+              <span class="block truncate text-sm font-medium text-gray-500">Front-end Developer</span>
+            </span>
+          </span>
+          <span class="inline-flex h-10 w-10 flex-shrink-0 items-center justify-center">
+            <!-- Heroicon name: mini/plus -->
+            <svg class="h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
+            </svg>
+          </span>
+        </button>
+      </li>
+
+      <li>
+        <button type="button" class="group flex w-full items-center justify-between space-x-3 rounded-full border border-gray-300 p-2 text-left shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+          <span class="flex min-w-0 flex-1 items-center space-x-3">
+            <span class="block flex-shrink-0">
+              <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            </span>
+            <span class="block min-w-0 flex-1">
+              <span class="block truncate text-sm font-medium text-gray-900">Courtney Henry</span>
+              <span class="block truncate text-sm font-medium text-gray-500">Designer</span>
+            </span>
+          </span>
+          <span class="inline-flex h-10 w-10 flex-shrink-0 items-center justify-center">
+            <!-- Heroicon name: mini/plus -->
+            <svg class="h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
+            </svg>
+          </span>
+        </button>
+      </li>
+
+      <li>
+        <button type="button" class="group flex w-full items-center justify-between space-x-3 rounded-full border border-gray-300 p-2 text-left shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+          <span class="flex min-w-0 flex-1 items-center space-x-3">
+            <span class="block flex-shrink-0">
+              <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            </span>
+            <span class="block min-w-0 flex-1">
+              <span class="block truncate text-sm font-medium text-gray-900">Tom Cook</span>
+              <span class="block truncate text-sm font-medium text-gray-500">Director, Product Development</span>
+            </span>
+          </span>
+          <span class="inline-flex h-10 w-10 flex-shrink-0 items-center justify-center">
+            <!-- Heroicon name: mini/plus -->
+            <svg class="h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
+            </svg>
+          </span>
+        </button>
+      </li>
+
+      <li>
+        <button type="button" class="group flex w-full items-center justify-between space-x-3 rounded-full border border-gray-300 p-2 text-left shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+          <span class="flex min-w-0 flex-1 items-center space-x-3">
+            <span class="block flex-shrink-0">
+              <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            </span>
+            <span class="block min-w-0 flex-1">
+              <span class="block truncate text-sm font-medium text-gray-900">Whitney Francis</span>
+              <span class="block truncate text-sm font-medium text-gray-500">Copywriter</span>
+            </span>
+          </span>
+          <span class="inline-flex h-10 w-10 flex-shrink-0 items-center justify-center">
+            <!-- Heroicon name: mini/plus -->
+            <svg class="h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
+            </svg>
+          </span>
+        </button>
+      </li>
+
+      <li>
+        <button type="button" class="group flex w-full items-center justify-between space-x-3 rounded-full border border-gray-300 p-2 text-left shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+          <span class="flex min-w-0 flex-1 items-center space-x-3">
+            <span class="block flex-shrink-0">
+              <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            </span>
+            <span class="block min-w-0 flex-1">
+              <span class="block truncate text-sm font-medium text-gray-900">Leonard Krasner</span>
+              <span class="block truncate text-sm font-medium text-gray-500">Senior Designer</span>
+            </span>
+          </span>
+          <span class="inline-flex h-10 w-10 flex-shrink-0 items-center justify-center">
+            <!-- Heroicon name: mini/plus -->
+            <svg class="h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
+            </svg>
+          </span>
+        </button>
+      </li>
+
+      <li>
+        <button type="button" class="group flex w-full items-center justify-between space-x-3 rounded-full border border-gray-300 p-2 text-left shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+          <span class="flex min-w-0 flex-1 items-center space-x-3">
+            <span class="block flex-shrink-0">
+              <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            </span>
+            <span class="block min-w-0 flex-1">
+              <span class="block truncate text-sm font-medium text-gray-900">Floyd Miles</span>
+              <span class="block truncate text-sm font-medium text-gray-500">Principal Designer</span>
+            </span>
+          </span>
+          <span class="inline-flex h-10 w-10 flex-shrink-0 items-center justify-center">
+            <!-- Heroicon name: mini/plus -->
+            <svg class="h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
+            </svg>
+          </span>
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+
+</body>
+</html>
+

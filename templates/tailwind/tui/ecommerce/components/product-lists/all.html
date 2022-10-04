@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>product-lists | tui</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<p>tui > product-lists | Go to <a href='../all-component-menu.html'>All Components</a></p>
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+    <h2 class="text-2xl font-bold tracking-tight text-gray-900">Customers also purchased</h2>
+
+    <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="group relative">
+        <div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+          <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+        </div>
+        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-sm text-gray-700">
+              <a href="#">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+                Basic Tee
+              </a>
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">Black</p>
+          </div>
+          <p class="text-sm font-medium text-gray-900">$35</p>
+        </div>
+      </div>
+
+      <!-- More products... -->
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<div class="bg-white">
+  <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="md:flex md:items-center md:justify-between">
+      <h2 class="text-2xl font-bold tracking-tight text-gray-900">Trending products</h2>
+      <a href="#" class="hidden text-sm font-medium text-indigo-600 hover:text-indigo-500 md:block">
+        Shop the collection
+        <span aria-hidden="true"> &rarr;</span>
+      </a>
+    </div>
+
+    <div class="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-0 lg:gap-x-8">
+      <div class="group relative">
+        <div class="h-56 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
+          <img src="https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg" alt="Hand stitched, orange leather long wallet." class="h-full w-full object-cover object-center">
+        </div>
+        <h3 class="mt-4 text-sm text-gray-700">
+          <a href="#">
+            <span class="absolute inset-0"></span>
+            Leather Long Wallet
+          </a>
+        </h3>
+        <p class="mt-1 text-sm text-gray-500">Natural</p>
+        <p class="mt-1 text-sm font-medium text-gray-900">$75</p>
+      </div>
+
+      <!-- More products... -->
+    </div>
+
+    <div class="mt-8 text-sm md:hidden">
+      <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">
+        Shop the collection
+        <span aria-hidden="true"> &rarr;</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <div class="py-16 sm:py-24 lg:mx-auto lg:max-w-7xl lg:px-8">
+    <div class="flex items-center justify-between px-4 sm:px-6 lg:px-0">
+      <h2 class="text-2xl font-bold tracking-tight text-gray-900">Trending products</h2>
+      <a href="#" class="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">
+        See everything
+        <span aria-hidden="true"> &rarr;</span>
+      </a>
+    </div>
+
+    <div class="relative mt-8">
+      <div class="relative -mb-6 w-full overflow-x-auto pb-6">
+        <ul role="list" class="mx-4 inline-flex space-x-8 sm:mx-6 lg:mx-0 lg:grid lg:grid-cols-4 lg:gap-x-8 lg:space-x-0">
+          <li class="inline-flex w-64 flex-col text-center lg:w-auto">
+            <div class="group relative">
+              <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200">
+                <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-product-01.jpg" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="h-full w-full object-cover object-center group-hover:opacity-75">
+              </div>
+              <div class="mt-6">
+                <p class="text-sm text-gray-500">Black</p>
+                <h3 class="mt-1 font-semibold text-gray-900">
+                  <a href="#">
+                    <span class="absolute inset-0"></span>
+                    Machined Pen
+                  </a>
+                </h3>
+                <p class="mt-1 text-gray-900">$35</p>
+              </div>
+            </div>
+
+            <h4 class="sr-only">Available colors</h4>
+            <ul role="list" class="mt-auto flex items-center justify-center space-x-3 pt-6">
+              <li class="h-4 w-4 rounded-full border border-black border-opacity-10" style="background-color: #111827">
+                <span class="sr-only"> Black </span>
+              </li>
+
+              <li class="h-4 w-4 rounded-full border border-black border-opacity-10" style="background-color: #fde68a">
+                <span class="sr-only"> Brass </span>
+              </li>
+
+              <li class="h-4 w-4 rounded-full border border-black border-opacity-10" style="background-color: #e5e7eb">
+                <span class="sr-only"> Chrome </span>
+              </li>
+            </ul>
+          </li>
+
+          <!-- More products... -->
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-12 flex px-4 sm:hidden">
+      <a href="#" class="text-sm font-semibold text-indigo-600 hover:text-indigo-500">
+        See everything
+        <span aria-hidden="true"> &rarr;</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+    <h2 id="products-heading" class="sr-only">Products</h2>
+
+    <div class="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+      <a href="#" class="group">
+        <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg sm:aspect-w-2 sm:aspect-h-3">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-01.jpg" alt="Person using a pen to cross a task off a productivity paper card." class="h-full w-full object-cover object-center group-hover:opacity-75">
+        </div>
+        <div class="mt-4 flex items-center justify-between text-base font-medium text-gray-900">
+          <h3>Focus Paper Refill</h3>
+          <p>$13</p>
+        </div>
+        <p class="mt-1 text-sm italic text-gray-500">3 sizes available</p>
+      </a>
+
+      <a href="#" class="group">
+        <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg sm:aspect-w-2 sm:aspect-h-3">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-02.jpg" alt="Paper card sitting upright in walnut card holder on desk." class="h-full w-full object-cover object-center group-hover:opacity-75">
+        </div>
+        <div class="mt-4 flex items-center justify-between text-base font-medium text-gray-900">
+          <h3>Focus Card Holder</h3>
+          <p>$64</p>
+        </div>
+        <p class="mt-1 text-sm italic text-gray-500">Walnut</p>
+      </a>
+
+      <a href="#" class="group">
+        <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg sm:aspect-w-2 sm:aspect-h-3">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-03.jpg" alt="Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop." class="h-full w-full object-cover object-center group-hover:opacity-75">
+        </div>
+        <div class="mt-4 flex items-center justify-between text-base font-medium text-gray-900">
+          <h3>Focus Carry Case</h3>
+          <p>$32</p>
+        </div>
+        <p class="mt-1 text-sm italic text-gray-500">Heather Gray</p>
+      </a>
+
+      <!-- More products... -->
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<div class="bg-white">
+  <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+    <h2 class="text-xl font-bold text-gray-900">Customers also bought</h2>
+
+    <div class="mt-8 grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
+      <div>
+        <div class="relative">
+          <div class="relative h-72 w-full overflow-hidden rounded-lg">
+            <img src="https://tailwindui.com/img/ecommerce-images/product-page-03-related-product-01.jpg" alt="Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls." class="h-full w-full object-cover object-center">
+          </div>
+          <div class="relative mt-4">
+            <h3 class="text-sm font-medium text-gray-900">Zip Tote Basket</h3>
+            <p class="mt-1 text-sm text-gray-500">White and black</p>
+          </div>
+          <div class="absolute inset-x-0 top-0 flex h-72 items-end justify-end overflow-hidden rounded-lg p-4">
+            <div aria-hidden="true" class="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-black opacity-50"></div>
+            <p class="relative text-lg font-semibold text-white">$140</p>
+          </div>
+        </div>
+        <div class="mt-6">
+          <a href="#" class="relative flex items-center justify-center rounded-md border border-transparent bg-gray-100 py-2 px-8 text-sm font-medium text-gray-900 hover:bg-gray-200">Add to bag<span class="sr-only">, Zip Tote Basket</span></a>
+        </div>
+      </div>
+
+      <!-- More products... -->
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+    <h2 class="sr-only">Products</h2>
+
+    <div class="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+      <a href="#" class="group">
+        <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="h-full w-full object-cover object-center group-hover:opacity-75">
+        </div>
+        <h3 class="mt-4 text-sm text-gray-700">Earthen Bottle</h3>
+        <p class="mt-1 text-lg font-medium text-gray-900">$48</p>
+      </a>
+
+      <a href="#" class="group">
+        <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg" alt="Olive drab green insulated bottle with flared screw lid and flat top." class="h-full w-full object-cover object-center group-hover:opacity-75">
+        </div>
+        <h3 class="mt-4 text-sm text-gray-700">Nomad Tumbler</h3>
+        <p class="mt-1 text-lg font-medium text-gray-900">$35</p>
+      </a>
+
+      <a href="#" class="group">
+        <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg" alt="Person using a pen to cross a task off a productivity paper card." class="h-full w-full object-cover object-center group-hover:opacity-75">
+        </div>
+        <h3 class="mt-4 text-sm text-gray-700">Focus Paper Refill</h3>
+        <p class="mt-1 text-lg font-medium text-gray-900">$89</p>
+      </a>
+
+      <a href="#" class="group">
+        <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg" alt="Hand holding black machined steel mechanical pencil with brass tip and top." class="h-full w-full object-cover object-center group-hover:opacity-75">
+        </div>
+        <h3 class="mt-4 text-sm text-gray-700">Machined Mechanical Pencil</h3>
+        <p class="mt-1 text-lg font-medium text-gray-900">$35</p>
+      </a>
+
+      <!-- More products... -->
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <div class="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+    <div class="sm:flex sm:items-baseline sm:justify-between">
+      <h2 class="text-2xl font-bold tracking-tight text-gray-900">Our Favorites</h2>
+      <a href="#" class="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">
+        Browse all favorites
+        <span aria-hidden="true"> &rarr;</span>
+      </a>
+    </div>
+
+    <div class="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-6 lg:gap-x-8">
+      <div class="group relative">
+        <div class="h-96 w-full overflow-hidden rounded-lg group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-3 sm:h-auto">
+          <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-favorite-01.jpg" alt="Model wearing women&#039;s black cotton crewneck tee." class="h-full w-full object-cover object-center">
+        </div>
+        <h3 class="mt-4 text-base font-semibold text-gray-900">
+          <a href="#">
+            <span class="absolute inset-0"></span>
+            Black Basic Tee
+          </a>
+        </h3>
+        <p class="mt-1 text-sm text-gray-500">$32</p>
+      </div>
+
+      <!-- More products... -->
+    </div>
+
+    <div class="mt-6 sm:hidden">
+      <a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">
+        Browse all favorites
+        <span aria-hidden="true"> &rarr;</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <div class="mx-auto max-w-7xl overflow-hidden sm:px-6 lg:px-8">
+    <h2 class="sr-only">Products</h2>
+
+    <div class="-mx-px grid grid-cols-2 border-l border-gray-200 sm:mx-0 md:grid-cols-3 lg:grid-cols-4">
+      <div class="group relative border-r border-b border-gray-200 p-4 sm:p-6">
+        <div class="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-200 group-hover:opacity-75">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-01.jpg" alt="TODO" class="h-full w-full object-cover object-center">
+        </div>
+        <div class="pt-10 pb-4 text-center">
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#">
+              <span aria-hidden="true" class="absolute inset-0"></span>
+              Organize Basic Set (Walnut)
+            </a>
+          </h3>
+          <div class="mt-3 flex flex-col items-center">
+            <p class="sr-only">5 out of 5 stars</p>
+            <div class="flex items-center">
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <p class="mt-1 text-sm text-gray-500">38 reviews</p>
+          </div>
+          <p class="mt-4 text-base font-medium text-gray-900">$149</p>
+        </div>
+      </div>
+
+      <div class="group relative border-r border-b border-gray-200 p-4 sm:p-6">
+        <div class="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-200 group-hover:opacity-75">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-02.jpg" alt="TODO" class="h-full w-full object-cover object-center">
+        </div>
+        <div class="pt-10 pb-4 text-center">
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#">
+              <span aria-hidden="true" class="absolute inset-0"></span>
+              Organize Pen Holder
+            </a>
+          </h3>
+          <div class="mt-3 flex flex-col items-center">
+            <p class="sr-only">5 out of 5 stars</p>
+            <div class="flex items-center">
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <p class="mt-1 text-sm text-gray-500">18 reviews</p>
+          </div>
+          <p class="mt-4 text-base font-medium text-gray-900">$15</p>
+        </div>
+      </div>
+
+      <div class="group relative border-r border-b border-gray-200 p-4 sm:p-6">
+        <div class="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-200 group-hover:opacity-75">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-03.jpg" alt="TODO" class="h-full w-full object-cover object-center">
+        </div>
+        <div class="pt-10 pb-4 text-center">
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#">
+              <span aria-hidden="true" class="absolute inset-0"></span>
+              Organize Sticky Note Holder
+            </a>
+          </h3>
+          <div class="mt-3 flex flex-col items-center">
+            <p class="sr-only">5 out of 5 stars</p>
+            <div class="flex items-center">
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <p class="mt-1 text-sm text-gray-500">14 reviews</p>
+          </div>
+          <p class="mt-4 text-base font-medium text-gray-900">$15</p>
+        </div>
+      </div>
+
+      <div class="group relative border-r border-b border-gray-200 p-4 sm:p-6">
+        <div class="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-200 group-hover:opacity-75">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-04.jpg" alt="TODO" class="h-full w-full object-cover object-center">
+        </div>
+        <div class="pt-10 pb-4 text-center">
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#">
+              <span aria-hidden="true" class="absolute inset-0"></span>
+              Organize Phone Holder
+            </a>
+          </h3>
+          <div class="mt-3 flex flex-col items-center">
+            <p class="sr-only">4 out of 5 stars</p>
+            <div class="flex items-center">
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-yellow-400 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+
+              <!-- Heroicon name: mini/star -->
+              <svg class="text-gray-200 flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <p class="mt-1 text-sm text-gray-500">21 reviews</p>
+          </div>
+          <p class="mt-4 text-base font-medium text-gray-900">$15</p>
+        </div>
+      </div>
+
+      <!-- More products... -->
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <div class="mx-auto max-w-7xl overflow-hidden py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-8">
+      <a href="#" class="group text-sm">
+        <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-07-product-01.jpg" alt="White fabric pouch with white zipper, black zipper pull, and black elastic loop." class="h-full w-full object-cover object-center">
+        </div>
+        <h3 class="mt-4 font-medium text-gray-900">Nomad Pouch</h3>
+        <p class="italic text-gray-500">White and Black</p>
+        <p class="mt-2 font-medium text-gray-900">$50</p>
+      </a>
+
+      <a href="#" class="group text-sm">
+        <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-07-product-02.jpg" alt="Front of tote bag with washed black canvas body, black straps, and tan leather handles and accents." class="h-full w-full object-cover object-center">
+        </div>
+        <h3 class="mt-4 font-medium text-gray-900">Zip Tote Basket</h3>
+        <p class="italic text-gray-500">Washed Black</p>
+        <p class="mt-2 font-medium text-gray-900">$140</p>
+      </a>
+
+      <a href="#" class="group text-sm">
+        <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-07-product-03.jpg" alt="Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch." class="h-full w-full object-cover object-center">
+        </div>
+        <h3 class="mt-4 font-medium text-gray-900">Medium Stuff Satchel</h3>
+        <p class="italic text-gray-500">Blue</p>
+        <p class="mt-2 font-medium text-gray-900">$220</p>
+      </a>
+
+      <!-- More products... -->
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="flex items-center justify-between space-x-4">
+      <h2 class="text-lg font-medium text-gray-900">Customers also viewed</h2>
+      <a href="#" class="whitespace-nowrap text-sm font-medium text-indigo-600 hover:text-indigo-500">
+        View all
+        <span aria-hidden="true"> &rarr;</span>
+      </a>
+    </div>
+    <div class="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+      <div class="group relative">
+        <div class="aspect-w-4 aspect-h-3 overflow-hidden rounded-lg bg-gray-100">
+          <img src="https://tailwindui.com/img/ecommerce-images/product-page-05-related-product-01.jpg" alt="Payment application dashboard screenshot with transaction table, financial highlights, and main clients on colorful purple background." class="object-cover object-center">
+          <div class="flex items-end p-4 opacity-0 group-hover:opacity-100" aria-hidden="true">
+            <div class="w-full rounded-md bg-white bg-opacity-75 py-2 px-4 text-center text-sm font-medium text-gray-900 backdrop-blur backdrop-filter">View Product</div>
+          </div>
+        </div>
+        <div class="mt-4 flex items-center justify-between space-x-8 text-base font-medium text-gray-900">
+          <h3>
+            <a href="#">
+              <span aria-hidden="true" class="absolute inset-0"></span>
+              Fusion
+            </a>
+          </h3>
+          <p>$49</p>
+        </div>
+        <p class="mt-1 text-sm text-gray-500">UI Kit</p>
+      </div>
+
+      <!-- More products... -->
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+    <h2 class="sr-only">Products</h2>
+
+    <div class="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8">
+      <div class="group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white">
+        <div class="aspect-w-3 aspect-h-4 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-96">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-01.jpg" alt="Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green." class="h-full w-full object-cover object-center sm:h-full sm:w-full">
+        </div>
+        <div class="flex flex-1 flex-col space-y-2 p-4">
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#">
+              <span aria-hidden="true" class="absolute inset-0"></span>
+              Basic Tee 8-Pack
+            </a>
+          </h3>
+          <p class="text-sm text-gray-500">Get the full lineup of our Basic Tees. Have a fresh shirt all week, and an extra for laundry day.</p>
+          <div class="flex flex-1 flex-col justify-end">
+            <p class="text-sm italic text-gray-500">8 colors</p>
+            <p class="text-base font-medium text-gray-900">$256</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white">
+        <div class="aspect-w-3 aspect-h-4 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-96">
+          <img src="https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-02.jpg" alt="Front of plain black t-shirt." class="h-full w-full object-cover object-center sm:h-full sm:w-full">
+        </div>
+        <div class="flex flex-1 flex-col space-y-2 p-4">
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#">
+              <span aria-hidden="true" class="absolute inset-0"></span>
+              Basic Tee
+            </a>
+          </h3>
+          <p class="text-sm text-gray-500">Look like a visionary CEO and wear the same black t-shirt every day.</p>
+          <div class="flex flex-1 flex-col justify-end">
+            <p class="text-sm italic text-gray-500">Black</p>
+            <p class="text-base font-medium text-gray-900">$32</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- More products... -->
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+
+</body>
+</html>
+

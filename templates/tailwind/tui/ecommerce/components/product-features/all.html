@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>product-features | tui</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<p>tui > product-features | Go to <a href='../all-component-menu.html'>All Components</a></p>
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-gray-50">
+  <div class="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
+    <!-- Details section -->
+    <section aria-labelledby="details-heading">
+      <div class="flex flex-col items-center text-center">
+        <h2 id="details-heading" class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The Fine Details</h2>
+        <p class="mt-3 max-w-3xl text-lg text-gray-600">Our patented padded snack sleeve construction protects your favorite treats from getting smooshed during all-day adventures, long shifts at work, and tough travel schedules.</p>
+      </div>
+
+      <div class="mt-16 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
+        <div>
+          <div class="aspect-w-3 aspect-h-2 w-full overflow-hidden rounded-lg">
+            <img src="https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg" alt="Drawstring top with elastic loop closure and textured interior padding." class="h-full w-full object-cover object-center">
+          </div>
+          <p class="mt-8 text-base text-gray-500">The 20L model has enough space for 370 candy bars, 6 cylinders of chips, 1220 standard gumballs, or any combination of on-the-go treats that your heart desires. Yes, we did the math.</p>
+        </div>
+        <div>
+          <div class="aspect-w-3 aspect-h-2 w-full overflow-hidden rounded-lg">
+            <img src="https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-02.jpg" alt="Front zipper pouch with included key ring." class="h-full w-full object-cover object-center">
+          </div>
+          <p class="mt-8 text-base text-gray-500">Up your snack organization game with multiple compartment options. The quick-access stash pouch is ready for even the most unexpected snack attacks and sharing needs.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<div class="bg-white">
+  <div aria-hidden="true" class="relative">
+    <img src="https://tailwindui.com/img/ecommerce-images/product-feature-02-full-width.jpg" alt="" class="h-96 w-full object-cover object-center">
+    <div class="absolute inset-0 bg-gradient-to-t from-white"></div>
+  </div>
+
+  <div class="relative mx-auto -mt-12 max-w-7xl px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8">
+    <div class="mx-auto max-w-2xl text-center lg:max-w-4xl">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Technical Specifications</h2>
+      <p class="mt-4 text-gray-500">Organize is a system to keep your desk tidy and photo-worthy all day long. Procrastinate your work while you meticulously arrange items into dedicated trays.</p>
+    </div>
+
+    <dl class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:max-w-none lg:grid-cols-3 lg:gap-x-8">
+      <div class="border-t border-gray-200 pt-4">
+        <dt class="font-medium text-gray-900">Origin</dt>
+        <dd class="mt-2 text-sm text-gray-500">Designed by Good Goods, Inc.</dd>
+      </div>
+
+      <div class="border-t border-gray-200 pt-4">
+        <dt class="font-medium text-gray-900">Material</dt>
+        <dd class="mt-2 text-sm text-gray-500">Solid walnut base with rare earth magnets and polycarbonate add-ons.</dd>
+      </div>
+
+      <div class="border-t border-gray-200 pt-4">
+        <dt class="font-medium text-gray-900">Dimensions</dt>
+        <dd class="mt-2 text-sm text-gray-500">15&quot; x 3.75&quot; x .75&quot;</dd>
+      </div>
+
+      <div class="border-t border-gray-200 pt-4">
+        <dt class="font-medium text-gray-900">Finish</dt>
+        <dd class="mt-2 text-sm text-gray-500">Hand sanded and finished with natural oil</dd>
+      </div>
+
+      <div class="border-t border-gray-200 pt-4">
+        <dt class="font-medium text-gray-900">Includes</dt>
+        <dd class="mt-2 text-sm text-gray-500">Pen Tray, Phone Tray, Small Tray, Large Tray, Sticky Note Holder</dd>
+      </div>
+
+      <div class="border-t border-gray-200 pt-4">
+        <dt class="font-medium text-gray-900">Considerations</dt>
+        <dd class="mt-2 text-sm text-gray-500">Made from natural materials. Grain and color vary with each item.</dd>
+      </div>
+    </dl>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<div class="bg-white">
+  <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+    <div>
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Technical Specifications</h2>
+      <p class="mt-4 text-gray-500">The walnut wood card tray is precision milled to perfectly fit a stack of Focus cards. The powder coated steel divider separates active cards from new ones, or can be used to archive important task lists.</p>
+
+      <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+        <div class="border-t border-gray-200 pt-4">
+          <dt class="font-medium text-gray-900">Origin</dt>
+          <dd class="mt-2 text-sm text-gray-500">Designed by Good Goods, Inc.</dd>
+        </div>
+
+        <div class="border-t border-gray-200 pt-4">
+          <dt class="font-medium text-gray-900">Material</dt>
+          <dd class="mt-2 text-sm text-gray-500">Solid walnut base with rare earth magnets and powder coated steel card cover</dd>
+        </div>
+
+        <div class="border-t border-gray-200 pt-4">
+          <dt class="font-medium text-gray-900">Dimensions</dt>
+          <dd class="mt-2 text-sm text-gray-500">6.25&quot; x 3.55&quot; x 1.15&quot;</dd>
+        </div>
+
+        <div class="border-t border-gray-200 pt-4">
+          <dt class="font-medium text-gray-900">Finish</dt>
+          <dd class="mt-2 text-sm text-gray-500">Hand sanded and finished with natural oil</dd>
+        </div>
+
+        <div class="border-t border-gray-200 pt-4">
+          <dt class="font-medium text-gray-900">Includes</dt>
+          <dd class="mt-2 text-sm text-gray-500">Wood card tray and 3 refill packs</dd>
+        </div>
+
+        <div class="border-t border-gray-200 pt-4">
+          <dt class="font-medium text-gray-900">Considerations</dt>
+          <dd class="mt-2 text-sm text-gray-500">Made from natural materials. Grain and color vary with each item.</dd>
+        </div>
+      </dl>
+    </div>
+    <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
+      <img src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg" alt="Walnut card tray with white powder coated steel divider and 3 punchout holes." class="rounded-lg bg-gray-100">
+      <img src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-02.jpg" alt="Top down view of walnut card tray with embedded magnets and card groove." class="rounded-lg bg-gray-100">
+      <img src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-03.jpg" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100">
+      <img src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg" alt="Walnut card tray filled with cards and card angled in dedicated groove." class="rounded-lg bg-gray-100">
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <div class="mx-auto max-w-7xl py-24 sm:py-32 sm:px-2 lg:px-4">
+    <div class="mx-auto max-w-2xl px-4 lg:max-w-none">
+      <div class="max-w-3xl">
+        <h2 class="font-semibold text-gray-500">Drawstring Canister</h2>
+        <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Use it your way</p>
+        <p class="mt-4 text-gray-500">The Drawstring Canister comes with multiple strap and handle options to adapt throughout your day. Shoulder sling it, backpack it, or handy carry it.</p>
+      </div>
+
+      <div class="mt-10 space-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16">
+        <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
+          <div class="mt-6 lg:col-span-5 lg:mt-0 xl:col-span-4">
+            <h3 class="text-lg font-medium text-gray-900">Adventure-ready</h3>
+            <p class="mt-2 text-sm text-gray-500">The Drawstring Canister is water and tear resistant with durable canvas construction. This bag holds up to the demands of daily use while keeping your snacks secure.</p>
+          </div>
+          <div class="flex-auto lg:col-span-7 xl:col-span-8">
+            <div class="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-gray-100">
+              <img src="https://tailwindui.com/img/ecommerce-images/product-feature-04-detail-03.jpg" alt="Printed photo of bag being tossed into the sky on top of grass." class="object-cover object-center">
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
+          <div class="mt-6 lg:col-span-5 lg:mt-0 xl:col-span-4">
+            <h3 class="text-lg font-medium text-gray-900">Minimal and clean</h3>
+            <p class="mt-2 text-sm text-gray-500">Everything you need, nothing you don&#039;t. This bag has the simple, contemporary design that enables you to tell everyone you know about how essentialism is the only rational way to live life.</p>
+          </div>
+          <div class="flex-auto lg:col-span-7 xl:col-span-8">
+            <div class="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-gray-100">
+              <img src="https://tailwindui.com/img/ecommerce-images/product-feature-04-detail-01.jpg" alt="Double stitched black canvas hook loop." class="object-cover object-center">
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
+          <div class="mt-6 lg:col-span-5 lg:mt-0 xl:col-span-4">
+            <h3 class="text-lg font-medium text-gray-900">Organized</h3>
+            <p class="mt-2 text-sm text-gray-500">Never lose your snacks again with our patent-pending snack stash pocket system. With dedicated pouches for each of your snacking needs, the Drawstring Canister unlocks new levels of efficiency and convenience.</p>
+          </div>
+          <div class="flex-auto lg:col-span-7 xl:col-span-8">
+            <div class="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-gray-100">
+              <img src="https://tailwindui.com/img/ecommerce-images/product-feature-04-detail-02.jpg" alt="Black canvas body with chrome zipper and key ring." class="object-cover object-center">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <section aria-labelledby="features-heading" class="relative">
+    <div class="aspect-w-3 aspect-h-2 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:h-full lg:w-1/2 lg:pr-4 xl:pr-16">
+      <img src="https://tailwindui.com/img/ecommerce-images/confirmation-page-01-hero.jpg" alt="Black leather journal with silver steel disc binding resting on wooden shelf with machined steel pen." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+    </div>
+
+    <div class="mx-auto max-w-2xl px-4 pt-16 pb-24 sm:px-6 sm:pb-32 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:pt-32">
+      <div class="lg:col-start-2">
+        <h2 id="features-heading" class="font-medium text-gray-500">Leatherbound Daily Journal</h2>
+        <p class="mt-4 text-4xl font-bold tracking-tight text-gray-900">All in the Details</p>
+        <p class="mt-4 text-gray-500">We've obsessed over every detail of this handcrafted journal to bring you the best materials for daily use.</p>
+
+        <dl class="mt-10 grid grid-cols-1 gap-y-10 gap-x-8 text-sm sm:grid-cols-2">
+          <div>
+            <dt class="font-medium text-gray-900">Durable</dt>
+            <dd class="mt-2 text-gray-500">The leather cover and machined steel disc binding stand up to daily use for years to come.</dd>
+          </div>
+
+          <div>
+            <dt class="font-medium text-gray-900">Refillable</dt>
+            <dd class="mt-2 text-gray-500">Buy it once and refill as often as you need. Subscribe and save on routine refills.</dd>
+          </div>
+
+          <div>
+            <dt class="font-medium text-gray-900">Thoughtfully designed</dt>
+            <dd class="mt-2 text-gray-500">The comfortable disc binding allows you to quickly rearrange pages or combine lined, graph, and blank refills.</dd>
+          </div>
+
+          <div>
+            <dt class="font-medium text-gray-900">Locally made</dt>
+            <dd class="mt-2 text-gray-500">Responsibly and sustainably made real close to wherever you are, somehow.</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <section aria-labelledby="features-heading" class="mx-auto max-w-7xl py-32 sm:px-2 lg:px-8">
+    <div class="mx-auto max-w-2xl px-4 lg:max-w-none lg:px-0">
+      <div class="max-w-3xl">
+        <h2 id="features-heading" class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Technical Specifications</h2>
+        <p class="mt-4 text-gray-500">The Organize modular system offers endless options for arranging your favorite and most used items. Keep everything at reach and in its place, while dressing up your workspace.</p>
+      </div>
+
+      <div class="mt-4">
+        <div class="-mx-4 flex overflow-x-auto sm:mx-0">
+          <div class="flex-auto border-b border-gray-200 px-4 sm:px-0">
+            <div class="-mb-px flex space-x-10" aria-orientation="horizontal" role="tablist">
+              <!-- Current: "border-indigo-500 text-indigo-600", Default: "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300" -->
+              <button id="features-tab-1" class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap border-b-2 py-6 text-sm font-medium" aria-controls="features-panel-1" role="tab" type="button">Design</button>
+
+              <button id="features-tab-2" class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap border-b-2 py-6 text-sm font-medium" aria-controls="features-panel-2" role="tab" type="button">Material</button>
+
+              <button id="features-tab-3" class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap border-b-2 py-6 text-sm font-medium" aria-controls="features-panel-3" role="tab" type="button">Considerations</button>
+
+              <button id="features-tab-4" class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap border-b-2 py-6 text-sm font-medium" aria-controls="features-panel-4" role="tab" type="button">Included</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="features-panel-1" class="space-y-16 pt-10 lg:pt-16" aria-labelledby="features-tab-1" role="tabpanel" tabindex="0">
+          <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8">
+            <div class="mt-6 lg:col-span-5 lg:mt-0">
+              <h3 class="text-lg font-medium text-gray-900">Adaptive and modular</h3>
+              <p class="mt-2 text-sm text-gray-500">The Organize base set allows you to configure and evolve your setup as your items and habits change. The included trays and optional add-ons are easily rearranged to achieve that perfect setup.</p>
+            </div>
+            <div class="lg:col-span-7">
+              <div class="aspect-w-2 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 sm:aspect-w-5 sm:aspect-h-2">
+                <img src="https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg" alt="Maple organizer base with slots, supporting white polycarbonate trays of various sizes." class="object-cover object-center">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="features-panel-2" class="space-y-16 pt-10 lg:pt-16" aria-labelledby="features-tab-2" role="tabpanel" tabindex="0">
+          <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8">
+            <div class="mt-6 lg:col-span-5 lg:mt-0">
+              <h3 class="text-lg font-medium text-gray-900">Natural wood options</h3>
+              <p class="mt-2 text-sm text-gray-500">Organize has options for rich walnut and bright maple base materials. Accent your desk with a contrasting material, or match similar woods for a calm and cohesive look. Every base is hand sanded and finished.</p>
+            </div>
+            <div class="lg:col-span-7">
+              <div class="aspect-w-2 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 sm:aspect-w-5 sm:aspect-h-2">
+                <img src="https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-02.jpg" alt="Walnut organizer base with pen, sticky note, phone, and bin trays, next to modular drink coaster attachment." class="object-cover object-center">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="features-panel-3" class="space-y-16 pt-10 lg:pt-16" aria-labelledby="features-tab-3" role="tabpanel" tabindex="0">
+          <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8">
+            <div class="mt-6 lg:col-span-5 lg:mt-0">
+              <h3 class="text-lg font-medium text-gray-900">Helpful around the home</h3>
+              <p class="mt-2 text-sm text-gray-500">Our customers use Organize throughout the house to bring efficiency to many daily routines. Enjoy Organize in your workspace, kitchen, living room, entry way, garage, and more. We can&#039;t wait to see how you&#039;ll use it!</p>
+            </div>
+            <div class="lg:col-span-7">
+              <div class="aspect-w-2 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 sm:aspect-w-5 sm:aspect-h-2">
+                <img src="https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-03.jpg" alt="Walnut organizer base with white polycarbonate trays in the kitchen with various kitchen utensils." class="object-cover object-center">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="features-panel-4" class="space-y-16 pt-10 lg:pt-16" aria-labelledby="features-tab-4" role="tabpanel" tabindex="0">
+          <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8">
+            <div class="mt-6 lg:col-span-5 lg:mt-0">
+              <h3 class="text-lg font-medium text-gray-900">Everything you&#039;ll need</h3>
+              <p class="mt-2 text-sm text-gray-500">The Organize base set includes the pen, phone, small, and large trays to help you group all your essential items. Expand your set with the drink coaster and headphone stand add-ons.</p>
+            </div>
+            <div class="lg:col-span-7">
+              <div class="aspect-w-2 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 sm:aspect-w-5 sm:aspect-h-2">
+                <img src="https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-04.jpg" alt="Walnut organizer system on black leather desk mat on top of white desk." class="object-cover object-center">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <div class="mx-auto max-w-2xl py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
+    <div class="mx-auto max-w-3xl text-center">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Protect your device</h2>
+      <p class="mt-4 text-gray-500">As a digital creative, your laptop or tablet is at the center of your work. Keep your device safe with a fabric sleeve that matches in quality and looks.</p>
+    </div>
+
+    <div class="mt-16 space-y-16">
+      <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
+        <div class="mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4 lg:col-start-1">
+          <h3 class="text-lg font-medium text-gray-900">Minimal and thoughtful</h3>
+          <p class="mt-2 text-sm text-gray-500">Our laptop sleeve is compact and precisely fits 13&quot; devices. The zipper allows you to access the interior with ease, and the front pouch provides a convenient place for your charger cable.</p>
+        </div>
+        <div class="flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8 lg:col-start-6 xl:col-start-5">
+          <div class="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-gray-100">
+            <img src="https://tailwindui.com/img/ecommerce-images/product-feature-07-detail-01.jpg" alt="White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull." class="object-cover object-center">
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
+        <div class="mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4 lg:col-start-8 xl:col-start-9">
+          <h3 class="text-lg font-medium text-gray-900">Refined details</h3>
+          <p class="mt-2 text-sm text-gray-500">We design every detail with the best materials and finishes. This laptop sleeve features durable canvas with double-stitched construction, a felt interior, and a high quality zipper that hold up to daily use.</p>
+        </div>
+        <div class="flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8 lg:col-start-1">
+          <div class="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-gray-100">
+            <img src="https://tailwindui.com/img/ecommerce-images/product-feature-07-detail-02.jpg" alt="Detail of zipper pull with tan leather and silver rivet." class="object-cover object-center">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <div class="mx-auto max-w-2xl py-24 px-4 sm:py-32 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="max-w-3xl">
+      <h2 id="features-heading" class="font-medium text-gray-500">Focus</h2>
+      <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Simple productivity</p>
+      <p class="mt-4 text-gray-500">Focus allows you to plan 10 daily tasks, while also thinking ahead about what's next. Forget distracting digital apps and embrace these small, sturdy pieces of paper.</p>
+    </div>
+
+    <div class="mt-11 grid grid-cols-1 items-start gap-y-16 gap-x-6 sm:mt-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8">
+      <div class="flex flex-col-reverse">
+        <div class="mt-6">
+          <h3 class="text-sm font-medium text-gray-900">Three card types</h3>
+          <p class="mt-2 text-sm text-gray-500">Today, Next, and Someday cards allow you to defer your dreams into the future.</p>
+        </div>
+        <div class="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100">
+          <img src="https://tailwindui.com/img/ecommerce-images/product-feature-08-detail-01.jpg" alt="Green cardstock box containing white, beige, and brown cards." class="object-cover object-center">
+        </div>
+      </div>
+
+      <div class="flex flex-col-reverse">
+        <div class="mt-6">
+          <h3 class="text-sm font-medium text-gray-900">The perfect mix</h3>
+          <p class="mt-2 text-sm text-gray-500">Each refill pack contains plenty of cards to last you a month of procrastination.</p>
+        </div>
+        <div class="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100">
+          <img src="https://tailwindui.com/img/ecommerce-images/product-feature-08-detail-02.jpg" alt="Green cardstock box open with 50 cards inside." class="object-cover object-center">
+        </div>
+      </div>
+
+      <div class="flex flex-col-reverse">
+        <div class="mt-6">
+          <h3 class="text-sm font-medium text-gray-900">Dot grid backs</h3>
+          <p class="mt-2 text-sm text-gray-500">Flip a card over to doodle during meetings when you should be listening.</p>
+        </div>
+        <div class="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100">
+          <img src="https://tailwindui.com/img/ecommerce-images/product-feature-08-detail-03.jpg" alt="Detail of white today card, beige next card, and brown someday card with dot grid." class="object-cover object-center">
+        </div>
+      </div>
+
+      <div class="flex flex-col-reverse">
+        <div class="mt-6">
+          <h3 class="text-sm font-medium text-gray-900">Refill packs</h3>
+          <p class="mt-2 text-sm text-gray-500">Subscribe and save on routine refill packs to keep you productive all year long.</p>
+        </div>
+        <div class="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100">
+          <img src="https://tailwindui.com/img/ecommerce-images/product-feature-08-detail-04.jpg" alt="Stack of three green cardstock boxes with 3 hole cutouts showing cards inside." class="object-cover object-center">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <div class="mx-auto max-w-2xl py-24 px-4 sm:py-32 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="grid grid-cols-1 items-center gap-y-16 gap-x-8 lg:grid-cols-2">
+      <div>
+        <div class="border-b border-gray-200 pb-10">
+          <h2 class="font-medium text-gray-500">Machined Kettle</h2>
+          <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Elegant simplicity</p>
+        </div>
+
+        <dl class="mt-10 space-y-10">
+          <div>
+            <dt class="text-sm font-medium text-gray-900">Sleek design</dt>
+            <dd class="mt-3 text-sm text-gray-500">The machined kettle has a smooth black finish and contemporary shape that stands apart from most plastic appliances.</dd>
+          </div>
+
+          <div>
+            <dt class="text-sm font-medium text-gray-900">Comfort handle</dt>
+            <dd class="mt-3 text-sm text-gray-500">Shaped for steady pours and insulated to prevent burns.</dd>
+          </div>
+
+          <div>
+            <dt class="text-sm font-medium text-gray-900">One-button control</dt>
+            <dd class="mt-3 text-sm text-gray-500">The one button control has a digital readout for setting temperature and turning the kettle on and off.</dd>
+          </div>
+
+          <div>
+            <dt class="text-sm font-medium text-gray-900">Long spout</dt>
+            <dd class="mt-3 text-sm text-gray-500">Designed specifically for controlled pour-overs that don&#039;t slash or sputter.</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div>
+        <div class="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100">
+          <img src="https://tailwindui.com/img/ecommerce-images/product-feature-09-main-detail.jpg" alt="Black kettle with long pour spot and angled body on marble counter next to coffee mug and pour-over system." class="h-full w-full object-cover object-center">
+        </div>
+        <div class="mt-4 grid grid-cols-2 gap-4 sm:mt-6 sm:gap-6 lg:mt-8 lg:gap-8">
+          <div class="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100">
+            <img src="https://tailwindui.com/img/ecommerce-images/product-feature-09-detail-01.jpg" alt="Detail of temperature setting button on kettle bass with digital degree readout." class="h-full w-full object-cover object-center">
+          </div>
+          <div class="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100">
+            <img src="https://tailwindui.com/img/ecommerce-images/product-feature-09-detail-02.jpg" alt="Kettle spout pouring boiling water into coffee grounds in pour-over mug." class="h-full w-full object-cover object-center">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+
+</body>
+</html>
+

@@ -3,7 +3,9 @@
 module {{camel .}}
 {{/each}}
 
-  # {{titleize model.name}}
+  # {{titleize model.name}}{{#if model.description}}
+  #
+  # {{model.description}}{{/if}}
   class {{camel model.name}}
 {{#each model.fields}}    attr_accessor :{{./name}}
 {{/each}}

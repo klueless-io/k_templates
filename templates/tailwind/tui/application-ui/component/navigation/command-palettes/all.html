@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>command-palettes | tui</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<p>tui > command-palettes | Go to <a href='../all-component-menu.html'>All Components</a></p>
+<!--
+  This example requires Tailwind CSS v3.0+
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<div class="relative z-10" role="dialog" aria-modal="true">
+  <!--
+    Background backdrop, show/hide based on modal state.
+
+    Entering: "ease-out duration-300"
+      From: "opacity-0"
+      To: "opacity-100"
+    Leaving: "ease-in duration-200"
+      From: "opacity-100"
+      To: "opacity-0"
+  -->
+  <div class="fixed inset-0 bg-gray-500 bg-opacity-25 transition-opacity"></div>
+
+  <div class="fixed inset-0 z-10 overflow-y-auto p-4 sm:p-6 md:p-20">
+    <!--
+      Command palette, show/hide based on modal state.
+
+      Entering: "ease-out duration-300"
+        From: "opacity-0 scale-95"
+        To: "opacity-100 scale-100"
+      Leaving: "ease-in duration-200"
+        From: "opacity-100 scale-100"
+        To: "opacity-0 scale-95"
+    -->
+    <div class="mx-auto max-w-xl transform divide-y divide-gray-100 overflow-hidden rounded-xl bg-white shadow-2xl ring-1 ring-black ring-opacity-5 transition-all">
+      <div class="relative">
+        <!-- Heroicon name: mini/magnifying-glass -->
+        <svg class="pointer-events-none absolute top-3.5 left-4 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" />
+        </svg>
+        <input type="text" class="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-gray-800 placeholder-gray-400 focus:ring-0 sm:text-sm" placeholder="Search..." role="combobox" aria-expanded="false" aria-controls="options">
+      </div>
+
+      <!-- Results, show/hide based on command palette state -->
+      <ul class="max-h-72 scroll-py-2 overflow-y-auto py-2 text-sm text-gray-800" id="options" role="listbox">
+        <!-- Active: "bg-indigo-600 text-white" -->
+        <li class="cursor-default select-none px-4 py-2" id="option-1" role="option" tabindex="-1">Leslie Alexander</li>
+        <li class="cursor-default select-none px-4 py-2" id="option-2" role="option" tabindex="-1">Michael Foster</li>
+        <li class="cursor-default select-none px-4 py-2" id="option-3" role="option" tabindex="-1">Dries Vincent</li>
+        <li class="cursor-default select-none px-4 py-2" id="option-4" role="option" tabindex="-1">Lindsay Walton</li>
+        <li class="cursor-default select-none px-4 py-2" id="option-5" role="option" tabindex="-1">Courtney Henry</li>
+      </ul>
+
+      <!-- Empty state, show/hide based on command palette state -->
+      <p class="p-4 text-sm text-gray-500">No people found.</p>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires Tailwind CSS v3.0+
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<div class="relative z-10" role="dialog" aria-modal="true">
+  <!--
+    Background backdrop, show/hide based on modal state.
+
+    Entering: "ease-out duration-300"
+      From: "opacity-0"
+      To: "opacity-100"
+    Leaving: "ease-in duration-200"
+      From: "opacity-100"
+      To: "opacity-0"
+  -->
+  <div class="fixed inset-0 bg-gray-500 bg-opacity-25 transition-opacity"></div>
+
+  <div class="fixed inset-0 z-10 overflow-y-auto p-4 sm:p-6 md:p-20">
+    <!--
+      Command palette, show/hide based on modal state.
+
+      Entering: "ease-out duration-300"
+        From: "opacity-0 scale-95"
+        To: "opacity-100 scale-100"
+      Leaving: "ease-in duration-200"
+        From: "opacity-100 scale-100"
+        To: "opacity-0 scale-95"
+    -->
+    <div class="mx-auto max-w-xl transform rounded-xl bg-white p-2 shadow-2xl ring-1 ring-black ring-opacity-5 transition-all">
+      <input type="text" class="w-full rounded-md border-0 bg-gray-100 px-4 py-2.5 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" placeholder="Search..." role="combobox" aria-expanded="false" aria-controls="options">
+
+      <!-- Results, show/hide based on command palette state. -->
+      <ul class="-mb-2 max-h-72 scroll-py-2 overflow-y-auto py-2 text-sm text-gray-800" id="options" role="listbox">
+        <!-- Active: "bg-indigo-600 text-white" -->
+        <li class="cursor-default select-none rounded-md px-4 py-2" id="option-1" role="option" tabindex="-1">Leslie Alexander</li>
+        <li class="cursor-default select-none rounded-md px-4 py-2" id="option-2" role="option" tabindex="-1">Michael Foster</li>
+        <li class="cursor-default select-none rounded-md px-4 py-2" id="option-3" role="option" tabindex="-1">Dries Vincent</li>
+        <li class="cursor-default select-none rounded-md px-4 py-2" id="option-4" role="option" tabindex="-1">Lindsay Walton</li>
+        <li class="cursor-default select-none rounded-md px-4 py-2" id="option-5" role="option" tabindex="-1">Courtney Henry</li>
+      </ul>
+
+      <!-- Empty state, show/hide based on command palette state. -->
+      <div class="py-14 px-4 text-center sm:px-14">
+        <!-- Heroicon name: outline/users -->
+        <svg class="mx-auto h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
+        </svg>
+        <p class="mt-4 text-sm text-gray-900">No people found using that search term.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires Tailwind CSS v3.0+
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<div class="relative z-10" role="dialog" aria-modal="true">
+  <!--
+    Background backdrop, show/hide based on modal state.
+
+    Entering: "ease-out duration-300"
+      From: "opacity-0"
+      To: "opacity-100"
+    Leaving: "ease-in duration-200"
+      From: "opacity-100"
+      To: "opacity-0"
+  -->
+  <div class="fixed inset-0 bg-gray-500 bg-opacity-25 transition-opacity"></div>
+
+  <div class="fixed inset-0 z-10 overflow-y-auto p-4 sm:p-6 md:p-20">
+    <!--
+      Command palette, show/hide based on modal state.
+
+      Entering: "ease-out duration-300"
+        From: "opacity-0 scale-95"
+        To: "opacity-100 scale-100"
+      Leaving: "ease-in duration-200"
+        From: "opacity-100 scale-100"
+        To: "opacity-0 scale-95"
+    -->
+    <div class="mx-auto max-w-3xl transform divide-y divide-gray-100 overflow-hidden rounded-xl bg-white shadow-2xl ring-1 ring-black ring-opacity-5 transition-all">
+      <div class="relative">
+        <!-- Heroicon name: mini/magnifying-glass -->
+        <svg class="pointer-events-none absolute top-3.5 left-4 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" />
+        </svg>
+        <input type="text" class="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-gray-800 placeholder-gray-400 focus:ring-0 sm:text-sm" placeholder="Search..." role="combobox" aria-expanded="false" aria-controls="options">
+      </div>
+
+      <div class="flex divide-x divide-gray-100">
+        <!-- Preview Visible: "sm:h-96" -->
+        <div class="max-h-96 min-w-0 flex-auto scroll-py-4 overflow-y-auto px-6 py-4 sm:h-96">
+          <!-- Default state, show/hide based on command palette state. -->
+          <h2 class="mt-2 mb-4 text-xs font-semibold text-gray-500">Recent searches</h2>
+          <ul class="-mx-2 text-sm text-gray-700" id="recent" role="listbox">
+            <!-- Active: "bg-gray-100 text-gray-900" -->
+            <li class="group flex cursor-default select-none items-center rounded-md p-2" id="recent-1" role="option" tabindex="-1">
+              <img src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-6 w-6 flex-none rounded-full">
+              <span class="ml-3 flex-auto truncate">Floyd Miles</span>
+              <!-- Not Active: "hidden" -->
+              <!-- Heroicon name: mini/chevron-right -->
+              <svg class="ml-3 hidden h-5 w-5 flex-none text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+              </svg>
+            </li>
+          </ul>
+
+          <!-- Results, show/hide based on command palette state. -->
+          <ul class="-mx-2 text-sm text-gray-700" id="options" role="listbox">
+            <!-- Active: "bg-gray-100 text-gray-900" -->
+            <li class="group flex cursor-default select-none items-center rounded-md p-2" id="option-1" role="option" tabindex="-1">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-6 w-6 flex-none rounded-full">
+              <span class="ml-3 flex-auto truncate">Tom Cook</span>
+              <!-- Not Active: "hidden" -->
+              <!-- Heroicon name: mini/chevron-right -->
+              <svg class="ml-3 hidden h-5 w-5 flex-none text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+              </svg>
+            </li>
+            <li class="group flex cursor-default select-none items-center rounded-md p-2" id="option-2" role="option" tabindex="-1">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-6 w-6 flex-none rounded-full">
+              <span class="ml-3 flex-auto truncate">Courtney Henry</span>
+              <!-- Heroicon name: mini/chevron-right -->
+              <svg class="ml-3 hidden h-5 w-5 flex-none text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+              </svg>
+            </li>
+            <li class="group flex cursor-default select-none items-center rounded-md p-2" id="option-3" role="option" tabindex="-1">
+              <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-6 w-6 flex-none rounded-full">
+              <span class="ml-3 flex-auto truncate">Dries Vincent</span>
+              <!-- Heroicon name: mini/chevron-right -->
+              <svg class="ml-3 hidden h-5 w-5 flex-none text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+              </svg>
+            </li>
+            <li class="group flex cursor-default select-none items-center rounded-md p-2" id="option-4" role="option" tabindex="-1">
+              <img src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-6 w-6 flex-none rounded-full">
+              <span class="ml-3 flex-auto truncate">Kristin Watson</span>
+              <!-- Heroicon name: mini/chevron-right -->
+              <svg class="ml-3 hidden h-5 w-5 flex-none text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+              </svg>
+            </li>
+            <li class="group flex cursor-default select-none items-center rounded-md p-2" id="option-5" role="option" tabindex="-1">
+              <img src="https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-6 w-6 flex-none rounded-full">
+              <span class="ml-3 flex-auto truncate">Jeffrey Webb</span>
+              <!-- Heroicon name: mini/chevron-right -->
+              <svg class="ml-3 hidden h-5 w-5 flex-none text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+              </svg>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Active item side-panel, show/hide based on active state -->
+        <div class="hidden h-96 w-1/2 flex-none flex-col divide-y divide-gray-100 overflow-y-auto sm:flex">
+          <div class="flex-none p-6 text-center">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="mx-auto h-16 w-16 rounded-full">
+            <h2 class="mt-3 font-semibold text-gray-900">Tom Cook</h2>
+            <p class="text-sm leading-6 text-gray-500">Director, Product Development</p>
+          </div>
+          <div class="flex flex-auto flex-col justify-between p-6">
+            <dl class="grid grid-cols-1 gap-x-6 gap-y-3 text-sm text-gray-700">
+              <dt class="col-end-1 font-semibold text-gray-900">Phone</dt>
+              <dd>881-460-8515</dd>
+              <dt class="col-end-1 font-semibold text-gray-900">URL</dt>
+              <dd class="truncate"><a href="https://example.com" class="text-indigo-600 underline">https://example.com</a></dd>
+              <dt class="col-end-1 font-semibold text-gray-900">Email</dt>
+              <dd class="truncate"><a href="#" class="text-indigo-600 underline">tomcook@example.com</a></dd>
+            </dl>
+            <button type="button" class="mt-6 w-full rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Send message</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Empty state, show/hide based on command palette state -->
+      <div class="py-14 px-6 text-center text-sm sm:px-14">
+        <!-- Heroicon name: outline/users -->
+        <svg class="mx-auto h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
+        </svg>
+        <p class="mt-4 font-semibold text-gray-900">No people found</p>
+        <p class="mt-2 text-gray-500">We couldn’t find anything with that term. Please try again.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires Tailwind CSS v3.0+
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<div class="relative z-10" role="dialog" aria-modal="true">
+  <!--
+    Background backdrop, show/hide based on modal state.
+
+    Entering: "ease-out duration-300"
+      From: "opacity-0"
+      To: "opacity-100"
+    Leaving: "ease-in duration-200"
+      From: "opacity-100"
+      To: "opacity-0"
+  -->
+  <div class="fixed inset-0 bg-gray-500 bg-opacity-25 transition-opacity"></div>
+
+  <div class="fixed inset-0 z-10 overflow-y-auto p-4 sm:p-6 md:p-20">
+    <!--
+      Command palette, show/hide based on modal state.
+
+      Entering: "ease-out duration-300"
+        From: "opacity-0 scale-95"
+        To: "opacity-100 scale-100"
+      Leaving: "ease-in duration-200"
+        From: "opacity-100 scale-100"
+        To: "opacity-0 scale-95"
+    -->
+    <div class="mx-auto max-w-xl transform divide-y divide-gray-100 overflow-hidden rounded-xl bg-white shadow-2xl ring-1 ring-black ring-opacity-5 transition-all">
+      <div class="relative">
+        <!-- Heroicon name: mini/magnifying-glass -->
+        <svg class="pointer-events-none absolute top-3.5 left-4 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" />
+        </svg>
+        <input type="text" class="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-gray-800 placeholder-gray-400 focus:ring-0 sm:text-sm" placeholder="Search..." role="combobox" aria-expanded="false" aria-controls="options">
+      </div>
+
+      <!-- Results, show/hide based on command palette state -->
+      <ul class="max-h-96 scroll-py-3 overflow-y-auto p-3" id="options" role="listbox">
+        <!-- Active: "bg-gray-100" -->
+        <li class="group flex cursor-default select-none rounded-xl p-3" id="option-1" role="option" tabindex="-1">
+          <div class="flex h-10 w-10 flex-none items-center justify-center rounded-lg bg-indigo-500">
+            <!-- Heroicon name: outline/pencil-square -->
+            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
+            </svg>
+          </div>
+          <div class="ml-4 flex-auto">
+            <!-- Active: "text-gray-900", Not Active: "text-gray-700" -->
+            <p class="text-sm font-medium text-gray-700">Text</p>
+            <!-- Active: "text-gray-700", Not Active: "text-gray-500" -->
+            <p class="text-sm text-gray-500">Add freeform text with basic formatting options.</p>
+          </div>
+        </li>
+
+        <!-- More items... -->
+      </ul>
+
+      <!-- Empty state, show/hide based on command palette state -->
+      <div class="py-14 px-6 text-center text-sm sm:px-14">
+        <!-- Heroicon name: outline/exclamation-circle -->
+        <svg class="mx-auto h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+        </svg>
+        <p class="mt-4 font-semibold text-gray-900">No results found</p>
+        <p class="mt-2 text-gray-500">No components found for this search term. Please try again.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires Tailwind CSS v3.0+
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<div class="relative z-10" role="dialog" aria-modal="true">
+  <!--
+    Background backdrop, show/hide based on modal state.
+
+    Entering: "ease-out duration-300"
+      From: "opacity-0"
+      To: "opacity-100"
+    Leaving: "ease-in duration-200"
+      From: "opacity-100"
+      To: "opacity-0"
+  -->
+  <div class="fixed inset-0 bg-gray-500 bg-opacity-25 transition-opacity"></div>
+
+  <div class="fixed inset-0 z-10 overflow-y-auto p-4 sm:p-6 md:p-20">
+    <!--
+      Command palette, show/hide based on modal state.
+
+      Entering: "ease-out duration-300"
+        From: "opacity-0 scale-95"
+        To: "opacity-100 scale-100"
+      Leaving: "ease-in duration-200"
+        From: "opacity-100 scale-100"
+        To: "opacity-0 scale-95"
+    -->
+    <div class="mx-auto max-w-2xl transform divide-y divide-gray-100 overflow-hidden rounded-xl bg-white shadow-2xl ring-1 ring-black ring-opacity-5 transition-all">
+      <div class="relative">
+        <!-- Heroicon name: mini/magnifying-glass -->
+        <svg class="pointer-events-none absolute top-3.5 left-4 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" />
+        </svg>
+        <input type="text" class="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-gray-800 placeholder-gray-400 focus:ring-0 sm:text-sm" placeholder="Search...">
+      </div>
+
+      <!-- Default state, show/hide based on command palette state. -->
+      <ul class="max-h-80 scroll-py-2 divide-y divide-gray-100 overflow-y-auto">
+        <li class="p-2">
+          <h2 class="mt-4 mb-2 px-3 text-xs font-semibold text-gray-500">Recent searches</h2>
+          <ul class="text-sm text-gray-700">
+            <!-- Active: "bg-indigo-600 text-white" -->
+            <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+              <!-- Active: "text-white", Not Active: "text-gray-400" -->
+              <!-- Heroicon name: outline/folder -->
+              <svg class="h-6 w-6 flex-none text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Workflow Inc. / Website Redesign</span>
+              <!-- Not Active: "hidden" -->
+              <span class="ml-3 hidden flex-none text-indigo-100">Jump to...</span>
+            </li>
+          </ul>
+        </li>
+        <li class="p-2">
+          <h2 class="sr-only">Quick actions</h2>
+          <ul class="text-sm text-gray-700">
+            <!-- Active: "bg-indigo-600 text-white" -->
+            <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+              <!-- Active: "text-white", Not Active: "text-gray-400" -->
+              <!-- Heroicon name: outline/document-plus -->
+              <svg class="h-6 w-6 flex-none text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m3.75 9v6m3-3H9m1.5-12H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Add new file...</span>
+              <!-- Active: "text-indigo-100", Not Active: "text-gray-400" -->
+              <span class="ml-3 flex-none text-xs font-semibold text-gray-400"><kbd class="font-sans">⌘</kbd><kbd class="font-sans">N</kbd></span>
+            </li>
+            <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+              <!-- Heroicon name: outline/folder-plus -->
+              <svg class="h-6 w-6 flex-none text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 10.5v6m3-3H9m4.06-7.19l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Add new folder...</span>
+              <span class="ml-3 flex-none text-xs font-semibold text-gray-400"><kbd class="font-sans">⌘</kbd><kbd class="font-sans">F</kbd></span>
+            </li>
+            <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+              <!-- Heroicon name: outline/hashtag -->
+              <svg class="h-6 w-6 flex-none text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 8.25h15m-16.5 7.5h15m-1.8-13.5l-3.9 19.5m-2.1-19.5l-3.9 19.5" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Add hashtag...</span>
+              <span class="ml-3 flex-none text-xs font-semibold text-gray-400"><kbd class="font-sans">⌘</kbd><kbd class="font-sans">H</kbd></span>
+            </li>
+            <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+              <!-- Heroicon name: outline/tag -->
+              <svg class="h-6 w-6 flex-none text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6z" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Add label...</span>
+              <span class="ml-3 flex-none text-xs font-semibold text-gray-400"><kbd class="font-sans">⌘</kbd><kbd class="font-sans">L</kbd></span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Results, show/hide based on command palette state. -->
+      <ul class="max-h-96 overflow-y-auto p-2 text-sm text-gray-700">
+        <!-- Active: "bg-indigo-600 text-white" -->
+        <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+          <!-- Active: "text-white", Not Active: "text-gray-400" -->
+          <!-- Heroicon name: outline/folder -->
+          <svg class="h-6 w-6 flex-none text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+          </svg>
+          <span class="ml-3 flex-auto truncate">Workflow Inc. / Website Redesign</span>
+          <!-- Not Active: "hidden" -->
+          <span class="ml-3 hidden flex-none text-indigo-100">Jump to...</span>
+        </li>
+      </ul>
+
+      <!-- Empty state, show/hide based on command palette state. -->
+      <div class="py-14 px-6 text-center sm:px-14">
+        <!-- Heroicon name: outline/folder -->
+        <svg class="mx-auto h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+        </svg>
+        <p class="mt-4 text-sm text-gray-900">We couldn't find any projects with that term. Please try again.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires Tailwind CSS v3.0+
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<div class="relative z-10" role="dialog" aria-modal="true">
+  <!--
+    Background backdrop, show/hide based on modal state.
+
+    Entering: "ease-out duration-300"
+      From: "opacity-0"
+      To: "opacity-100"
+    Leaving: "ease-in duration-200"
+      From: "opacity-100"
+      To: "opacity-0"
+  -->
+  <div class="fixed inset-0 bg-gray-500 bg-opacity-25 transition-opacity"></div>
+
+  <div class="fixed inset-0 z-10 overflow-y-auto p-4 sm:p-6 md:p-20">
+    <!--
+      Command palette, show/hide based on modal state.
+
+      Entering: "ease-out duration-300"
+        From: "opacity-0 scale-95"
+        To: "opacity-100 scale-100"
+      Leaving: "ease-in duration-200"
+        From: "opacity-100 scale-100"
+        To: "opacity-0 scale-95"
+    -->
+    <div class="mx-auto max-w-2xl transform divide-y divide-gray-500 divide-opacity-10 overflow-hidden rounded-xl bg-white bg-opacity-80 shadow-2xl ring-1 ring-black ring-opacity-5 backdrop-blur backdrop-filter transition-all">
+      <div class="relative">
+        <!-- Heroicon name: mini/magnifying-glass -->
+        <svg class="pointer-events-none absolute top-3.5 left-4 h-5 w-5 text-gray-900 text-opacity-40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" />
+        </svg>
+        <input type="text" class="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" placeholder="Search...">
+      </div>
+
+      <!-- Default state, show/hide based on command palette state. -->
+      <ul class="max-h-80 scroll-py-2 divide-y divide-gray-500 divide-opacity-10 overflow-y-auto">
+        <li class="p-2">
+          <h2 class="mt-4 mb-2 px-3 text-xs font-semibold text-gray-900">Recent searches</h2>
+          <ul class="text-sm text-gray-700">
+            <!-- Active: "bg-gray-900 bg-opacity-5 text-gray-900" -->
+            <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+              <!-- Not Active: "text-opacity-40" -->
+              <!-- Heroicon name: outline/folder -->
+              <svg class="h-6 w-6 flex-none text-gray-900 text-opacity-40" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Workflow Inc. / Website Redesign</span>
+              <!-- Not Active: "hidden" -->
+              <span class="ml-3 hidden flex-none text-gray-500">Jump to...</span>
+            </li>
+          </ul>
+        </li>
+        <li class="p-2">
+          <h2 class="sr-only">Quick actions</h2>
+          <ul class="text-sm text-gray-700">
+            <!-- Active: "bg-gray-900 bg-opacity-5 text-gray-900" -->
+            <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+              <!-- Not Active: "text-opacity-40" -->
+              <!-- Heroicon name: outline/document-plus -->
+              <svg class="h-6 w-6 flex-none text-gray-900 text-opacity-40" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m3.75 9v6m3-3H9m1.5-12H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Add new file...</span>
+              <span class="ml-3 flex-none text-xs font-semibold text-gray-500"><kbd class="font-sans">⌘</kbd><kbd class="font-sans">N</kbd></span>
+            </li>
+            <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+              <!-- Heroicon name: outline/folder-plus -->
+              <svg class="h-6 w-6 flex-none text-gray-900 text-opacity-40" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 10.5v6m3-3H9m4.06-7.19l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Add new folder...</span>
+              <span class="ml-3 flex-none text-xs font-semibold text-gray-500"><kbd class="font-sans">⌘</kbd><kbd class="font-sans">F</kbd></span>
+            </li>
+            <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+              <!-- Heroicon name: outline/hashtag -->
+              <svg class="h-6 w-6 flex-none text-gray-900 text-opacity-40" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 8.25h15m-16.5 7.5h15m-1.8-13.5l-3.9 19.5m-2.1-19.5l-3.9 19.5" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Add hashtag...</span>
+              <span class="ml-3 flex-none text-xs font-semibold text-gray-500"><kbd class="font-sans">⌘</kbd><kbd class="font-sans">H</kbd></span>
+            </li>
+            <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+              <!-- Heroicon name: outline/tag -->
+              <svg class="h-6 w-6 flex-none text-gray-900 text-opacity-40" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6z" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Add label...</span>
+              <span class="ml-3 flex-none text-xs font-semibold text-gray-500"><kbd class="font-sans">⌘</kbd><kbd class="font-sans">L</kbd></span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Results, show/hide based on command palette state. -->
+      <ul class="max-h-96 overflow-y-auto p-2 text-sm text-gray-700">
+        <!-- Active: "bg-gray-900 bg-opacity-5 text-gray-900" -->
+        <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+          <!-- Not Active: "text-opacity-40" -->
+          <!-- Heroicon name: outline/folder -->
+          <svg class="h-6 w-6 flex-none text-gray-900 text-opacity-40" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+          </svg>
+          <span class="ml-3 flex-auto truncate">Workflow Inc. / Website Redesign</span>
+          <!-- Not Active: "hidden" -->
+          <span class="ml-3 hidden flex-none text-gray-500">Jump to...</span>
+        </li>
+      </ul>
+
+      <!-- Empty state, show/hide based on command palette state. -->
+      <div class="py-14 px-6 text-center sm:px-14">
+        <!-- Heroicon name: outline/folder -->
+        <svg class="mx-auto h-6 w-6 text-gray-900 text-opacity-40" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+        </svg>
+        <p class="mt-4 text-sm text-gray-900">We couldn't find any projects with that term. Please try again.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires Tailwind CSS v3.0+
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<div class="relative z-10" role="dialog" aria-modal="true">
+  <!--
+    Background backdrop, show/hide based on modal state.
+
+    Entering: "ease-out duration-300"
+      From: "opacity-0"
+      To: "opacity-100"
+    Leaving: "ease-in duration-200"
+      From: "opacity-100"
+      To: "opacity-0"
+  -->
+  <div class="fixed inset-0 bg-gray-500 bg-opacity-25 transition-opacity"></div>
+
+  <div class="fixed inset-0 z-10 overflow-y-auto p-4 sm:p-6 md:p-20">
+    <!--
+      Command palette, show/hide based on modal state.
+
+      Entering: "ease-out duration-300"
+        From: "opacity-0 scale-95"
+        To: "opacity-100 scale-100"
+      Leaving: "ease-in duration-200"
+        From: "opacity-100 scale-100"
+        To: "opacity-0 scale-95"
+    -->
+    <div class="mx-auto max-w-2xl transform divide-y divide-gray-500 divide-opacity-20 overflow-hidden rounded-xl bg-gray-900 shadow-2xl transition-all">
+      <div class="relative">
+        <!-- Heroicon name: outline/magnifying-glass -->
+        <svg class="pointer-events-none absolute top-3.5 left-4 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>
+        <input type="text" class="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-white placeholder-gray-500 focus:ring-0 sm:text-sm" placeholder="Search...">
+      </div>
+
+      <!-- Default state, show/hide based on command palette state. -->
+      <ul class="max-h-80 scroll-py-2 divide-y divide-gray-500 divide-opacity-20 overflow-y-auto">
+        <li class="p-2">
+          <h2 class="mt-4 mb-2 px-3 text-xs font-semibold text-gray-200">Recent searches</h2>
+          <ul class="text-sm text-gray-400">
+            <!-- Active: "bg-gray-800 text-white" -->
+            <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+              <!-- Active: "text-white", Not Active: "text-gray-500" -->
+              <!-- Heroicon name: outline/folder -->
+              <svg class="h-6 w-6 flex-none text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Workflow Inc. / Website Redesign</span>
+              <!-- Not Active: "hidden" -->
+              <span class="ml-3 hidden flex-none text-gray-400">Jump to...</span>
+            </li>
+          </ul>
+        </li>
+        <li class="p-2">
+          <h2 class="sr-only">Quick actions</h2>
+          <ul class="text-sm text-gray-400">
+            <!-- Active: "bg-gray-800 text-white" -->
+            <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+              <!-- Active: "text-white", Not Active: "text-gray-500" -->
+              <!-- Heroicon name: outline/document-plus -->
+              <svg class="h-6 w-6 flex-none text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m3.75 9v6m3-3H9m1.5-12H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Add new file...</span>
+              <span class="ml-3 flex-none text-xs font-semibold text-gray-400"><kbd class="font-sans">⌘</kbd><kbd class="font-sans">N</kbd></span>
+            </li>
+            <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+              <!-- Heroicon name: outline/folder-plus -->
+              <svg class="h-6 w-6 flex-none text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 10.5v6m3-3H9m4.06-7.19l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Add new folder...</span>
+              <span class="ml-3 flex-none text-xs font-semibold text-gray-400"><kbd class="font-sans">⌘</kbd><kbd class="font-sans">F</kbd></span>
+            </li>
+            <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+              <!-- Heroicon name: outline/hashtag -->
+              <svg class="h-6 w-6 flex-none text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 8.25h15m-16.5 7.5h15m-1.8-13.5l-3.9 19.5m-2.1-19.5l-3.9 19.5" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Add hashtag...</span>
+              <span class="ml-3 flex-none text-xs font-semibold text-gray-400"><kbd class="font-sans">⌘</kbd><kbd class="font-sans">H</kbd></span>
+            </li>
+            <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+              <!-- Heroicon name: outline/tag -->
+              <svg class="h-6 w-6 flex-none text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6z" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Add label...</span>
+              <span class="ml-3 flex-none text-xs font-semibold text-gray-400"><kbd class="font-sans">⌘</kbd><kbd class="font-sans">L</kbd></span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Results, show/hide based on command palette state. -->
+      <ul class="max-h-96 overflow-y-auto p-2 text-sm text-gray-400">
+        <!-- Active: "bg-gray-800 text-white" -->
+        <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+          <!-- Active: "text-white", Not Active: "text-gray-500" -->
+          <!-- Heroicon name: outline/folder -->
+          <svg class="h-6 w-6 flex-none text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+          </svg>
+          <span class="ml-3 flex-auto truncate">Workflow Inc. / Website Redesign</span>
+          <!-- Not Active: "hidden" -->
+          <span class="ml-3 hidden flex-none text-gray-400">Jump to...</span>
+        </li>
+      </ul>
+
+      <!-- Empty state, show/hide based on command palette state. -->
+      <div class="py-14 px-6 text-center sm:px-14">
+        <!-- Heroicon name: outline/folder -->
+        <svg class="mx-auto h-6 w-6 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+        </svg>
+        <p class="mt-4 text-sm text-gray-200">We couldn't find any projects with that term. Please try again.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires Tailwind CSS v3.0+
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<div class="relative z-10" role="dialog" aria-modal="true">
+  <!--
+    Background backdrop, show/hide based on modal state.
+
+    Entering: "ease-out duration-300"
+      From: "opacity-0"
+      To: "opacity-100"
+    Leaving: "ease-in duration-200"
+      From: "opacity-100"
+      To: "opacity-0"
+  -->
+  <div class="fixed inset-0 bg-gray-500 bg-opacity-25 transition-opacity"></div>
+
+  <div class="fixed inset-0 z-10 overflow-y-auto p-4 sm:p-6 md:p-20">
+    <!--
+      Command palette, show/hide based on modal state.
+
+      Entering: "ease-out duration-300"
+        From: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        To: "opacity-100 translate-y-0 sm:scale-100"
+      Leaving: "ease-in duration-200"
+        From: "opacity-100 translate-y-0 sm:scale-100"
+        To: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+    -->
+    <div class="mx-auto max-w-xl transform overflow-hidden rounded-xl bg-white shadow-2xl ring-1 ring-black ring-opacity-5 transition-all">
+      <div class="relative">
+        <!-- Heroicon name: mini/magnifying-glass -->
+        <svg class="pointer-events-none absolute top-3.5 left-4 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" />
+        </svg>
+        <input type="text" class="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-gray-800 placeholder-gray-400 focus:ring-0 sm:text-sm" placeholder="Search..." role="combobox" aria-expanded="false" aria-controls="options">
+      </div>
+
+      <!-- Default state, show/hide based on command palette state -->
+      <div class="border-t border-gray-100 py-14 px-6 text-center text-sm sm:px-14">
+        <!-- Heroicon name: outline/globe-americas -->
+        <svg class="mx-auto h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64" />
+        </svg>
+        <p class="mt-4 font-semibold text-gray-900">Search for clients and projects</p>
+        <p class="mt-2 text-gray-500">Quickly access clients and projects by running a global search.</p>
+      </div>
+
+      <!-- Results, show/hide based on command palette state -->
+      <ul class="max-h-80 scroll-pt-11 scroll-pb-2 space-y-2 overflow-y-auto pb-2" id="options" role="listbox">
+        <li>
+          <h2 class="bg-gray-100 py-2.5 px-4 text-xs font-semibold text-gray-900">Clients</h2>
+          <ul class="mt-2 text-sm text-gray-800">
+            <!-- Active: "bg-indigo-600 text-white" -->
+            <li class="cursor-default select-none px-4 py-2" id="option-1" role="option" tabindex="-1">Workflow Inc.</li>
+            <li class="cursor-default select-none px-4 py-2" id="option-2" role="option" tabindex="-1">Multinational LLC.</li>
+          </ul>
+        </li>
+        <li>
+          <h2 class="bg-gray-100 py-2.5 px-4 text-xs font-semibold text-gray-900">Projects</h2>
+          <ul class="mt-2 text-sm text-gray-800">
+            <!-- Active: "bg-indigo-600 text-white" -->
+            <li class="cursor-default select-none px-4 py-2" id="option-3" role="option" tabindex="-1">Workflow Inc. / Website Redesign</li>
+            <li class="cursor-default select-none px-4 py-2" id="option-3" role="option" tabindex="-1">Multinational LLC. / Animation</li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Empty state, show/hide based on command palette state -->
+      <div class="border-t border-gray-100 py-14 px-6 text-center text-sm sm:px-14">
+        <!-- Heroicon name: outline/face-frown -->
+        <svg class="mx-auto h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 16.318A4.486 4.486 0 0012.016 15a4.486 4.486 0 00-3.198 1.318M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
+        </svg>
+        <p class="mt-4 font-semibold text-gray-900">No results found</p>
+        <p class="mt-2 text-gray-500">We couldn’t find anything with that term. Please try again.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+<!--
+  This example requires Tailwind CSS v3.0+
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<div class="relative z-10" role="dialog" aria-modal="true">
+  <!--
+    Background backdrop, show/hide based on modal state.
+
+    Entering: "ease-out duration-300"
+      From: "opacity-0"
+      To: "opacity-100"
+    Leaving: "ease-in duration-200"
+      From: "opacity-100"
+      To: "opacity-0"
+  -->
+  <div class="fixed inset-0 bg-gray-500 bg-opacity-25 transition-opacity"></div>
+
+  <div class="fixed inset-0 z-10 overflow-y-auto p-4 sm:p-6 md:p-20">
+    <!--
+      Command palette, show/hide based on modal state.
+
+      Entering: "ease-out duration-300"
+        From: "opacity-0 scale-95"
+        To: "opacity-100 scale-100"
+      Leaving: "ease-in duration-200"
+        From: "opacity-100 scale-100"
+        To: "opacity-0 scale-95"
+    -->
+    <div class="mx-auto max-w-xl transform divide-y divide-gray-100 overflow-hidden rounded-xl bg-white shadow-2xl ring-1 ring-black ring-opacity-5 transition-all">
+      <div class="relative">
+        <!-- Heroicon name: mini/magnifying-glass -->
+        <svg class="pointer-events-none absolute top-3.5 left-4 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" />
+        </svg>
+        <input type="text" class="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-gray-800 placeholder-gray-400 focus:ring-0 sm:text-sm" placeholder="Search..." role="combobox" aria-expanded="false" aria-controls="options">
+      </div>
+
+      <!-- Results, show/hide based on command palette state. -->
+      <ul class="max-h-80 scroll-py-10 scroll-pb-2 space-y-4 overflow-y-auto p-4 pb-2" id="options" role="listbox">
+        <li>
+          <h2 class="text-xs font-semibold text-gray-900">Projects</h2>
+          <ul class="-mx-4 mt-2 text-sm text-gray-700">
+            <!-- Active: "bg-indigo-600 text-white" -->
+            <li class="group flex cursor-default select-none items-center px-4 py-2" id="option-1" role="option" tabindex="-1">
+              <!-- Active: "text-white", Not Active: "text-gray-400" -->
+              <!-- Heroicon name: outline/folder -->
+              <svg class="h-6 w-6 flex-none text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+              </svg>
+              <span class="ml-3 flex-auto truncate">Workflow Inc. / Website Redesign</span>
+            </li>
+
+            <!-- More projects... -->
+          </ul>
+        </li>
+        <li>
+          <h2 class="text-xs font-semibold text-gray-900">Users</h2>
+          <ul class="-mx-4 mt-2 text-sm text-gray-700">
+            <!-- Active: "bg-indigo-600 text-white" -->
+            <li class="group flex cursor-default select-none items-center px-4 py-2" id="option-2" role="option" tabindex="-1">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-6 w-6 flex-none rounded-full">
+              <span class="ml-3 flex-auto truncate">Leslie Alexander</span>
+            </li>
+
+            <!-- More users... -->
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Help, show/hide based on command palette state. -->
+      <div class="py-14 px-6 text-center text-sm sm:px-14">
+        <!-- Heroicon name: outline/lifebuoy -->
+        <svg class="mx-auto h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16.712 4.33a9.027 9.027 0 011.652 1.306c.51.51.944 1.064 1.306 1.652M16.712 4.33l-3.448 4.138m3.448-4.138a9.014 9.014 0 00-9.424 0M19.67 7.288l-4.138 3.448m4.138-3.448a9.014 9.014 0 010 9.424m-4.138-5.976a3.736 3.736 0 00-.88-1.388 3.737 3.737 0 00-1.388-.88m2.268 2.268a3.765 3.765 0 010 2.528m-2.268-4.796a3.765 3.765 0 00-2.528 0m4.796 4.796c-.181.506-.475.982-.88 1.388a3.736 3.736 0 01-1.388.88m2.268-2.268l4.138 3.448m0 0a9.027 9.027 0 01-1.306 1.652c-.51.51-1.064.944-1.652 1.306m0 0l-3.448-4.138m3.448 4.138a9.014 9.014 0 01-9.424 0m5.976-4.138a3.765 3.765 0 01-2.528 0m0 0a3.736 3.736 0 01-1.388-.88 3.737 3.737 0 01-.88-1.388m2.268 2.268L7.288 19.67m0 0a9.024 9.024 0 01-1.652-1.306 9.027 9.027 0 01-1.306-1.652m0 0l4.138-3.448M4.33 16.712a9.014 9.014 0 010-9.424m4.138 5.976a3.765 3.765 0 010-2.528m0 0c.181-.506.475-.982.88-1.388a3.736 3.736 0 011.388-.88m-2.268 2.268L4.33 7.288m6.406 1.18L7.288 4.33m0 0a9.024 9.024 0 00-1.652 1.306A9.025 9.025 0 004.33 7.288" />
+        </svg>
+        <p class="mt-4 font-semibold text-gray-900">Help with searching</p>
+        <p class="mt-2 text-gray-500">Use this tool to quickly search for users and projects across our entire platform. You can also use the search modifiers found in the footer below to limit the results to just users or projects.</p>
+      </div>
+
+      <!-- Empty state, show/hide based on command palette state. -->
+      <div class="py-14 px-6 text-center text-sm sm:px-14">
+        <!-- Heroicon name: outline/exclamation-triangle -->
+        <svg class="mx-auto h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 10.5v3.75m-9.303 3.376C1.83 19.126 2.914 21 4.645 21h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 4.88c-.866-1.501-3.032-1.501-3.898 0L2.697 17.626zM12 17.25h.007v.008H12v-.008z" />
+        </svg>
+        <p class="mt-4 font-semibold text-gray-900">No results found</p>
+        <p class="mt-2 text-gray-500">We couldn’t find anything with that term. Please try again.</p>
+      </div>
+
+      <div class="flex flex-wrap items-center bg-gray-50 py-2.5 px-4 text-xs text-gray-700">Type <kbd class="mx-1 flex h-5 w-5 items-center justify-center rounded border border-gray-400 bg-white font-semibold text-gray-900 sm:mx-2">#</kbd> <span class="sm:hidden">for projects,</span><span class="hidden sm:inline">to access projects,</span> <kbd class="mx-1 flex h-5 w-5 items-center justify-center rounded border border-gray-400 bg-white font-semibold text-gray-900 sm:mx-2">&gt;</kbd> for users, and <kbd class="mx-1 flex h-5 w-5 items-center justify-center rounded border border-gray-400 bg-white font-semibold text-gray-900 sm:mx-2">?</kbd> for help.</div>
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+// sample data for this tailwind component
+data = {
+
+}
+</script>
+
+<hr />
+
+<!-- ------------------------------------------------------ -->
+
+
+</body>
+</html>
+
