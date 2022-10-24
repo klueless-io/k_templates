@@ -2,6 +2,8 @@
   "files": [
     "boot.rb",
     "_.rb",
-    "generators/01-bootstrap.rb"
+    "generators/01-bootstrap.rb",
+    "generators/domain-model.rb",
+    "generators/project-plan.rb"
   ]
 }

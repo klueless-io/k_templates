@@ -6,8 +6,8 @@ module {{camel .}}
   # {{titleize model.name}}{{#if model.description}}
   #
   # {{model.description}}{{/if}}
-  class {{camel model.name}}
-{{#each model.fields}}    attr_accessor :{{./name}}
+  class {{camel model.name}}{{#if model.dry_struct}} < Dry::Struct{{/if}}
+{{#each model.fields}}    {{#if ../model.dry_struct}}attribute :{{padr ./name 30}} , {{{./return_type}}}{{^}}attr_accessor :{{./name}}{{/if}}
 {{/each}}
     
     def initialize

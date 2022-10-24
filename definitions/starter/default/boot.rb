@@ -24,6 +24,7 @@ KConfig.configure(CONFIG_KEY) do |config|
 
   config.target_folders.add(:app                  , base_folder)
   config.target_folders.add(:builder              , builder_folder)
+  config.target_folders.add(:docs                 , :app, 'docs')
 end
 
 KConfig.configuration(CONFIG_KEY).debug
