@@ -2,6 +2,10 @@ inherit_mode:
   merge:
     - Exclude # see: https://stackoverflow.com/a/70818366/473923
     - AllowedNames
+require:
+  - rubocop-rspec
+  - rubocop-rake
+
 AllCops:
   TargetRubyVersion: {{dom.ruby_version}}
   DisplayCopNames: true
@@ -15,7 +19,7 @@ Metrics/BlockLength:
   Exclude:
     - "**/spec/**/*"
     - "*.gemspec"
-  IgnoredMethods:
+  AllowedMethods:
     - configure
     - context
     - define
@@ -87,3 +91,14 @@ Layout/SpaceBeforeComma:
   Enabled: false
 # My Preferences - End
 
+# RSpec Cops
+RSpec/NestedGroups:
+  Max: 5
+
+RSpec/FilePath:
+  Exclude:
+    - "**/spec/**/*"
+
+RSpec/NamedSubject:
+  Exclude:
+    - "**/spec/**/*"

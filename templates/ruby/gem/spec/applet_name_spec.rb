@@ -2,7 +2,7 @@
 
 RSpec.describe {{dom.application_lib_namespace}} do
   it 'has a version number' do
-    expect({{dom.application_lib_namespace}}::VERSION).not_to be nil
+    expect({{dom.application_lib_namespace}}::VERSION).not_to be_nil
   end
 
   it 'has a standard error' do

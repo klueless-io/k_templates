@@ -12,7 +12,7 @@ KManager.action :bootstrap do
         ruby_version:               '2.7',
         application:                application_name,
         application_description:    '{{description}}',
-        application_lib_path:       application_name.to_s,
+        application_lib_path:       application_name.to_s, # need a specialized handlebars helper to turn this into a path, e.g ps-common => ps/common
         application_lib_namespace:  '{{camel name}}',
         namespaces:                 ['{{camel name}}'],
         author:                     'David Cruwys',
@@ -81,13 +81,15 @@ KManager.action :bootstrap do
         add('bin/setup')
         add('bin/console')
 
-        add("lib/#{typed_dom.application}.rb"             , template_file: 'lib/applet_name.rb'         , dom: dom)
-        add("lib/#{typed_dom.application}/version.rb"     , template_file: 'lib/applet_name/version.rb' , dom: dom)
+        applet_path = typed_dom.namespaces.map { |ns| ns.downcase }.join('/')
+        
+        add("lib/#{applet_path}.rb"               , template_file: 'lib/applet_name.rb'         , dom: dom)
+        add("lib/#{applet_path}/version.rb"       , template_file: 'lib/applet_name/version.rb' , dom: dom)
     
         add('spec/spec_helper.rb')
-        add("spec/#{typed_dom.application}_spec.rb"       , template_file: 'spec/applet_name_spec.rb', dom: dom)
+        add("spec/#{applet_path}_spec.rb"         , template_file: 'spec/applet_name_spec.rb', dom: dom)
 
-        add("#{typed_dom.application}.gemspec"            , template_file: 'applet_name.gemspec', dom: dom)
+        add("#{typed_dom.application}.gemspec"    , template_file: 'applet_name.gemspec', dom: dom)
         add('Gemfile', dom: dom)
         add('Guardfile', dom: dom)
         add('Rakefile', dom: dom)

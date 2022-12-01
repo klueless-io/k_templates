@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '{{dom.application_lib_path}}/version'
+require '{{dom.application_lib_path}}/version'
 
 {{#each dom.namespaces}}
 module {{.}}

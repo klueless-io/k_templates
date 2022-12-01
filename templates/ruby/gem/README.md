@@ -96,6 +96,33 @@ rake publish
 rake clean
 ```
 
+## Git helpers used by this project
+
+Add the follow helpers to your `alias` file
+
+```bash
+function kcommit()
+{
+  echo 'git add .'
+  git add .
+  echo "git commit -m "$1""
+  git commit -m "$1"
+  echo 'git pull'
+  git pull
+  echo 'git push'
+  git push
+  sleep 3
+  run_id="$(gh run list --limit 1 | grep -Eo "[0-9]{9,11}")"
+  gh run watch $run_id --exit-status && echo "run completed and successful" && git pull && git tag | sort -V | tail -1
+}
+function kchore     () { kcommit "chore: $1" }
+function kdocs      () { kcommit "docs: $1" }
+function kfix       () { kcommit "fix: $1" }
+function kfeat      () { kcommit "feat: $1" }
+function ktest      () { kcommit "test: $1" }
+function krefactor  () { kcommit "refactor: $1" }
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/klueless-io/{{dom.application}}. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
