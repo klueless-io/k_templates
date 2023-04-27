@@ -111,7 +111,7 @@ KManager.action :bootstrap do
 
         cd(:app)
 
-        run_command("gh secret set SLACK_WEBHOOK --body \"$SLACK_REPO_WEBHOOK\"")
+        # run_command("gh secret set SLACK_WEBHOOK --body \"$SLACK_REPO_WEBHOOK\"")
         run_command("gh secret set GEM_HOST_API_KEY --body \"$GEM_HOST_API_KEY\"")
 
         add('.github/workflows/main.yml')

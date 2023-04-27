@@ -11,6 +11,7 @@
 /_/
 /.bundle/
 /.history/
+/node_modules
 /.yardoc
 /_yardoc/
 /coverage/
