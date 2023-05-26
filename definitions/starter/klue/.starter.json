@@ -1,0 +1,8 @@
+{
+  "main_start_command": "bundle gem --coc --test=rspec --mit $NAME$",
+  "files": [
+    "boot.rb",
+    "generators/_.rb",
+    "generators/01-bootstrap.rb"
+  ]
+}

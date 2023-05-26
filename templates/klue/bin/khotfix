@@ -1,0 +1,244 @@
+#!/usr/bin/env bash
+
+#NOTE: you may need change file permissions
+#      chmod +x bin/khotfix
+
+# Create a Versioned HotFix in Git and update the VERSION #
+# USAGE
+#
+#   ./bin/khotfix.sh 'my brand new hot fix'
+
+# HELPERS
+clear
+
+l_heading ()
+{
+  heading=$1
+
+  echo "======================================================================"
+  echo "${heading}"
+  echo "======================================================================"
+}
+
+l_line ()
+{
+  echo "----------------------------------------------------------------------"
+}
+
+l_title ()
+{
+  title=$1
+
+  l_line
+  echo "${title}"
+  l_line
+}
+
+l ()
+{
+  title=$1
+
+  echo "${title}"
+}
+
+lkv ()
+{
+  title=$1
+  value=$2
+
+  printf "%-25s : %s\n" "$title" "$value"
+}
+
+
+# expect 1 argument
+MESSAGE=$1
+
+l_heading "Make Hotfix - '${MESSAGE}'"
+
+
+# This environment var will prevent git from asking for merge messages
+export GIT_MERGE_AUTOEDIT=no
+
+# Set up colour support, if we have it
+# Are stdout and  stderr both connected to a terminal, If not then don't set colours
+if [ -t 1 -a -t 2 ]
+then
+  if tput -V >/dev/null 2>&1
+  then
+    C_RED=`tput setaf 1`
+    C_GREEN=`tput setaf 2`
+    C_BROWN=`tput setaf 3`
+    C_BLUE=`tput setaf 4`
+    C_RESET=`tput sgr0`
+  fi
+fi
+
+
+exit_error ()
+{
+  # dont display if string is zero length
+  [  -z "$1" ] || echo "${C_RED}Error: ${C_BROWN} $1 ${C_RESET}"
+  exit 1
+}
+
+
+# check arguments
+[ ! -z "${MESSAGE}" ] || exit_error "You must pass a message when making a hotfix"
+
+# make sure we are in a git tree
+[ "`git rev-parse --is-inside-work-tree`" = "true" ] || exit_error "NOT a git repository"
+l "Repository check OK"
+
+CURRENT_BRANCH=`git branch | awk '/^\*/{print $2}'`
+
+lkv "CURRENT_BRANCH" "${CURRENT_BRANCH}"
+
+# check that we are on develop or master
+[ "${CURRENT_BRANCH}" = "master" -o "${CURRENT_BRANCH}" = "develop" ] || exit_error "You MUST be on either the master or development branch"
+l "OK: Branch"
+
+# check that the current branch is NOT clean (we need changes to make a hotfix)
+[  ! -z "`git status --porcelain`" ] || exit_error "Working copy is clean - no hotfix"
+l "OK: Working copy has hotfix ready"
+
+# fetch from origin
+git fetch origin || exit_error "Failed to fetch from origin"
+l "OK: Fsetch from origin"
+
+# get the current directory that this script is in.
+# we assume that the other scripts are in the same directory
+SYNC_SCRIPT=kgitsync
+SCRIPT_DIR=`dirname $0`
+
+# ----------------------------------------------------------------------
+# GET VERSION NUMBER
+# ----------------------------------------------------------------------
+
+l_title 'GET VERSION NUMBER'
+
+# Get the last tag version
+VERSION=`git tag | sort -V | tail -1`
+lkv "CURENT VERSION" "${VERSION}"
+
+# NOTE, if you don't have a TAG then you might need to manually do
+# git flow hotfix start v0.01.001
+# git flow hotfix finish v0.01.001
+
+# Verify its format
+[[ "`git tag | sort -V | tail -1`"  =~ ^v[0-9]{1,2}.[0-9]{1,2}.[0-9]{1,3}$ ]] || exit_error "Bad version format, version=${VERSION}"
+# extract the version components
+IFS=. read MAJOR_VERSION MINOR_VERSION PATCH_VERSION <<< "${VERSION}"
+
+# inc the patch version.  note: force base 10 as leading 0 makes bash think this is octal
+PATCH_VERSION=$((10#${PATCH_VERSION} + 1))
+lkv 'Patch #' "${PATCH_VERSION}"
+
+# assemble the new version
+NEW_VERSION="${MAJOR_VERSION}.${MINOR_VERSION}.${PATCH_VERSION}"
+lkv "NEW VERSION" "${NEW_VERSION}"
+
+./hooks/update-version "${NEW_VERSION}" || exit_error "could not update version.rb you may need to run [chmod +x hooks/update-version]"
+
+l_line
+l 'git add .'
+git add .
+
+l 'git status'
+l_line
+git status
+
+# ----------------------------------------------------------------------
+# Before doing anything, add the files and then run the commit hook
+# Then stash any changes - working directory will be clean after this
+# The commit hook is where we can check for any debugging code that has
+# gone into the code and abort the commit
+# ----------------------------------------------------------------------
+
+l 'check for debugging code'
+./hooks/pre-commit || exit_error "remove debugging code from the commit - then run again"
+
+l "Stash changes to [git_make_hotfix: ${MESSAGE}]"
+
+git stash save "git_make_hotfix: ${MESSAGE}"
+
+l "OK: Stashed"
+
+l_title 'Master/Develop Branches'
+# ----------------------------------------------------------------------
+# update develop
+# ----------------------------------------------------------------------
+
+lkv "Develop" "Synchronized"
+git checkout develop || exit_error "Failed to checkout develop branch"
+lkv "Develop" "Switched"
+git merge origin/develop || exit_error "Failed to merge develop from origin"
+lkv "Develop" "Merged and upto date"
+
+# ----------------------------------------------------------------------
+# update master
+# ----------------------------------------------------------------------
+
+lkv "Master" "Synchronized"
+git checkout master || exit_error "Failed to checkout master branch"
+lkv "Master" "Switched"
+git merge  origin/master || exit_error "Failed to merge master from origin"
+lkv "Master" "Merged and upto date"
+
+# ----------------------------------------------------------------------
+# start the hotfix
+# ----------------------------------------------------------------------
+
+l_title 'Hotfix'
+
+lkv "Version" "${NEW_VERSION}"
+
+
+
+lkv "git flow hotfix start" "${NEW_VERSION}"
+
+git flow hotfix start "${NEW_VERSION}" || exit_error "Failed to start hotfix ${NEW_VERSION}"
+
+HOTFIX_BRANCH="hotfix/${NEW_VERSION}"
+
+lkv "started" "${HOTFIX_BRANCH}"
+
+# ----------------------------------------------------------------------
+# commit the stashed changes
+# ----------------------------------------------------------------------
+
+lkv "git stash" "pop"
+
+git stash pop || exit_error "Failed to pop the stash into the hotfix"
+
+lkv "git commit" "${MESSAGE}"
+
+git commit -a -m"${MESSAGE}" || exit_error "Failed to commit the stash to ${HOTFIX_BRANCH}"
+
+lkv "git commit succesful" "${HOTFIX_BRANCH}"
+
+# ----------------------------------------------------------------------
+# close the hotfix
+# ----------------------------------------------------------------------
+
+lkv "git flow hotfix finish" "${NEW_VERSION}"
+
+git flow hotfix finish "${NEW_VERSION}" -m"${MESSAGE}" || exit_error "Failed to close ${HOTFIX_BRANCH}"
+
+lkv "finished" "${HOTFIX_BRANCH}"
+
+# closing the hotfix leaves you on the development branch
+# return to the master ???? or should we stay on development
+
+lkv "git checkout" "master"
+
+git checkout master || exit_error "Failed to return to master branch"
+
+# ----------------------------------------------------------------------
+# now push the changes
+# ----------------------------------------------------------------------
+
+l_title 'Push Changes and Synchronize Master/Develop'
+
+${SCRIPT_DIR}/${SYNC_SCRIPT}
+
+l_heading 'Success'

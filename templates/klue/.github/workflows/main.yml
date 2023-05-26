@@ -1,0 +1,25 @@
+# check https://www.githubstatus.com/ if any issues
+name: Build Application
+
+# echo $\{{secrets.SOME_SECRET}} | sed 's/./& /g' && 
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Ruby $\{{ matrix.ruby }}
+    strategy:
+      matrix:
+        ruby: ['3.1.1']
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: $\{{ matrix.ruby }}
+        bundler-cache: true

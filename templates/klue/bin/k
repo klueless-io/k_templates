@@ -1,0 +1,36 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# NOTE: you may need change file permissions
+#       chmod +x bin/k
+
+help = %(
+----------------------------------------------------------------------
+Klue Scripts - Help
+----------------------------------------------------------------------
+k                       - This Help File
+
+khotfix                 - Create Hot Fix
+                          Hot fixes are created in GIT and versioned correctly.
+                          The patch # will increment by 1.
+                            e.g. v0.1.1 will become v0.1.2
+                          The version.rb file will also store the current version.
+                          usage:
+                            khotfix 'name of my cool hotfix'
+
+kgitsync                - Synchronize the master and development git repositories
+                          Pulls latest code, pushes current changes
+                          usage:
+                            kgitsync
+
+----------------------------------------------------------------------
+Rake Tasks
+----------------------------------------------------------------------
+
+rails db:seed             - load seed data
+
+rails db:seed sample=true - load sample data, useful in developer environments
+
+rails db:seed reset=true  - reset database
+)
+puts help
