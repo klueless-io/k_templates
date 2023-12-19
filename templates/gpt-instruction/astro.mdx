@@ -1,0 +1,32 @@
+---
+title: 'My second MDX post'
+---
+export const title = 'My first MDX post'
+import Bot from '../../components/ElBot.astro';
+import Panel from '../../components/ElPanel.astro';
+import Command from '../../components/ElCommand.astro';
+import Param from '../../components/ElParam.astro';
+import BrandCategory from '../../components/BrandCategory.astro';
+import HoverText from '@components/HoverText.svelte';
+
+{{{components}}}
+
+<div class="fixed bottom-[-10px] left-[10px]">
+  <Bot name='{{dom.instruction.title}}' />
+</div>
+<div class="fixed bottom-[-15px]  right-0 p-4">
+  <BrandCategory>
+    <span class="brand-text">gpt <highlight>custom instructions</highlight></span>
+  </BrandCategory>
+</div>
+<div class="fixed bottom-[8px] right-[600px] p-4">
+  <HoverText label="Request">
+    Some text for the textarea
+  </HoverText>
+</div>
+<div class="fixed bottom-[8px] right-[490px] p-4">
+  <HoverText label="Response">
+    Some text for the textarea
+  </HoverText>
+</div>
+

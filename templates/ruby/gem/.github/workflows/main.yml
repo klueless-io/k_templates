@@ -36,6 +36,8 @@ jobs:
     needs: build
     name: Update version and publish to RubyGems
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
