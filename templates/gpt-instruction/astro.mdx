@@ -8,23 +8,25 @@ import Command from '../../components/ElCommand.astro';
 import Param from '../../components/ElParam.astro';
 import BrandCategory from '../../components/BrandCategory.astro';
 import HoverText from '@components/HoverText.svelte';
+import P from '@components/Paragraph.astro';
+import Strong from '@components/Strong.astro';
 
 {{{components}}}
 
-<div class="fixed bottom-[-10px] left-[10px]">
-  <Bot name='{{dom.instruction.title}}' />
-</div>
-<div class="fixed bottom-[-15px]  right-0 p-4">
+<div class="fixed bottom-[10px] left-[30px]">
   <BrandCategory>
-    <span class="brand-text">gpt <highlight>custom instructions</highlight></span>
+    <span class="brand-text">gpt <highlight>agents</highlight></span>
   </BrandCategory>
 </div>
-<div class="fixed bottom-[8px] right-[600px] p-4">
+<div class="fixed bottom-[0px]  right-[50px]">
+  <Bot name='{{dom.instruction.title}}' />
+</div>
+<div class="hidden fixed bottom-[8px] right-[730px] p-4">
   <HoverText label="Request">
     Some text for the textarea
   </HoverText>
 </div>
-<div class="fixed bottom-[8px] right-[490px] p-4">
+<div class="hidden fixed bottom-[8px] right-[620px] p-4">
   <HoverText label="Response">
     Some text for the textarea
   </HoverText>
