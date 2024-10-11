@@ -14,7 +14,7 @@ KManager.action :bootstrap do
         author_email:               'david@ideasmen.com.au',
         initial_semver:             '1.0.0',
         main_story:                 '{{user_story}}',
-        copyright_date:             '2022'
+        copyright_date:             '2024'
       )
       .github(
         active: true,
